@@ -69,7 +69,7 @@ GridMind/
   Model_Documentation/
   notebooks/                 # inspection, forecasting, diagnosis
   data/
-    raw/                     # team-supplied; immutable and gitignored
+    raw/                     # immutable; supplied ERCOT CSV explicitly versioned
     manifests/               # checksums, schemas, split/group assignments
     processed/               # reproducible, gitignored
     demo/                    # small permitted replay inputs
@@ -91,7 +91,7 @@ GridMind/
   README.md
 ```
 
-Keep large data and model binaries outside ordinary Git history; document the local artifact installation procedure.
+Keep large data and model binaries outside ordinary Git history; document the local artifact installation procedure. The supplied approximately 4 MB ERCOT CSV is explicitly versioned at the user's request. Other raw datasets should be gitignored unless explicitly selected for versioning.
 
 ### Resource limits and experiment budget
 
@@ -158,6 +158,8 @@ Missing units, irreconcilable timestamps, unidentified labels, or incompatible d
 ### Recommended amount
 
 The specification reports **35,065 hourly rows for ERCOT 2021–2024**, including an endpoint. Verify that count and interval interpretation on receipt.
+
+**Supplied file inspected on 31 October 2026:** [`data/raw/ercot_2021_2024_hourly.csv`](data/raw/ercot_2021_2024_hourly.csv) contains 35,065 rows and eight expected columns, occupies 4,023,732 bytes, and has no empty cells, duplicate timestamps, non-finite numeric values, or hourly gaps. Use the **full supplied dataset** for the main experiment, partitioned chronologically, rather than a random small sample. Use 4–8 consecutive weeks for smoke tests only. See [the inspection note](data/README.md) for the checksum, remaining provenance/timezone checks, and endpoint handling. No preprocessing or training has started.
 
 | Level | Recommended size | Reason |
 |---|---|---|
