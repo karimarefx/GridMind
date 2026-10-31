@@ -4,7 +4,9 @@
 
 **Planning date:** 31 October 2026
 
-**Status:** Proposed work; no implementation or training started.
+**Status:** Sampled XGBoost forecasting baseline implemented and executed; other components remain proposed. See `reports/forecasting/summary.md` for measured held-out results and limitations.
+
+**Latest user override — 31 October 2026:** Use a sample, not the full release, for the forecasting PoC. The implementation selects 17,544 contiguous hours from 2023–2024, reserves 168 hours for historical features, and divides the remaining 17,376 target hours chronologically into 80/10/10 train/validation/test. This supersedes the full-dataset and seasonal-split recommendations below for the current forecasting experiment. See the root README and `notebooks/01_xgboost_forecasting.ipynb`; do not interpret the older recommendations as the active run configuration.
 
 ## 1. Scope, authority, and acceptance criteria
 

@@ -1,0 +1,13 @@
+{
+  "issued_at_utc": "2024-10-20T19:00:00+00:00",
+  "target_time_utc": "2024-10-20T20:00:00+00:00",
+  "horizon_hours": 1,
+  "region_id": "ERCOT",
+  "provenance": "Model prediction",
+  "model_version": "xgboost-sample-v1",
+  "data_quality_status": "complete",
+  "demand_mw": 53104.0703125,
+  "solar_mw": 18131.37040553656,
+  "wind_mw": 14629.0244140625,
+  "net_load_mw": 20343.67549290094
+}

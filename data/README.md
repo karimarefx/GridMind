@@ -1,5 +1,7 @@
 # Forecasting dataset
 
+**Current experiment override — 31 October 2026:** The user subsequently requested a sample only. The forecasting baseline uses a fixed contiguous 2023–2024 sample of 17,544 hours with an 80/10/10 chronological split after a 168-hour warmup. The full-data advice below is retained as earlier background, not the active experiment. The source CSV remains unchanged.
+
 The team supplied [`raw/ercot_2021_2024_hourly.csv`](raw/ercot_2021_2024_hourly.csv) for GridMind's demand, solar, and wind forecasting POC. The CSV is copied unchanged and explicitly versioned at the user's request. Do not modify this source file during preprocessing.
 
 ## Use the full dataset
