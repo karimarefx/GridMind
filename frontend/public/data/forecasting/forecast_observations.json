@@ -1,0 +1,3362 @@
+[
+  {
+    "time": "2024-10-13T20:00:00+00:00",
+    "wind_generation": 6026.233649088542,
+    "wind_installed": 39389.0,
+    "total_load": 66166.23579210069,
+    "solar_generation": 20173.0222265625,
+    "solar_installed": 26811.0,
+    "net_load": 39966.97991644964,
+    "clear_sky_proxy": 0.7071067811865476
+  },
+  {
+    "time": "2024-10-13T21:00:00+00:00",
+    "wind_generation": 5081.401288926866,
+    "wind_installed": 39389.0,
+    "total_load": 69127.35610677084,
+    "solar_generation": 20087.03283582899,
+    "solar_installed": 26811.0,
+    "net_load": 43958.92198201498,
+    "clear_sky_proxy": 0.49999999999999994
+  },
+  {
+    "time": "2024-10-13T22:00:00+00:00",
+    "wind_generation": 4884.675966796875,
+    "wind_installed": 39389.0,
+    "total_load": 70449.43055989583,
+    "solar_generation": 19161.968489583334,
+    "solar_installed": 26811.0,
+    "net_load": 46402.786103515624,
+    "clear_sky_proxy": 0.258819045102521
+  },
+  {
+    "time": "2024-10-13T23:00:00+00:00",
+    "wind_generation": 5384.586272243923,
+    "wind_installed": 39389.0,
+    "total_load": 69674.29446614583,
+    "solar_generation": 13977.976943359376,
+    "solar_installed": 26811.0,
+    "net_load": 50311.731250542536,
+    "clear_sky_proxy": 1.2246467991473532e-16
+  },
+  {
+    "time": "2024-10-14T00:00:00+00:00",
+    "wind_generation": 6210.96785047743,
+    "wind_installed": 39389.0,
+    "total_load": 66283.38753472222,
+    "solar_generation": 3533.691046210395,
+    "solar_installed": 26811.0,
+    "net_load": 56538.728638034394,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-14T01:00:00+00:00",
+    "wind_generation": 9124.244830186632,
+    "wind_installed": 39389.0,
+    "total_load": 63586.74369357639,
+    "solar_generation": 33.45828962807854,
+    "solar_installed": 26811.0,
+    "net_load": 54429.04057376168,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-14T02:00:00+00:00",
+    "wind_generation": 13368.455139431424,
+    "wind_installed": 39389.0,
+    "total_load": 61409.906640625,
+    "solar_generation": 0.5682963613586294,
+    "solar_installed": 26811.0,
+    "net_load": 48040.883204832215,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-14T03:00:00+00:00",
+    "wind_generation": 17123.746126302085,
+    "wind_installed": 39389.0,
+    "total_load": 58331.91634548611,
+    "solar_generation": 0.8096722259786394,
+    "solar_installed": 26811.0,
+    "net_load": 41207.36054695805,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-14T04:00:00+00:00",
+    "wind_generation": 18896.45979654948,
+    "wind_installed": 39389.0,
+    "total_load": 55292.88399088541,
+    "solar_generation": 0.9447164577907986,
+    "solar_installed": 26811.0,
+    "net_load": 36395.479477878136,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-14T05:00:00+00:00",
+    "wind_generation": 18607.193600260416,
+    "wind_installed": 39389.0,
+    "total_load": 51970.28350694444,
+    "solar_generation": 0.998540764980846,
+    "solar_installed": 26811.0,
+    "net_load": 33362.09136591904,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-14T06:00:00+00:00",
+    "wind_generation": 16594.363270399306,
+    "wind_installed": 39389.0,
+    "total_load": 48750.078194444446,
+    "solar_generation": 0.7806723680098852,
+    "solar_installed": 26811.0,
+    "net_load": 32154.93425167713,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-14T07:00:00+00:00",
+    "wind_generation": 14736.731290147569,
+    "wind_installed": 39389.0,
+    "total_load": 46334.11241970486,
+    "solar_generation": 0.7095510390400886,
+    "solar_installed": 26811.0,
+    "net_load": 31596.671578518253,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-14T08:00:00+00:00",
+    "wind_generation": 13664.260775824652,
+    "wind_installed": 39389.0,
+    "total_load": 44980.838841145836,
+    "solar_generation": 0.7249645567933718,
+    "solar_installed": 26811.0,
+    "net_load": 31315.85310076439,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-14T09:00:00+00:00",
+    "wind_generation": 13528.428517795139,
+    "wind_installed": 39389.0,
+    "total_load": 44451.242808159725,
+    "solar_generation": 0.7486623615026474,
+    "solar_installed": 26811.0,
+    "net_load": 30922.06562800308,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-14T10:00:00+00:00",
+    "wind_generation": 13650.93827907986,
+    "wind_installed": 39389.0,
+    "total_load": 44070.66316623264,
+    "solar_generation": 0.7460989148418109,
+    "solar_installed": 26811.0,
+    "net_load": 30418.97878823794,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-14T11:00:00+00:00",
+    "wind_generation": 13636.2027734375,
+    "wind_installed": 39389.0,
+    "total_load": 44504.57080729167,
+    "solar_generation": 0.7561911246511671,
+    "solar_installed": 26811.0,
+    "net_load": 30867.611842729515,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-14T12:00:00+00:00",
+    "wind_generation": 13857.187333984375,
+    "wind_installed": 39389.0,
+    "total_load": 45768.25705295139,
+    "solar_generation": 0.8110255867242813,
+    "solar_installed": 26811.0,
+    "net_load": 31910.258693380296,
+    "clear_sky_proxy": 0.25881904510252074
+  },
+  {
+    "time": "2024-10-14T13:00:00+00:00",
+    "wind_generation": 13382.351537543404,
+    "wind_installed": 39389.0,
+    "total_load": 46423.64971137153,
+    "solar_generation": 170.6160217340787,
+    "solar_installed": 26811.0,
+    "net_load": 32870.68215209404,
+    "clear_sky_proxy": 0.49999999999999994
+  },
+  {
+    "time": "2024-10-14T14:00:00+00:00",
+    "wind_generation": 11412.489576822916,
+    "wind_installed": 39389.0,
+    "total_load": 47860.871673177084,
+    "solar_generation": 6463.239825575087,
+    "solar_installed": 26811.0,
+    "net_load": 29985.142270779077,
+    "clear_sky_proxy": 0.7071067811865476
+  },
+  {
+    "time": "2024-10-14T15:00:00+00:00",
+    "wind_generation": 8114.420999891493,
+    "wind_installed": 39389.0,
+    "total_load": 51685.25702690972,
+    "solar_generation": 17454.04984157986,
+    "solar_installed": 26811.0,
+    "net_load": 26116.786185438363,
+    "clear_sky_proxy": 0.8660254037844386
+  },
+  {
+    "time": "2024-10-14T16:00:00+00:00",
+    "wind_generation": 5076.792591417101,
+    "wind_installed": 39389.0,
+    "total_load": 53124.859546440974,
+    "solar_generation": 20160.86994140625,
+    "solar_installed": 26811.0,
+    "net_load": 27887.197013617624,
+    "clear_sky_proxy": 0.9659258262890683
+  },
+  {
+    "time": "2024-10-14T17:00:00+00:00",
+    "wind_generation": 2597.259061686198,
+    "wind_installed": 39389.0,
+    "total_load": 55569.48358072917,
+    "solar_generation": 20491.085965711805,
+    "solar_installed": 26811.0,
+    "net_load": 32481.138553331162,
+    "clear_sky_proxy": 1.0
+  },
+  {
+    "time": "2024-10-14T18:00:00+00:00",
+    "wind_generation": 1597.5239352756075,
+    "wind_installed": 39389.0,
+    "total_load": 59053.424342447914,
+    "solar_generation": 20366.775683051215,
+    "solar_installed": 26811.0,
+    "net_load": 37089.12472412109,
+    "clear_sky_proxy": 0.9659258262890683
+  },
+  {
+    "time": "2024-10-14T19:00:00+00:00",
+    "wind_generation": 1289.095440266927,
+    "wind_installed": 39389.0,
+    "total_load": 62194.34472439236,
+    "solar_generation": 20075.254898003473,
+    "solar_installed": 26811.0,
+    "net_load": 40829.99438612195,
+    "clear_sky_proxy": 0.8660254037844387
+  },
+  {
+    "time": "2024-10-14T20:00:00+00:00",
+    "wind_generation": 1545.676341281467,
+    "wind_installed": 39389.0,
+    "total_load": 65002.82328342014,
+    "solar_generation": 20072.120444878474,
+    "solar_installed": 26811.0,
+    "net_load": 43385.026497260194,
+    "clear_sky_proxy": 0.7071067811865476
+  },
+  {
+    "time": "2024-10-14T21:00:00+00:00",
+    "wind_generation": 2034.3770814344618,
+    "wind_installed": 39389.0,
+    "total_load": 67490.93500434028,
+    "solar_generation": 20071.254149305554,
+    "solar_installed": 26811.0,
+    "net_load": 45385.303773600266,
+    "clear_sky_proxy": 0.49999999999999994
+  },
+  {
+    "time": "2024-10-14T22:00:00+00:00",
+    "wind_generation": 2640.4365009901258,
+    "wind_installed": 39389.0,
+    "total_load": 68774.21553385416,
+    "solar_generation": 19255.474890407986,
+    "solar_installed": 26811.0,
+    "net_load": 46878.30414245605,
+    "clear_sky_proxy": 0.258819045102521
+  },
+  {
+    "time": "2024-10-14T23:00:00+00:00",
+    "wind_generation": 3357.982887641059,
+    "wind_installed": 39389.0,
+    "total_load": 67836.14138020833,
+    "solar_generation": 14226.210396050346,
+    "solar_installed": 26811.0,
+    "net_load": 50251.94809651692,
+    "clear_sky_proxy": 1.2246467991473532e-16
+  },
+  {
+    "time": "2024-10-15T00:00:00+00:00",
+    "wind_generation": 4200.516925998264,
+    "wind_installed": 39389.0,
+    "total_load": 64283.85317925347,
+    "solar_generation": 3529.2222796969945,
+    "solar_installed": 26811.0,
+    "net_load": 56554.11397355821,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-15T01:00:00+00:00",
+    "wind_generation": 5762.651548936632,
+    "wind_installed": 39389.0,
+    "total_load": 61749.51741644965,
+    "solar_generation": 27.54307870510552,
+    "solar_installed": 26811.0,
+    "net_load": 55959.32278880791,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-15T02:00:00+00:00",
+    "wind_generation": 8199.990590820313,
+    "wind_installed": 39389.0,
+    "total_load": 59791.89537977431,
+    "solar_generation": 0.6436150215731726,
+    "solar_installed": 26811.0,
+    "net_load": 51591.26117393242,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-15T03:00:00+00:00",
+    "wind_generation": 10372.105436197917,
+    "wind_installed": 39389.0,
+    "total_load": 57193.72320095486,
+    "solar_generation": 0.859051982263724,
+    "solar_installed": 26811.0,
+    "net_load": 46820.75871277468,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-15T04:00:00+00:00",
+    "wind_generation": 12528.78832139757,
+    "wind_installed": 39389.0,
+    "total_load": 53510.793203125,
+    "solar_generation": 0.8729168356789483,
+    "solar_installed": 26811.0,
+    "net_load": 40981.131964891756,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-15T05:00:00+00:00",
+    "wind_generation": 15019.53291015625,
+    "wind_installed": 39389.0,
+    "total_load": 49688.06506835938,
+    "solar_generation": 0.9017260299126307,
+    "solar_installed": 27011.0,
+    "net_load": 34667.63043217322,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-15T06:00:00+00:00",
+    "wind_generation": 17052.955511610242,
+    "wind_installed": 39389.0,
+    "total_load": 47182.212550998265,
+    "solar_generation": 1.0652172774904305,
+    "solar_installed": 27011.0,
+    "net_load": 30128.19182211053,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-15T07:00:00+00:00",
+    "wind_generation": 18472.823059895833,
+    "wind_installed": 39389.0,
+    "total_load": 45033.80980034722,
+    "solar_generation": 1.2909621330764558,
+    "solar_installed": 27011.0,
+    "net_load": 26559.69577831831,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-15T08:00:00+00:00",
+    "wind_generation": 19503.353489583333,
+    "wind_installed": 39389.0,
+    "total_load": 43459.03082248264,
+    "solar_generation": 1.4708418391810523,
+    "solar_installed": 27011.0,
+    "net_load": 23954.206491060122,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-15T09:00:00+00:00",
+    "wind_generation": 19176.69394748264,
+    "wind_installed": 39389.0,
+    "total_load": 42700.17001953125,
+    "solar_generation": 1.5431966143184237,
+    "solar_installed": 27011.0,
+    "net_load": 23521.932875434297,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-15T10:00:00+00:00",
+    "wind_generation": 18835.256681857638,
+    "wind_installed": 39389.0,
+    "total_load": 42508.73055772569,
+    "solar_generation": 1.4874680749575298,
+    "solar_installed": 27011.0,
+    "net_load": 23671.986407793098,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-15T11:00:00+00:00",
+    "wind_generation": 17687.788036024307,
+    "wind_installed": 39389.0,
+    "total_load": 43301.47328342014,
+    "solar_generation": 1.387741480006112,
+    "solar_installed": 27011.0,
+    "net_load": 25612.297505915827,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-15T12:00:00+00:00",
+    "wind_generation": 16038.55840874566,
+    "wind_installed": 39389.0,
+    "total_load": 45240.54031032986,
+    "solar_generation": 1.2324948721461826,
+    "solar_installed": 27011.0,
+    "net_load": 29200.749406712057,
+    "clear_sky_proxy": 0.25881904510252074
+  },
+  {
+    "time": "2024-10-15T13:00:00+00:00",
+    "wind_generation": 14595.47433702257,
+    "wind_installed": 39389.0,
+    "total_load": 45946.10337239583,
+    "solar_generation": 190.90348377817207,
+    "solar_installed": 27011.0,
+    "net_load": 31159.72555159509,
+    "clear_sky_proxy": 0.49999999999999994
+  },
+  {
+    "time": "2024-10-15T14:00:00+00:00",
+    "wind_generation": 12166.766959635417,
+    "wind_installed": 39389.0,
+    "total_load": 47410.877365451386,
+    "solar_generation": 6841.730059950087,
+    "solar_installed": 27011.0,
+    "net_load": 28402.38034586588,
+    "clear_sky_proxy": 0.7071067811865476
+  },
+  {
+    "time": "2024-10-15T15:00:00+00:00",
+    "wind_generation": 7805.927832573785,
+    "wind_installed": 39389.0,
+    "total_load": 49602.58614800347,
+    "solar_generation": 17745.552783203126,
+    "solar_installed": 27011.0,
+    "net_load": 24051.10553222656,
+    "clear_sky_proxy": 0.8660254037844386
+  },
+  {
+    "time": "2024-10-15T16:00:00+00:00",
+    "wind_generation": 6032.276176757812,
+    "wind_installed": 39389.0,
+    "total_load": 51606.95287326389,
+    "solar_generation": 20336.391647135417,
+    "solar_installed": 27011.0,
+    "net_load": 25238.285049370657,
+    "clear_sky_proxy": 0.9659258262890683
+  },
+  {
+    "time": "2024-10-15T17:00:00+00:00",
+    "wind_generation": 7860.07801812066,
+    "wind_installed": 39389.0,
+    "total_load": 54478.411985677085,
+    "solar_generation": 20345.305425347222,
+    "solar_installed": 27011.0,
+    "net_load": 26273.028542209202,
+    "clear_sky_proxy": 1.0
+  },
+  {
+    "time": "2024-10-15T18:00:00+00:00",
+    "wind_generation": 8140.244100477431,
+    "wind_installed": 39389.0,
+    "total_load": 58302.6850640191,
+    "solar_generation": 19994.968333333334,
+    "solar_installed": 27011.0,
+    "net_load": 30167.47263020833,
+    "clear_sky_proxy": 0.9659258262890683
+  },
+  {
+    "time": "2024-10-15T19:00:00+00:00",
+    "wind_generation": 6270.914890950521,
+    "wind_installed": 39389.0,
+    "total_load": 62403.843587239586,
+    "solar_generation": 19574.60343967014,
+    "solar_installed": 27011.0,
+    "net_load": 36558.325256618926,
+    "clear_sky_proxy": 0.8660254037844387
+  },
+  {
+    "time": "2024-10-15T20:00:00+00:00",
+    "wind_generation": 4802.387076280382,
+    "wind_installed": 39389.0,
+    "total_load": 66041.47544270834,
+    "solar_generation": 19621.202332899305,
+    "solar_installed": 27011.0,
+    "net_load": 41617.886033528644,
+    "clear_sky_proxy": 0.7071067811865476
+  },
+  {
+    "time": "2024-10-15T21:00:00+00:00",
+    "wind_generation": 4916.383119032118,
+    "wind_installed": 39389.0,
+    "total_load": 68971.3820703125,
+    "solar_generation": 19761.483402777776,
+    "solar_installed": 27011.0,
+    "net_load": 44293.515548502604,
+    "clear_sky_proxy": 0.49999999999999994
+  },
+  {
+    "time": "2024-10-15T22:00:00+00:00",
+    "wind_generation": 6285.29231499566,
+    "wind_installed": 39389.0,
+    "total_load": 70896.55164496528,
+    "solar_generation": 18651.438086480033,
+    "solar_installed": 27011.0,
+    "net_load": 45959.82124348958,
+    "clear_sky_proxy": 0.258819045102521
+  },
+  {
+    "time": "2024-10-15T23:00:00+00:00",
+    "wind_generation": 8122.251610243055,
+    "wind_installed": 39389.0,
+    "total_load": 69963.13822916667,
+    "solar_generation": 13752.371910807291,
+    "solar_installed": 27011.0,
+    "net_load": 48088.51470811632,
+    "clear_sky_proxy": 1.2246467991473532e-16
+  },
+  {
+    "time": "2024-10-16T00:00:00+00:00",
+    "wind_generation": 10384.281160753038,
+    "wind_installed": 39389.0,
+    "total_load": 66083.31659722222,
+    "solar_generation": 3332.505585683187,
+    "solar_installed": 27011.0,
+    "net_load": 52366.52985078599,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-16T01:00:00+00:00",
+    "wind_generation": 11824.531533203124,
+    "wind_installed": 39389.0,
+    "total_load": 62982.589151475695,
+    "solar_generation": 19.41912865973181,
+    "solar_installed": 27011.0,
+    "net_load": 51138.63848961284,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-16T02:00:00+00:00",
+    "wind_generation": 16043.985232204861,
+    "wind_installed": 39389.0,
+    "total_load": 60345.09792751736,
+    "solar_generation": 1.0028433282176654,
+    "solar_installed": 27011.0,
+    "net_load": 44300.10985198428,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-16T03:00:00+00:00",
+    "wind_generation": 20650.03016438802,
+    "wind_installed": 39389.0,
+    "total_load": 57391.751953125,
+    "solar_generation": 1.526474347644382,
+    "solar_installed": 27011.0,
+    "net_load": 36740.19531438933,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-16T04:00:00+00:00",
+    "wind_generation": 22077.708585069446,
+    "wind_installed": 39389.0,
+    "total_load": 54343.05969184028,
+    "solar_generation": 1.614524278773202,
+    "solar_installed": 27011.0,
+    "net_load": 32263.73658249206,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-16T05:00:00+00:00",
+    "wind_generation": 21703.661171875,
+    "wind_installed": 39389.0,
+    "total_load": 50428.777354600694,
+    "solar_generation": 1.6601790418889788,
+    "solar_installed": 27011.0,
+    "net_load": 28723.45600368381,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-16T06:00:00+00:00",
+    "wind_generation": 21110.512384982638,
+    "wind_installed": 39389.0,
+    "total_load": 47381.40507595486,
+    "solar_generation": 1.4829380385080972,
+    "solar_installed": 27011.0,
+    "net_load": 26269.40975293372,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-16T07:00:00+00:00",
+    "wind_generation": 20846.058292100694,
+    "wind_installed": 39389.0,
+    "total_load": 45134.37292751736,
+    "solar_generation": 1.4265618397792181,
+    "solar_installed": 27011.0,
+    "net_load": 24286.88807357689,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-16T08:00:00+00:00",
+    "wind_generation": 20344.847532552085,
+    "wind_installed": 39389.0,
+    "total_load": 43572.052315538196,
+    "solar_generation": 1.4886587721771665,
+    "solar_installed": 27011.0,
+    "net_load": 23225.716124213934,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-16T09:00:00+00:00",
+    "wind_generation": 19753.318053385417,
+    "wind_installed": 39389.0,
+    "total_load": 42291.46123914931,
+    "solar_generation": 1.5574617787202198,
+    "solar_installed": 27011.0,
+    "net_load": 22536.58572398517,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-16T10:00:00+00:00",
+    "wind_generation": 19167.568313802083,
+    "wind_installed": 39389.0,
+    "total_load": 41896.47401475695,
+    "solar_generation": 1.4412858555052015,
+    "solar_installed": 27011.0,
+    "net_load": 22727.464415099355,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-16T11:00:00+00:00",
+    "wind_generation": 18437.403231336804,
+    "wind_installed": 39389.0,
+    "total_load": 42486.56335503472,
+    "solar_generation": 1.468065677020285,
+    "solar_installed": 27011.0,
+    "net_load": 24047.692058020893,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-16T12:00:00+00:00",
+    "wind_generation": 18485.985234375,
+    "wind_installed": 39389.0,
+    "total_load": 44264.648194444446,
+    "solar_generation": 1.4767187049653796,
+    "solar_installed": 27011.0,
+    "net_load": 25777.18624136448,
+    "clear_sky_proxy": 0.25881904510252074
+  },
+  {
+    "time": "2024-10-16T13:00:00+00:00",
+    "wind_generation": 16944.746255425347,
+    "wind_installed": 39389.0,
+    "total_load": 44859.77957465278,
+    "solar_generation": 120.80611819664637,
+    "solar_installed": 27011.0,
+    "net_load": 27794.227201030782,
+    "clear_sky_proxy": 0.49999999999999994
+  },
+  {
+    "time": "2024-10-16T14:00:00+00:00",
+    "wind_generation": 15056.882699652779,
+    "wind_installed": 39389.0,
+    "total_load": 45023.273760850694,
+    "solar_generation": 4295.960233696832,
+    "solar_installed": 27011.0,
+    "net_load": 25670.430827501084,
+    "clear_sky_proxy": 0.7071067811865476
+  },
+  {
+    "time": "2024-10-16T15:00:00+00:00",
+    "wind_generation": 13970.010698784723,
+    "wind_installed": 39389.0,
+    "total_load": 46904.84287543403,
+    "solar_generation": 12347.760479329427,
+    "solar_installed": 27011.0,
+    "net_load": 20587.071697319872,
+    "clear_sky_proxy": 0.8660254037844386
+  },
+  {
+    "time": "2024-10-16T16:00:00+00:00",
+    "wind_generation": 12476.501460503472,
+    "wind_installed": 39389.0,
+    "total_load": 47081.6357421875,
+    "solar_generation": 15317.807738715277,
+    "solar_installed": 27011.0,
+    "net_load": 19287.326542968753,
+    "clear_sky_proxy": 0.9659258262890683
+  },
+  {
+    "time": "2024-10-16T17:00:00+00:00",
+    "wind_generation": 9988.29496202257,
+    "wind_installed": 39389.0,
+    "total_load": 47340.63639973958,
+    "solar_generation": 17498.866161024307,
+    "solar_installed": 27011.0,
+    "net_load": 19853.475276692705,
+    "clear_sky_proxy": 1.0
+  },
+  {
+    "time": "2024-10-16T18:00:00+00:00",
+    "wind_generation": 8348.323583984375,
+    "wind_installed": 39389.0,
+    "total_load": 47500.07650390625,
+    "solar_generation": 18109.542109375,
+    "solar_installed": 27011.0,
+    "net_load": 21042.21081054688,
+    "clear_sky_proxy": 0.9659258262890683
+  },
+  {
+    "time": "2024-10-16T19:00:00+00:00",
+    "wind_generation": 7869.824935980902,
+    "wind_installed": 39389.0,
+    "total_load": 48039.773042534725,
+    "solar_generation": 19028.865340711807,
+    "solar_installed": 27011.0,
+    "net_load": 21141.082765842017,
+    "clear_sky_proxy": 0.8660254037844387
+  },
+  {
+    "time": "2024-10-16T20:00:00+00:00",
+    "wind_generation": 7887.8655202907985,
+    "wind_installed": 39389.0,
+    "total_load": 48688.21452473958,
+    "solar_generation": 19160.338908420137,
+    "solar_installed": 27011.0,
+    "net_load": 21640.010096028647,
+    "clear_sky_proxy": 0.7071067811865476
+  },
+  {
+    "time": "2024-10-16T21:00:00+00:00",
+    "wind_generation": 8015.488198784722,
+    "wind_installed": 39389.0,
+    "total_load": 49550.55955295139,
+    "solar_generation": 18395.562905815972,
+    "solar_installed": 27011.0,
+    "net_load": 23139.508448350694,
+    "clear_sky_proxy": 0.49999999999999994
+  },
+  {
+    "time": "2024-10-16T22:00:00+00:00",
+    "wind_generation": 8456.743636610243,
+    "wind_installed": 39389.0,
+    "total_load": 49971.000234375,
+    "solar_generation": 18144.9322265625,
+    "solar_installed": 27011.0,
+    "net_load": 23369.32437120226,
+    "clear_sky_proxy": 0.258819045102521
+  },
+  {
+    "time": "2024-10-16T23:00:00+00:00",
+    "wind_generation": 9455.679676649306,
+    "wind_installed": 39389.0,
+    "total_load": 49903.43613064236,
+    "solar_generation": 12824.326583658854,
+    "solar_installed": 27011.0,
+    "net_load": 27623.4298703342,
+    "clear_sky_proxy": 1.2246467991473532e-16
+  },
+  {
+    "time": "2024-10-17T00:00:00+00:00",
+    "wind_generation": 10043.617611762153,
+    "wind_installed": 39389.0,
+    "total_load": 48866.71681423611,
+    "solar_generation": 2930.5047921922474,
+    "solar_installed": 27011.0,
+    "net_load": 35892.594410281716,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-17T01:00:00+00:00",
+    "wind_generation": 11735.741475694444,
+    "wind_installed": 39389.0,
+    "total_load": 48732.085492621525,
+    "solar_generation": 15.095378214551342,
+    "solar_installed": 27011.0,
+    "net_load": 36981.24863871253,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-17T02:00:00+00:00",
+    "wind_generation": 15223.72626844618,
+    "wind_installed": 39389.0,
+    "total_load": 48895.8703515625,
+    "solar_generation": 0.7867225255568823,
+    "solar_installed": 27011.0,
+    "net_load": 33671.357360590766,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-17T03:00:00+00:00",
+    "wind_generation": 17863.266061197915,
+    "wind_installed": 39389.0,
+    "total_load": 47157.28081814236,
+    "solar_generation": 1.0106928731997809,
+    "solar_installed": 27011.0,
+    "net_load": 29293.004064071247,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-17T04:00:00+00:00",
+    "wind_generation": 19477.344544270833,
+    "wind_installed": 39389.0,
+    "total_load": 44520.348684895835,
+    "solar_generation": 1.275857191880544,
+    "solar_installed": 27011.0,
+    "net_load": 25041.72828343312,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-17T05:00:00+00:00",
+    "wind_generation": 20567.079225260415,
+    "wind_installed": 39389.0,
+    "total_load": 42142.08144748264,
+    "solar_generation": 1.434219278825654,
+    "solar_installed": 27011.0,
+    "net_load": 21573.5680029434,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-17T06:00:00+00:00",
+    "wind_generation": 20684.49733940972,
+    "wind_installed": 39389.0,
+    "total_load": 40436.53844401042,
+    "solar_generation": 1.168486906223827,
+    "solar_installed": 27011.0,
+    "net_load": 19750.872617694473,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-17T07:00:00+00:00",
+    "wind_generation": 20372.013255208334,
+    "wind_installed": 39389.0,
+    "total_load": 39178.416731770834,
+    "solar_generation": 1.3302008988459906,
+    "solar_installed": 27011.0,
+    "net_load": 18805.073275663653,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-17T08:00:00+00:00",
+    "wind_generation": 20451.525848524307,
+    "wind_installed": 39389.0,
+    "total_load": 38547.971148003475,
+    "solar_generation": 1.2387749085161421,
+    "solar_installed": 27011.0,
+    "net_load": 18095.20652457065,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-17T09:00:00+00:00",
+    "wind_generation": 20713.288797743055,
+    "wind_installed": 39389.0,
+    "total_load": 38726.353799913195,
+    "solar_generation": 1.1700386065244675,
+    "solar_installed": 27011.0,
+    "net_load": 18011.894963563613,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-17T10:00:00+00:00",
+    "wind_generation": 20002.910570746528,
+    "wind_installed": 39389.0,
+    "total_load": 38885.11956597222,
+    "solar_generation": 1.1963621697823206,
+    "solar_installed": 27011.0,
+    "net_load": 18881.012633055914,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-17T11:00:00+00:00",
+    "wind_generation": 20312.817506510415,
+    "wind_installed": 39389.0,
+    "total_load": 40484.88916232639,
+    "solar_generation": 1.3766413418451946,
+    "solar_installed": 27011.0,
+    "net_load": 20170.695014474135,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-17T12:00:00+00:00",
+    "wind_generation": 20115.39406032986,
+    "wind_installed": 39389.0,
+    "total_load": 42712.4501171875,
+    "solar_generation": 1.3460424160295064,
+    "solar_installed": 27011.0,
+    "net_load": 22595.71001444161,
+    "clear_sky_proxy": 0.25881904510252074
+  },
+  {
+    "time": "2024-10-17T13:00:00+00:00",
+    "wind_generation": 19071.922938368054,
+    "wind_installed": 39389.0,
+    "total_load": 43957.91342013889,
+    "solar_generation": 217.22656296478377,
+    "solar_installed": 27011.0,
+    "net_load": 24668.763918806053,
+    "clear_sky_proxy": 0.49999999999999994
+  },
+  {
+    "time": "2024-10-17T14:00:00+00:00",
+    "wind_generation": 17053.440610894097,
+    "wind_installed": 39389.0,
+    "total_load": 44424.80228081597,
+    "solar_generation": 6326.164090711805,
+    "solar_installed": 27011.0,
+    "net_load": 21045.19757921007,
+    "clear_sky_proxy": 0.7071067811865476
+  },
+  {
+    "time": "2024-10-17T15:00:00+00:00",
+    "wind_generation": 13834.008121744791,
+    "wind_installed": 39389.0,
+    "total_load": 45867.62233506944,
+    "solar_generation": 15706.734070095486,
+    "solar_installed": 27011.0,
+    "net_load": 16326.880143229162,
+    "clear_sky_proxy": 0.8660254037844386
+  },
+  {
+    "time": "2024-10-17T16:00:00+00:00",
+    "wind_generation": 15088.645570746528,
+    "wind_installed": 39389.0,
+    "total_load": 46085.16328776041,
+    "solar_generation": 15689.37873155382,
+    "solar_installed": 27011.0,
+    "net_load": 15307.138985460064,
+    "clear_sky_proxy": 0.9659258262890683
+  },
+  {
+    "time": "2024-10-17T17:00:00+00:00",
+    "wind_generation": 16753.165656467016,
+    "wind_installed": 39389.0,
+    "total_load": 45538.00449652778,
+    "solar_generation": 13709.304534505209,
+    "solar_installed": 27011.0,
+    "net_load": 15075.534305555553,
+    "clear_sky_proxy": 1.0
+  },
+  {
+    "time": "2024-10-17T18:00:00+00:00",
+    "wind_generation": 17077.25217013889,
+    "wind_installed": 39389.0,
+    "total_load": 46132.93955729167,
+    "solar_generation": 14123.616067708334,
+    "solar_installed": 27011.0,
+    "net_load": 14932.071319444447,
+    "clear_sky_proxy": 0.9659258262890683
+  },
+  {
+    "time": "2024-10-17T19:00:00+00:00",
+    "wind_generation": 17591.572745225694,
+    "wind_installed": 39389.0,
+    "total_load": 46983.61729166667,
+    "solar_generation": 14649.492105034722,
+    "solar_installed": 27011.0,
+    "net_load": 14742.552441406253,
+    "clear_sky_proxy": 0.8660254037844387
+  },
+  {
+    "time": "2024-10-17T20:00:00+00:00",
+    "wind_generation": 18152.998255208335,
+    "wind_installed": 39389.0,
+    "total_load": 47600.37587456597,
+    "solar_generation": 14483.639035373264,
+    "solar_installed": 27011.0,
+    "net_load": 14963.738583984374,
+    "clear_sky_proxy": 0.7071067811865476
+  },
+  {
+    "time": "2024-10-17T21:00:00+00:00",
+    "wind_generation": 19184.182287326388,
+    "wind_installed": 39389.0,
+    "total_load": 48754.961725260415,
+    "solar_generation": 14305.935595703126,
+    "solar_installed": 27011.0,
+    "net_load": 15264.843842230897,
+    "clear_sky_proxy": 0.49999999999999994
+  },
+  {
+    "time": "2024-10-17T22:00:00+00:00",
+    "wind_generation": 20089.346983506945,
+    "wind_installed": 39389.0,
+    "total_load": 49752.533841145836,
+    "solar_generation": 13578.627834201388,
+    "solar_installed": 27011.0,
+    "net_load": 16084.559023437501,
+    "clear_sky_proxy": 0.258819045102521
+  },
+  {
+    "time": "2024-10-17T23:00:00+00:00",
+    "wind_generation": 21688.578858506946,
+    "wind_installed": 39389.0,
+    "total_load": 49872.157037760415,
+    "solar_generation": 8879.465040690104,
+    "solar_installed": 27011.0,
+    "net_load": 19304.113138563363,
+    "clear_sky_proxy": 1.2246467991473532e-16
+  },
+  {
+    "time": "2024-10-18T00:00:00+00:00",
+    "wind_generation": 22915.088337673613,
+    "wind_installed": 39389.0,
+    "total_load": 49347.2410047743,
+    "solar_generation": 1735.967062971327,
+    "solar_installed": 27011.0,
+    "net_load": 24696.18560412936,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-18T01:00:00+00:00",
+    "wind_generation": 23646.09695529514,
+    "wind_installed": 39389.0,
+    "total_load": 49583.145399305555,
+    "solar_generation": 8.434381836122936,
+    "solar_installed": 27011.0,
+    "net_load": 25928.614062174292,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-18T02:00:00+00:00",
+    "wind_generation": 24245.013513454862,
+    "wind_installed": 39389.0,
+    "total_load": 48965.72019314236,
+    "solar_generation": 1.0668661742740206,
+    "solar_installed": 27011.0,
+    "net_load": 24719.639813513226,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-18T03:00:00+00:00",
+    "wind_generation": 24417.342178819443,
+    "wind_installed": 39389.0,
+    "total_load": 47522.0330577257,
+    "solar_generation": 1.1527104852596919,
+    "solar_installed": 27011.0,
+    "net_load": 23103.538168420997,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-18T04:00:00+00:00",
+    "wind_generation": 24376.802141927084,
+    "wind_installed": 39389.0,
+    "total_load": 45417.656829427084,
+    "solar_generation": 1.1516117425759633,
+    "solar_installed": 27011.0,
+    "net_load": 21039.70307575742,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-18T05:00:00+00:00",
+    "wind_generation": 23615.836471354167,
+    "wind_installed": 39389.0,
+    "total_load": 42910.9299609375,
+    "solar_generation": 1.1050664342774286,
+    "solar_installed": 27011.0,
+    "net_load": 19293.988423149058,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-18T06:00:00+00:00",
+    "wind_generation": 23000.2176171875,
+    "wind_installed": 39389.0,
+    "total_load": 40849.30718315972,
+    "solar_generation": 1.2877813059091567,
+    "solar_installed": 27011.0,
+    "net_load": 17847.80178466631,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-18T07:00:00+00:00",
+    "wind_generation": 22434.569153645833,
+    "wind_installed": 39389.0,
+    "total_load": 39673.90130859375,
+    "solar_generation": 1.3440046080615786,
+    "solar_installed": 27011.0,
+    "net_load": 17237.98815033985,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-18T08:00:00+00:00",
+    "wind_generation": 21991.065301649305,
+    "wind_installed": 39389.0,
+    "total_load": 38851.269624565975,
+    "solar_generation": 1.3861765419774585,
+    "solar_installed": 27011.0,
+    "net_load": 16858.81814637469,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-18T09:00:00+00:00",
+    "wind_generation": 21460.964329427083,
+    "wind_installed": 39389.0,
+    "total_load": 38523.192371961806,
+    "solar_generation": 1.3625132448143429,
+    "solar_installed": 27011.0,
+    "net_load": 17060.86552928991,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-18T10:00:00+00:00",
+    "wind_generation": 21433.47564236111,
+    "wind_installed": 39389.0,
+    "total_load": 38785.35188151042,
+    "solar_generation": 1.3338777795765135,
+    "solar_installed": 27011.0,
+    "net_load": 17350.542361369728,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-18T11:00:00+00:00",
+    "wind_generation": 21808.0984765625,
+    "wind_installed": 39389.0,
+    "total_load": 40642.091961805556,
+    "solar_generation": 1.368316098385387,
+    "solar_installed": 27011.0,
+    "net_load": 18832.62516914467,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-18T12:00:00+00:00",
+    "wind_generation": 22040.235922309028,
+    "wind_installed": 39389.0,
+    "total_load": 42617.941393229165,
+    "solar_generation": 1.3208426702684826,
+    "solar_installed": 27011.0,
+    "net_load": 20576.384628249867,
+    "clear_sky_proxy": 0.25881904510252074
+  },
+  {
+    "time": "2024-10-18T13:00:00+00:00",
+    "wind_generation": 21746.900457899304,
+    "wind_installed": 39389.0,
+    "total_load": 44016.02795355903,
+    "solar_generation": 175.12861651447085,
+    "solar_installed": 27011.0,
+    "net_load": 22093.998879145256,
+    "clear_sky_proxy": 0.49999999999999994
+  },
+  {
+    "time": "2024-10-18T14:00:00+00:00",
+    "wind_generation": 20611.016200086804,
+    "wind_installed": 39389.0,
+    "total_load": 44976.25220269097,
+    "solar_generation": 4563.980847303603,
+    "solar_installed": 27011.0,
+    "net_load": 19801.255155300565,
+    "clear_sky_proxy": 0.7071067811865476
+  },
+  {
+    "time": "2024-10-18T15:00:00+00:00",
+    "wind_generation": 19356.146875,
+    "wind_installed": 39389.0,
+    "total_load": 45952.95843967014,
+    "solar_generation": 10718.556432291667,
+    "solar_installed": 27011.0,
+    "net_load": 15878.255132378472,
+    "clear_sky_proxy": 0.8660254037844386
+  },
+  {
+    "time": "2024-10-18T16:00:00+00:00",
+    "wind_generation": 20682.05153862847,
+    "wind_installed": 39389.0,
+    "total_load": 47047.91917751736,
+    "solar_generation": 11391.28146484375,
+    "solar_installed": 27011.0,
+    "net_load": 14974.58617404514,
+    "clear_sky_proxy": 0.9659258262890683
+  },
+  {
+    "time": "2024-10-18T17:00:00+00:00",
+    "wind_generation": 22388.368830295138,
+    "wind_installed": 39389.0,
+    "total_load": 48192.78740668403,
+    "solar_generation": 10984.406566840278,
+    "solar_installed": 27011.0,
+    "net_load": 14820.012009548616,
+    "clear_sky_proxy": 1.0
+  },
+  {
+    "time": "2024-10-18T18:00:00+00:00",
+    "wind_generation": 22796.070811631944,
+    "wind_installed": 39389.0,
+    "total_load": 48843.30647135417,
+    "solar_generation": 10899.856424696181,
+    "solar_installed": 27011.0,
+    "net_load": 15147.379235026041,
+    "clear_sky_proxy": 0.9659258262890683
+  },
+  {
+    "time": "2024-10-18T19:00:00+00:00",
+    "wind_generation": 22904.043402777777,
+    "wind_installed": 39389.0,
+    "total_load": 50097.739500868054,
+    "solar_generation": 11200.106547309028,
+    "solar_installed": 27011.0,
+    "net_load": 15993.58955078125,
+    "clear_sky_proxy": 0.8660254037844387
+  },
+  {
+    "time": "2024-10-18T20:00:00+00:00",
+    "wind_generation": 22768.40251736111,
+    "wind_installed": 39389.0,
+    "total_load": 51183.679587673614,
+    "solar_generation": 11034.625482855903,
+    "solar_installed": 27011.0,
+    "net_load": 17380.6515874566,
+    "clear_sky_proxy": 0.7071067811865476
+  },
+  {
+    "time": "2024-10-18T21:00:00+00:00",
+    "wind_generation": 22860.2655078125,
+    "wind_installed": 39389.0,
+    "total_load": 51960.532740885414,
+    "solar_generation": 10131.364192708334,
+    "solar_installed": 27011.0,
+    "net_load": 18968.903040364585,
+    "clear_sky_proxy": 0.49999999999999994
+  },
+  {
+    "time": "2024-10-18T22:00:00+00:00",
+    "wind_generation": 23205.521803385418,
+    "wind_installed": 39389.0,
+    "total_load": 52598.65222222222,
+    "solar_generation": 9319.114108072916,
+    "solar_installed": 27011.0,
+    "net_load": 20074.016310763887,
+    "clear_sky_proxy": 0.258819045102521
+  },
+  {
+    "time": "2024-10-18T23:00:00+00:00",
+    "wind_generation": 24284.88435763889,
+    "wind_installed": 39389.0,
+    "total_load": 52560.49265407986,
+    "solar_generation": 5653.566591796875,
+    "solar_installed": 27011.0,
+    "net_load": 22622.0417046441,
+    "clear_sky_proxy": 1.2246467991473532e-16
+  },
+  {
+    "time": "2024-10-19T00:00:00+00:00",
+    "wind_generation": 24484.749561631943,
+    "wind_installed": 39389.0,
+    "total_load": 51470.30727430555,
+    "solar_generation": 949.9101253763835,
+    "solar_installed": 27011.0,
+    "net_load": 26035.64758729723,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-19T01:00:00+00:00",
+    "wind_generation": 23920.09478515625,
+    "wind_installed": 39389.0,
+    "total_load": 51170.86701822917,
+    "solar_generation": 7.808339638710022,
+    "solar_installed": 27011.0,
+    "net_load": 27242.96389343421,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-19T02:00:00+00:00",
+    "wind_generation": 23701.92365234375,
+    "wind_installed": 39389.0,
+    "total_load": 50156.589047309026,
+    "solar_generation": 1.145398005776935,
+    "solar_installed": 27011.0,
+    "net_load": 26453.519996959498,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-19T03:00:00+00:00",
+    "wind_generation": 23721.96070529514,
+    "wind_installed": 39389.0,
+    "total_load": 48855.07556857639,
+    "solar_generation": 1.166618493464258,
+    "solar_installed": 27011.0,
+    "net_load": 25131.94824478778,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-19T04:00:00+00:00",
+    "wind_generation": 23946.55310329861,
+    "wind_installed": 39389.0,
+    "total_load": 47029.68274522569,
+    "solar_generation": 1.289621293677224,
+    "solar_installed": 27011.0,
+    "net_load": 23081.840020633404,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-19T05:00:00+00:00",
+    "wind_generation": 23448.182764756944,
+    "wind_installed": 39389.0,
+    "total_load": 44857.80980251736,
+    "solar_generation": 1.1125851604011323,
+    "solar_installed": 27011.0,
+    "net_load": 21408.514452600015,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-19T06:00:00+00:00",
+    "wind_generation": 22844.088743489585,
+    "wind_installed": 39389.0,
+    "total_load": 42839.464071180555,
+    "solar_generation": 1.1476942538552815,
+    "solar_installed": 27011.0,
+    "net_load": 19994.227633437113,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-19T07:00:00+00:00",
+    "wind_generation": 22048.025442708335,
+    "wind_installed": 39389.0,
+    "total_load": 41334.85659722222,
+    "solar_generation": 1.0955353887875874,
+    "solar_installed": 27011.0,
+    "net_load": 19285.735619125095,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-19T08:00:00+00:00",
+    "wind_generation": 21717.05408637153,
+    "wind_installed": 39389.0,
+    "total_load": 40235.47748046875,
+    "solar_generation": 1.0943029387791952,
+    "solar_installed": 27011.0,
+    "net_load": 18517.32909115844,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-19T09:00:00+00:00",
+    "wind_generation": 21548.604557291666,
+    "wind_installed": 39389.0,
+    "total_load": 39746.08684895833,
+    "solar_generation": 1.0383225557539197,
+    "solar_installed": 27011.0,
+    "net_load": 18196.44396911091,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-19T10:00:00+00:00",
+    "wind_generation": 21020.24255642361,
+    "wind_installed": 39389.0,
+    "total_load": 39043.479153645836,
+    "solar_generation": 1.1905663402875264,
+    "solar_installed": 27011.0,
+    "net_load": 18022.04603088194,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-19T11:00:00+00:00",
+    "wind_generation": 20921.929696180556,
+    "wind_installed": 39389.0,
+    "total_load": 39389.15048828125,
+    "solar_generation": 1.2005752291282017,
+    "solar_installed": 27011.0,
+    "net_load": 18466.020216871566,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-19T12:00:00+00:00",
+    "wind_generation": 19925.543856336804,
+    "wind_installed": 39389.0,
+    "total_load": 40263.36532335069,
+    "solar_generation": 1.2758194469743305,
+    "solar_installed": 27011.0,
+    "net_load": 20336.545647566916,
+    "clear_sky_proxy": 0.25881904510252074
+  },
+  {
+    "time": "2024-10-19T13:00:00+00:00",
+    "wind_generation": 18391.877491319443,
+    "wind_installed": 39389.0,
+    "total_load": 40955.50786241319,
+    "solar_generation": 147.81863406260808,
+    "solar_installed": 27011.0,
+    "net_load": 22415.811737031145,
+    "clear_sky_proxy": 0.49999999999999994
+  },
+  {
+    "time": "2024-10-19T14:00:00+00:00",
+    "wind_generation": 17323.17583767361,
+    "wind_installed": 39389.0,
+    "total_load": 42693.39947482639,
+    "solar_generation": 4465.454072469075,
+    "solar_installed": 27011.0,
+    "net_load": 20904.769564683702,
+    "clear_sky_proxy": 0.7071067811865476
+  },
+  {
+    "time": "2024-10-19T15:00:00+00:00",
+    "wind_generation": 16518.775731336806,
+    "wind_installed": 39389.0,
+    "total_load": 44943.495993923614,
+    "solar_generation": 11156.486070963541,
+    "solar_installed": 27011.0,
+    "net_load": 17268.23419162327,
+    "clear_sky_proxy": 0.8660254037844386
+  },
+  {
+    "time": "2024-10-19T16:00:00+00:00",
+    "wind_generation": 17551.635440538194,
+    "wind_installed": 39389.0,
+    "total_load": 46924.98728515625,
+    "solar_generation": 13990.599929470485,
+    "solar_installed": 27011.0,
+    "net_load": 15382.751915147564,
+    "clear_sky_proxy": 0.9659258262890683
+  },
+  {
+    "time": "2024-10-19T17:00:00+00:00",
+    "wind_generation": 17717.332235243055,
+    "wind_installed": 39389.0,
+    "total_load": 48096.18789930556,
+    "solar_generation": 15007.117919921875,
+    "solar_installed": 27011.0,
+    "net_load": 15371.737744140628,
+    "clear_sky_proxy": 1.0
+  },
+  {
+    "time": "2024-10-19T18:00:00+00:00",
+    "wind_generation": 18218.61791232639,
+    "wind_installed": 39389.0,
+    "total_load": 49424.7559765625,
+    "solar_generation": 14455.807416449652,
+    "solar_installed": 27011.0,
+    "net_load": 16750.330647786457,
+    "clear_sky_proxy": 0.9659258262890683
+  },
+  {
+    "time": "2024-10-19T19:00:00+00:00",
+    "wind_generation": 18459.83990668403,
+    "wind_installed": 39389.0,
+    "total_load": 50949.51175130208,
+    "solar_generation": 14044.336875,
+    "solar_installed": 27011.0,
+    "net_load": 18445.334969618052,
+    "clear_sky_proxy": 0.8660254037844387
+  },
+  {
+    "time": "2024-10-19T20:00:00+00:00",
+    "wind_generation": 18260.79068359375,
+    "wind_installed": 39389.0,
+    "total_load": 52435.81759331597,
+    "solar_generation": 13814.023057725695,
+    "solar_installed": 27011.0,
+    "net_load": 20361.003851996527,
+    "clear_sky_proxy": 0.7071067811865476
+  },
+  {
+    "time": "2024-10-19T21:00:00+00:00",
+    "wind_generation": 17928.626532118054,
+    "wind_installed": 39389.0,
+    "total_load": 53740.1505967882,
+    "solar_generation": 13684.12454969618,
+    "solar_installed": 27011.0,
+    "net_load": 22127.399514973964,
+    "clear_sky_proxy": 0.49999999999999994
+  },
+  {
+    "time": "2024-10-19T22:00:00+00:00",
+    "wind_generation": 18105.54294921875,
+    "wind_installed": 39389.0,
+    "total_load": 54643.59370876736,
+    "solar_generation": 12771.495086805555,
+    "solar_installed": 27011.0,
+    "net_load": 23766.555672743056,
+    "clear_sky_proxy": 0.258819045102521
+  },
+  {
+    "time": "2024-10-19T23:00:00+00:00",
+    "wind_generation": 18646.795206163195,
+    "wind_installed": 39389.0,
+    "total_load": 54633.43121744792,
+    "solar_generation": 8467.380544162326,
+    "solar_installed": 27011.0,
+    "net_load": 27519.2554671224,
+    "clear_sky_proxy": 1.2246467991473532e-16
+  },
+  {
+    "time": "2024-10-20T00:00:00+00:00",
+    "wind_generation": 18137.15777126736,
+    "wind_installed": 39389.0,
+    "total_load": 52904.79754991319,
+    "solar_generation": 1462.0647162416246,
+    "solar_installed": 27011.0,
+    "net_load": 33305.575062404205,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-20T01:00:00+00:00",
+    "wind_generation": 17894.323107638887,
+    "wind_installed": 39389.0,
+    "total_load": 52001.52720703125,
+    "solar_generation": 3.1650678247875637,
+    "solar_installed": 27011.0,
+    "net_load": 34104.039031567576,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-20T02:00:00+00:00",
+    "wind_generation": 19496.425657552085,
+    "wind_installed": 39389.0,
+    "total_load": 50609.725983072916,
+    "solar_generation": 1.065289124449094,
+    "solar_installed": 27011.0,
+    "net_load": 31112.235036396385,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-20T03:00:00+00:00",
+    "wind_generation": 20219.652521701388,
+    "wind_installed": 39389.0,
+    "total_load": 49056.6475672743,
+    "solar_generation": 1.0686855849954817,
+    "solar_installed": 27011.0,
+    "net_load": 28835.926359987923,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-20T04:00:00+00:00",
+    "wind_generation": 19726.89554470486,
+    "wind_installed": 39389.0,
+    "total_load": 47008.842384982636,
+    "solar_generation": 0.9677056790060468,
+    "solar_installed": 27011.0,
+    "net_load": 27280.979134598765,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-20T05:00:00+00:00",
+    "wind_generation": 19432.666161024306,
+    "wind_installed": 39389.0,
+    "total_load": 44795.66547309028,
+    "solar_generation": 1.0365258124801848,
+    "solar_installed": 27011.0,
+    "net_load": 25361.962786253494,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-20T06:00:00+00:00",
+    "wind_generation": 19320.14146484375,
+    "wind_installed": 39389.0,
+    "total_load": 42704.283678385415,
+    "solar_generation": 0.966626034312778,
+    "solar_installed": 27011.0,
+    "net_load": 23383.17558750735,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-20T07:00:00+00:00",
+    "wind_generation": 19050.406145833334,
+    "wind_installed": 39389.0,
+    "total_load": 41147.51234157986,
+    "solar_generation": 0.9698650660117467,
+    "solar_installed": 27011.0,
+    "net_load": 22096.13633068051,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-20T08:00:00+00:00",
+    "wind_generation": 18882.110128038195,
+    "wind_installed": 39389.0,
+    "total_load": 40133.269437934025,
+    "solar_generation": 0.9743227667278713,
+    "solar_installed": 27011.0,
+    "net_load": 21250.1849871291,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-20T09:00:00+00:00",
+    "wind_generation": 18096.568200954862,
+    "wind_installed": 39389.0,
+    "total_load": 39661.42644314236,
+    "solar_generation": 0.9207684589756859,
+    "solar_installed": 27011.0,
+    "net_load": 21563.937473728518,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-20T10:00:00+00:00",
+    "wind_generation": 17139.45685546875,
+    "wind_installed": 39389.0,
+    "total_load": 38896.558973524305,
+    "solar_generation": 0.9341648844877879,
+    "solar_installed": 27011.0,
+    "net_load": 21756.16795317107,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-20T11:00:00+00:00",
+    "wind_generation": 16473.79011501736,
+    "wind_installed": 39389.0,
+    "total_load": 39023.63167534722,
+    "solar_generation": 0.9447713533374998,
+    "solar_installed": 27011.0,
+    "net_load": 22548.896788976523,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-20T12:00:00+00:00",
+    "wind_generation": 15124.330989583334,
+    "wind_installed": 39389.0,
+    "total_load": 39046.901202256944,
+    "solar_generation": 0.9446804507573445,
+    "solar_installed": 27011.0,
+    "net_load": 23921.62553222285,
+    "clear_sky_proxy": 0.25881904510252074
+  },
+  {
+    "time": "2024-10-20T13:00:00+00:00",
+    "wind_generation": 13524.766069878473,
+    "wind_installed": 39389.0,
+    "total_load": 39684.31502821181,
+    "solar_generation": 145.00291368590462,
+    "solar_installed": 27011.0,
+    "net_load": 26014.54604464743,
+    "clear_sky_proxy": 0.49999999999999994
+  },
+  {
+    "time": "2024-10-20T14:00:00+00:00",
+    "wind_generation": 11784.058607855903,
+    "wind_installed": 39389.0,
+    "total_load": 41487.051354166666,
+    "solar_generation": 5027.542400851779,
+    "solar_installed": 27011.0,
+    "net_load": 24675.450345458983,
+    "clear_sky_proxy": 0.7071067811865476
+  },
+  {
+    "time": "2024-10-20T15:00:00+00:00",
+    "wind_generation": 10174.99751844618,
+    "wind_installed": 39389.0,
+    "total_load": 44479.4356922743,
+    "solar_generation": 13080.733277994792,
+    "solar_installed": 27011.0,
+    "net_load": 21223.704895833333,
+    "clear_sky_proxy": 0.8660254037844386
+  },
+  {
+    "time": "2024-10-20T16:00:00+00:00",
+    "wind_generation": 12441.818039279515,
+    "wind_installed": 39389.0,
+    "total_load": 47435.29758680556,
+    "solar_generation": 16349.151668836805,
+    "solar_installed": 27011.0,
+    "net_load": 18644.327878689237,
+    "clear_sky_proxy": 0.9659258262890683
+  },
+  {
+    "time": "2024-10-20T17:00:00+00:00",
+    "wind_generation": 14432.172333984376,
+    "wind_installed": 39389.0,
+    "total_load": 48106.03934895834,
+    "solar_generation": 17485.994505208335,
+    "solar_installed": 27011.0,
+    "net_load": 16187.872509765626,
+    "clear_sky_proxy": 1.0
+  },
+  {
+    "time": "2024-10-20T18:00:00+00:00",
+    "wind_generation": 14262.289637586806,
+    "wind_installed": 39389.0,
+    "total_load": 49663.170230034724,
+    "solar_generation": 17871.013172743056,
+    "solar_installed": 27011.0,
+    "net_load": 17529.86741970486,
+    "clear_sky_proxy": 0.9659258262890683
+  },
+  {
+    "time": "2024-10-20T19:00:00+00:00",
+    "wind_generation": 14313.784509548612,
+    "wind_installed": 39389.0,
+    "total_load": 51596.66566189236,
+    "solar_generation": 17717.375104166666,
+    "solar_installed": 27011.0,
+    "net_load": 19565.506048177078,
+    "clear_sky_proxy": 0.8660254037844387
+  },
+  {
+    "time": "2024-10-20T20:00:00+00:00",
+    "wind_generation": 14945.630784505209,
+    "wind_installed": 39389.0,
+    "total_load": 53544.4070203993,
+    "solar_generation": 17745.446356336804,
+    "solar_installed": 27011.0,
+    "net_load": 20853.329879557292,
+    "clear_sky_proxy": 0.7071067811865476
+  },
+  {
+    "time": "2024-10-20T21:00:00+00:00",
+    "wind_generation": 15026.39029405382,
+    "wind_installed": 39389.0,
+    "total_load": 55661.29075303819,
+    "solar_generation": 17301.15876736111,
+    "solar_installed": 27011.0,
+    "net_load": 23333.74169162327,
+    "clear_sky_proxy": 0.49999999999999994
+  },
+  {
+    "time": "2024-10-20T22:00:00+00:00",
+    "wind_generation": 15400.046338975695,
+    "wind_installed": 39389.0,
+    "total_load": 57030.294581163194,
+    "solar_generation": 16904.001114366318,
+    "solar_installed": 27011.0,
+    "net_load": 24726.247127821185,
+    "clear_sky_proxy": 0.258819045102521
+  },
+  {
+    "time": "2024-10-20T23:00:00+00:00",
+    "wind_generation": 15439.726450737848,
+    "wind_installed": 39389.0,
+    "total_load": 57152.10742404514,
+    "solar_generation": 12131.293713650173,
+    "solar_installed": 27011.0,
+    "net_load": 29581.08725965712,
+    "clear_sky_proxy": 1.2246467991473532e-16
+  },
+  {
+    "time": "2024-10-21T00:00:00+00:00",
+    "wind_generation": 15183.972034505208,
+    "wind_installed": 39389.0,
+    "total_load": 55436.58219184028,
+    "solar_generation": 2368.9602152591283,
+    "solar_installed": 27011.0,
+    "net_load": 37883.64994207595,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-21T01:00:00+00:00",
+    "wind_generation": 15844.480844184029,
+    "wind_installed": 39389.0,
+    "total_load": 54097.509698350696,
+    "solar_generation": 6.116394078003036,
+    "solar_installed": 27011.0,
+    "net_load": 38246.912460088664,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-21T02:00:00+00:00",
+    "wind_generation": 18706.520154079863,
+    "wind_installed": 39389.0,
+    "total_load": 53279.545479600696,
+    "solar_generation": 0.9899397610955768,
+    "solar_installed": 27011.0,
+    "net_load": 34572.03538575974,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-21T03:00:00+00:00",
+    "wind_generation": 20604.275970052084,
+    "wind_installed": 39389.0,
+    "total_load": 51172.97594835069,
+    "solar_generation": 1.292045036090745,
+    "solar_installed": 27011.0,
+    "net_load": 30567.40793326252,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-21T04:00:00+00:00",
+    "wind_generation": 21397.38779296875,
+    "wind_installed": 39389.0,
+    "total_load": 48262.10059461805,
+    "solar_generation": 1.2821409004264408,
+    "solar_installed": 27011.0,
+    "net_load": 26863.430660748876,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-21T05:00:00+00:00",
+    "wind_generation": 21580.765321180555,
+    "wind_installed": 39389.0,
+    "total_load": 45234.79966362847,
+    "solar_generation": 1.3661440996991263,
+    "solar_installed": 27011.0,
+    "net_load": 23652.668198348216,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-21T06:00:00+00:00",
+    "wind_generation": 20375.550319010417,
+    "wind_installed": 39389.0,
+    "total_load": 42804.26813802083,
+    "solar_generation": 1.268360648420122,
+    "solar_installed": 27011.0,
+    "net_load": 22427.449458361993,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-21T07:00:00+00:00",
+    "wind_generation": 19701.154125434026,
+    "wind_installed": 39389.0,
+    "total_load": 41313.69805989583,
+    "solar_generation": 1.1495136503378551,
+    "solar_installed": 27011.0,
+    "net_load": 21611.39442081147,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-21T08:00:00+00:00",
+    "wind_generation": 19124.145086805554,
+    "wind_installed": 39389.0,
+    "total_load": 40405.318033854164,
+    "solar_generation": 1.0739821534686618,
+    "solar_installed": 27011.0,
+    "net_load": 21280.098964895144,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-21T09:00:00+00:00",
+    "wind_generation": 18563.531082899306,
+    "wind_installed": 39389.0,
+    "total_load": 39868.68922743056,
+    "solar_generation": 0.9783986524078581,
+    "solar_installed": 27011.0,
+    "net_load": 21304.179745878846,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-21T10:00:00+00:00",
+    "wind_generation": 18747.421258680555,
+    "wind_installed": 39389.0,
+    "total_load": 40325.43932508681,
+    "solar_generation": 1.0724957661496268,
+    "solar_installed": 27011.0,
+    "net_load": 21576.945570640102,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-21T11:00:00+00:00",
+    "wind_generation": 19090.863684895834,
+    "wind_installed": 39389.0,
+    "total_load": 41689.31541449653,
+    "solar_generation": 1.3504258980353674,
+    "solar_installed": 27011.0,
+    "net_load": 22597.101303702664,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-21T12:00:00+00:00",
+    "wind_generation": 19320.395223524305,
+    "wind_installed": 39389.0,
+    "total_load": 43951.1687109375,
+    "solar_generation": 1.355141092803743,
+    "solar_installed": 27011.0,
+    "net_load": 24629.418346320388,
+    "clear_sky_proxy": 0.25881904510252074
+  },
+  {
+    "time": "2024-10-21T13:00:00+00:00",
+    "wind_generation": 19750.311284722222,
+    "wind_installed": 39389.0,
+    "total_load": 45296.361540798614,
+    "solar_generation": 158.52767793357373,
+    "solar_installed": 27011.0,
+    "net_load": 25387.522578142816,
+    "clear_sky_proxy": 0.49999999999999994
+  },
+  {
+    "time": "2024-10-21T14:00:00+00:00",
+    "wind_generation": 18175.716870659722,
+    "wind_installed": 39389.0,
+    "total_load": 46504.616783854166,
+    "solar_generation": 5370.648059488933,
+    "solar_installed": 27011.0,
+    "net_load": 22958.251853705508,
+    "clear_sky_proxy": 0.7071067811865476
+  },
+  {
+    "time": "2024-10-21T15:00:00+00:00",
+    "wind_generation": 15662.601110026042,
+    "wind_installed": 39389.0,
+    "total_load": 48548.74316623264,
+    "solar_generation": 13327.766196831597,
+    "solar_installed": 27011.0,
+    "net_load": 19558.375859375003,
+    "clear_sky_proxy": 0.8660254037844386
+  },
+  {
+    "time": "2024-10-21T16:00:00+00:00",
+    "wind_generation": 16763.445283203124,
+    "wind_installed": 39389.0,
+    "total_load": 50333.444989149306,
+    "solar_generation": 14296.77556315104,
+    "solar_installed": 27011.0,
+    "net_load": 19273.224142795138,
+    "clear_sky_proxy": 0.9659258262890683
+  },
+  {
+    "time": "2024-10-21T17:00:00+00:00",
+    "wind_generation": 17075.771901041666,
+    "wind_installed": 39389.0,
+    "total_load": 51442.79247829861,
+    "solar_generation": 13913.456690538194,
+    "solar_installed": 27011.0,
+    "net_load": 20453.563886718748,
+    "clear_sky_proxy": 1.0
+  },
+  {
+    "time": "2024-10-21T18:00:00+00:00",
+    "wind_generation": 17046.570735677084,
+    "wind_installed": 39389.0,
+    "total_load": 53496.373980034725,
+    "solar_generation": 14423.571000434027,
+    "solar_installed": 27011.0,
+    "net_load": 22026.232243923612,
+    "clear_sky_proxy": 0.9659258262890683
+  },
+  {
+    "time": "2024-10-21T19:00:00+00:00",
+    "wind_generation": 17135.53556857639,
+    "wind_installed": 39389.0,
+    "total_load": 55578.40240017361,
+    "solar_generation": 14821.83490125868,
+    "solar_installed": 27011.0,
+    "net_load": 23621.031930338537,
+    "clear_sky_proxy": 0.8660254037844387
+  },
+  {
+    "time": "2024-10-21T20:00:00+00:00",
+    "wind_generation": 17070.873851996526,
+    "wind_installed": 39389.0,
+    "total_load": 57681.964568142364,
+    "solar_generation": 15131.33906467014,
+    "solar_installed": 27011.0,
+    "net_load": 25479.7516514757,
+    "clear_sky_proxy": 0.7071067811865476
+  },
+  {
+    "time": "2024-10-21T21:00:00+00:00",
+    "wind_generation": 17037.053589409723,
+    "wind_installed": 39389.0,
+    "total_load": 59491.285464409724,
+    "solar_generation": 16024.74904513889,
+    "solar_installed": 27011.0,
+    "net_load": 26429.482829861114,
+    "clear_sky_proxy": 0.49999999999999994
+  },
+  {
+    "time": "2024-10-21T22:00:00+00:00",
+    "wind_generation": 17737.718582899306,
+    "wind_installed": 39389.0,
+    "total_load": 60959.12310546875,
+    "solar_generation": 15159.378616536458,
+    "solar_installed": 27011.0,
+    "net_load": 28062.025906032988,
+    "clear_sky_proxy": 0.258819045102521
+  },
+  {
+    "time": "2024-10-21T23:00:00+00:00",
+    "wind_generation": 17449.105434027777,
+    "wind_installed": 39389.0,
+    "total_load": 61075.59654296875,
+    "solar_generation": 11370.85426812066,
+    "solar_installed": 27011.0,
+    "net_load": 32255.636840820312,
+    "clear_sky_proxy": 1.2246467991473532e-16
+  },
+  {
+    "time": "2024-10-22T00:00:00+00:00",
+    "wind_generation": 17151.170045572915,
+    "wind_installed": 39389.0,
+    "total_load": 59166.06383897569,
+    "solar_generation": 2355.013506113688,
+    "solar_installed": 27011.0,
+    "net_load": 39659.88028728909,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-22T01:00:00+00:00",
+    "wind_generation": 16708.736205512152,
+    "wind_installed": 39389.0,
+    "total_load": 57691.23655164931,
+    "solar_generation": 11.300130914052328,
+    "solar_installed": 27011.0,
+    "net_load": 40971.2002152231,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-22T02:00:00+00:00",
+    "wind_generation": 18904.241657986113,
+    "wind_installed": 39389.0,
+    "total_load": 56166.49876736111,
+    "solar_generation": 1.0374372931983735,
+    "solar_installed": 27011.0,
+    "net_load": 37261.2196720818,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-22T03:00:00+00:00",
+    "wind_generation": 20327.82207682292,
+    "wind_installed": 39389.0,
+    "total_load": 53576.399418402776,
+    "solar_generation": 1.0142878368828032,
+    "solar_installed": 27011.0,
+    "net_load": 33247.56305374297,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-22T04:00:00+00:00",
+    "wind_generation": 20272.655319010417,
+    "wind_installed": 39389.0,
+    "total_load": 50530.91968315972,
+    "solar_generation": 1.0153225243753856,
+    "solar_installed": 27011.0,
+    "net_load": 30257.249041624927,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-22T05:00:00+00:00",
+    "wind_generation": 20146.570227864584,
+    "wind_installed": 39389.0,
+    "total_load": 47076.356545138886,
+    "solar_generation": 0.8877808368868298,
+    "solar_installed": 27011.0,
+    "net_load": 26928.898536437417,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-22T06:00:00+00:00",
+    "wind_generation": 19734.479594184028,
+    "wind_installed": 39389.0,
+    "total_load": 44604.045245225694,
+    "solar_generation": 0.9097482597827912,
+    "solar_installed": 27011.0,
+    "net_load": 24868.65590278188,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-22T07:00:00+00:00",
+    "wind_generation": 18914.242608506946,
+    "wind_installed": 39389.0,
+    "total_load": 43100.16135416667,
+    "solar_generation": 0.915436559120814,
+    "solar_installed": 27011.0,
+    "net_load": 24185.003309100597,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-22T08:00:00+00:00",
+    "wind_generation": 17745.95103515625,
+    "wind_installed": 39389.0,
+    "total_load": 41849.05133463542,
+    "solar_generation": 0.9309261187579897,
+    "solar_installed": 27011.0,
+    "net_load": 24102.16937336041,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-22T09:00:00+00:00",
+    "wind_generation": 16317.768800998263,
+    "wind_installed": 39389.0,
+    "total_load": 41071.37914496528,
+    "solar_generation": 0.9403896591398451,
+    "solar_installed": 27011.0,
+    "net_load": 24752.669954307876,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-22T10:00:00+00:00",
+    "wind_generation": 14982.162212456597,
+    "wind_installed": 39389.0,
+    "total_load": 41811.10622178819,
+    "solar_generation": 0.915783608754476,
+    "solar_installed": 27011.0,
+    "net_load": 26828.02822572284,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-22T11:00:00+00:00",
+    "wind_generation": 12981.75376844618,
+    "wind_installed": 39389.0,
+    "total_load": 42810.65727213542,
+    "solar_generation": 0.9050865976015726,
+    "solar_installed": 27011.0,
+    "net_load": 29827.998417091636,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-22T12:00:00+00:00",
+    "wind_generation": 11419.482250434028,
+    "wind_installed": 39389.0,
+    "total_load": 45529.043541666666,
+    "solar_generation": 0.9907020313209958,
+    "solar_installed": 27011.0,
+    "net_load": 34108.57058920132,
+    "clear_sky_proxy": 0.25881904510252074
+  },
+  {
+    "time": "2024-10-22T13:00:00+00:00",
+    "wind_generation": 9919.381852213543,
+    "wind_installed": 39389.0,
+    "total_load": 46717.26367838542,
+    "solar_generation": 84.72787456009124,
+    "solar_installed": 27011.0,
+    "net_load": 36713.153951611785,
+    "clear_sky_proxy": 0.49999999999999994
+  },
+  {
+    "time": "2024-10-22T14:00:00+00:00",
+    "wind_generation": 8602.249310980902,
+    "wind_installed": 39389.0,
+    "total_load": 47660.604303385415,
+    "solar_generation": 4431.531147054036,
+    "solar_installed": 27011.0,
+    "net_load": 34626.823845350475,
+    "clear_sky_proxy": 0.7071067811865476
+  },
+  {
+    "time": "2024-10-22T15:00:00+00:00",
+    "wind_generation": 6086.7881689453125,
+    "wind_installed": 39389.0,
+    "total_load": 50727.72275173611,
+    "solar_generation": 14151.368116319445,
+    "solar_installed": 27011.0,
+    "net_load": 30489.566466471348,
+    "clear_sky_proxy": 0.8660254037844386
+  },
+  {
+    "time": "2024-10-22T16:00:00+00:00",
+    "wind_generation": 5878.565873480903,
+    "wind_installed": 39389.0,
+    "total_load": 52115.10594184028,
+    "solar_generation": 17054.320439453124,
+    "solar_installed": 27011.0,
+    "net_load": 29182.21962890625,
+    "clear_sky_proxy": 0.9659258262890683
+  },
+  {
+    "time": "2024-10-22T17:00:00+00:00",
+    "wind_generation": 4335.469729275173,
+    "wind_installed": 39389.0,
+    "total_load": 53724.258882378475,
+    "solar_generation": 18011.8794921875,
+    "solar_installed": 27011.0,
+    "net_load": 31376.9096609158,
+    "clear_sky_proxy": 1.0
+  },
+  {
+    "time": "2024-10-22T18:00:00+00:00",
+    "wind_generation": 2592.433129611545,
+    "wind_installed": 39389.0,
+    "total_load": 56065.29722439236,
+    "solar_generation": 17554.81532986111,
+    "solar_installed": 27011.0,
+    "net_load": 35918.0487649197,
+    "clear_sky_proxy": 0.9659258262890683
+  },
+  {
+    "time": "2024-10-22T19:00:00+00:00",
+    "wind_generation": 1935.2170547146268,
+    "wind_installed": 39389.0,
+    "total_load": 58970.879919704865,
+    "solar_generation": 17079.170227864583,
+    "solar_installed": 27011.0,
+    "net_load": 39956.49263712566,
+    "clear_sky_proxy": 0.8660254037844387
+  },
+  {
+    "time": "2024-10-22T20:00:00+00:00",
+    "wind_generation": 2038.7000173611111,
+    "wind_installed": 39389.0,
+    "total_load": 61351.71322048611,
+    "solar_generation": 17144.56418185764,
+    "solar_installed": 27011.0,
+    "net_load": 42168.44902126736,
+    "clear_sky_proxy": 0.7071067811865476
+  },
+  {
+    "time": "2024-10-22T21:00:00+00:00",
+    "wind_generation": 2517.9079676649308,
+    "wind_installed": 39389.0,
+    "total_load": 63205.448326822916,
+    "solar_generation": 17049.453758680556,
+    "solar_installed": 27011.0,
+    "net_load": 43638.08660047743,
+    "clear_sky_proxy": 0.49999999999999994
+  },
+  {
+    "time": "2024-10-22T22:00:00+00:00",
+    "wind_generation": 3092.3546036783855,
+    "wind_installed": 39389.0,
+    "total_load": 64247.277805989586,
+    "solar_generation": 16313.287393663195,
+    "solar_installed": 27011.0,
+    "net_load": 44841.635808648,
+    "clear_sky_proxy": 0.258819045102521
+  },
+  {
+    "time": "2024-10-22T23:00:00+00:00",
+    "wind_generation": 3364.4320255533853,
+    "wind_installed": 39389.0,
+    "total_load": 63387.540243055555,
+    "solar_generation": 11668.56111328125,
+    "solar_installed": 27011.0,
+    "net_load": 48354.547104220925,
+    "clear_sky_proxy": 1.2246467991473532e-16
+  },
+  {
+    "time": "2024-10-23T00:00:00+00:00",
+    "wind_generation": 3891.1997819010417,
+    "wind_installed": 39389.0,
+    "total_load": 60375.23017361111,
+    "solar_generation": 2443.8757967207166,
+    "solar_installed": 27011.0,
+    "net_load": 54040.15459498935,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-23T01:00:00+00:00",
+    "wind_generation": 6320.942064887153,
+    "wind_installed": 39389.0,
+    "total_load": 59221.42780598958,
+    "solar_generation": 10.26440515442027,
+    "solar_installed": 27011.0,
+    "net_load": 52890.22133594801,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-23T02:00:00+00:00",
+    "wind_generation": 9748.5413796658,
+    "wind_installed": 39389.0,
+    "total_load": 58502.74346788194,
+    "solar_generation": 0.9962958682245678,
+    "solar_installed": 27011.0,
+    "net_load": 48753.205792347915,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-23T03:00:00+00:00",
+    "wind_generation": 12233.097082248263,
+    "wind_installed": 39389.0,
+    "total_load": 56358.000299479165,
+    "solar_generation": 1.179959429105123,
+    "solar_installed": 27011.0,
+    "net_load": 44123.723257801794,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-23T04:00:00+00:00",
+    "wind_generation": 13994.433725043404,
+    "wind_installed": 39389.0,
+    "total_load": 53000.268151041666,
+    "solar_generation": 1.2214979690975614,
+    "solar_installed": 27011.0,
+    "net_load": 39004.612928029164,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-23T05:00:00+00:00",
+    "wind_generation": 14671.25382080078,
+    "wind_installed": 39389.0,
+    "total_load": 49579.55847873264,
+    "solar_generation": 1.2549606040120125,
+    "solar_installed": 27011.0,
+    "net_load": 34907.04969732784,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-23T06:00:00+00:00",
+    "wind_generation": 14915.141521267362,
+    "wind_installed": 39389.0,
+    "total_load": 47162.237059461804,
+    "solar_generation": 1.1718406779898538,
+    "solar_installed": 27011.0,
+    "net_load": 32245.923697516453,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-23T07:00:00+00:00",
+    "wind_generation": 14593.951183810765,
+    "wind_installed": 39389.0,
+    "total_load": 45695.443836805556,
+    "solar_generation": 1.1692541946967443,
+    "solar_installed": 27011.0,
+    "net_load": 31100.323398800094,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-23T08:00:00+00:00",
+    "wind_generation": 13994.370648871527,
+    "wind_installed": 39389.0,
+    "total_load": 44009.413980034726,
+    "solar_generation": 1.17021665778425,
+    "solar_installed": 27011.0,
+    "net_load": 30013.87311450542,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-23T09:00:00+00:00",
+    "wind_generation": 13013.964624565971,
+    "wind_installed": 39389.0,
+    "total_load": 42900.935991753475,
+    "solar_generation": 1.1796277691258326,
+    "solar_installed": 27011.0,
+    "net_load": 29885.79173941838,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-23T10:00:00+00:00",
+    "wind_generation": 12239.03888780382,
+    "wind_installed": 39389.0,
+    "total_load": 42734.40901041667,
+    "solar_generation": 1.176224409672949,
+    "solar_installed": 27011.0,
+    "net_load": 30494.19389820317,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-23T11:00:00+00:00",
+    "wind_generation": 11104.502944878472,
+    "wind_installed": 39389.0,
+    "total_load": 43705.177083333336,
+    "solar_generation": 1.3068917600313823,
+    "solar_installed": 27011.0,
+    "net_load": 32599.367246694834,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-23T12:00:00+00:00",
+    "wind_generation": 9514.853068576389,
+    "wind_installed": 39389.0,
+    "total_load": 46066.97235460069,
+    "solar_generation": 1.2490572918785943,
+    "solar_installed": 27011.0,
+    "net_load": 36550.87022873243,
+    "clear_sky_proxy": 0.25881904510252074
+  },
+  {
+    "time": "2024-10-23T13:00:00+00:00",
+    "wind_generation": 8301.072106119791,
+    "wind_installed": 39389.0,
+    "total_load": 47056.20505859375,
+    "solar_generation": 77.9008650622103,
+    "solar_installed": 27011.0,
+    "net_load": 38677.23208741174,
+    "clear_sky_proxy": 0.49999999999999994
+  },
+  {
+    "time": "2024-10-23T14:00:00+00:00",
+    "wind_generation": 7040.292896050347,
+    "wind_installed": 39389.0,
+    "total_load": 48125.56587239583,
+    "solar_generation": 4717.974409247504,
+    "solar_installed": 27011.0,
+    "net_load": 36367.29856709798,
+    "clear_sky_proxy": 0.7071067811865476
+  },
+  {
+    "time": "2024-10-23T15:00:00+00:00",
+    "wind_generation": 4613.18003797743,
+    "wind_installed": 39389.0,
+    "total_load": 51052.25361979166,
+    "solar_generation": 15079.135308159723,
+    "solar_installed": 27011.0,
+    "net_load": 31359.938273654516,
+    "clear_sky_proxy": 0.8660254037844386
+  },
+  {
+    "time": "2024-10-23T16:00:00+00:00",
+    "wind_generation": 3424.7249907769096,
+    "wind_installed": 39389.0,
+    "total_load": 52803.813895399304,
+    "solar_generation": 18777.352935112845,
+    "solar_installed": 27011.0,
+    "net_load": 30601.735969509547,
+    "clear_sky_proxy": 0.9659258262890683
+  },
+  {
+    "time": "2024-10-23T17:00:00+00:00",
+    "wind_generation": 2302.1047564019095,
+    "wind_installed": 39389.0,
+    "total_load": 55395.31009114583,
+    "solar_generation": 18763.619702690972,
+    "solar_installed": 27011.0,
+    "net_load": 34329.58563205295,
+    "clear_sky_proxy": 1.0
+  },
+  {
+    "time": "2024-10-23T18:00:00+00:00",
+    "wind_generation": 1332.0406180826824,
+    "wind_installed": 39389.0,
+    "total_load": 58635.982992621524,
+    "solar_generation": 18440.289672309027,
+    "solar_installed": 27011.0,
+    "net_load": 38863.65270222981,
+    "clear_sky_proxy": 0.9659258262890683
+  },
+  {
+    "time": "2024-10-23T19:00:00+00:00",
+    "wind_generation": 1454.655206298828,
+    "wind_installed": 39389.0,
+    "total_load": 62070.64619140625,
+    "solar_generation": 18159.441195746527,
+    "solar_installed": 27011.0,
+    "net_load": 42456.5497893609,
+    "clear_sky_proxy": 0.8660254037844387
+  },
+  {
+    "time": "2024-10-23T20:00:00+00:00",
+    "wind_generation": 2143.7657941351995,
+    "wind_installed": 39389.0,
+    "total_load": 64992.966095920136,
+    "solar_generation": 18406.20342013889,
+    "solar_installed": 27011.0,
+    "net_load": 44442.996881646046,
+    "clear_sky_proxy": 0.7071067811865476
+  },
+  {
+    "time": "2024-10-23T21:00:00+00:00",
+    "wind_generation": 2341.0561933051217,
+    "wind_installed": 39389.0,
+    "total_load": 67054.79457465278,
+    "solar_generation": 18698.402677951388,
+    "solar_installed": 27011.0,
+    "net_load": 46015.335703396275,
+    "clear_sky_proxy": 0.49999999999999994
+  },
+  {
+    "time": "2024-10-23T22:00:00+00:00",
+    "wind_generation": 2558.1288598632814,
+    "wind_installed": 39389.0,
+    "total_load": 67970.06782552083,
+    "solar_generation": 17526.884680989584,
+    "solar_installed": 27011.0,
+    "net_load": 47885.05428466797,
+    "clear_sky_proxy": 0.258819045102521
+  },
+  {
+    "time": "2024-10-23T23:00:00+00:00",
+    "wind_generation": 3377.0638113064238,
+    "wind_installed": 39389.0,
+    "total_load": 66594.3362890625,
+    "solar_generation": 12506.699141167535,
+    "solar_installed": 27011.0,
+    "net_load": 50710.57333658854,
+    "clear_sky_proxy": 1.2246467991473532e-16
+  },
+  {
+    "time": "2024-10-24T00:00:00+00:00",
+    "wind_generation": 4922.3920301649305,
+    "wind_installed": 39389.0,
+    "total_load": 63215.12275390625,
+    "solar_generation": 2367.077772632175,
+    "solar_installed": 27011.0,
+    "net_load": 55925.65295110915,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-24T01:00:00+00:00",
+    "wind_generation": 8573.645105251737,
+    "wind_installed": 39389.0,
+    "total_load": 61769.42132595486,
+    "solar_generation": 5.286622729831271,
+    "solar_installed": 27011.0,
+    "net_load": 53190.4895979733,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-24T02:00:00+00:00",
+    "wind_generation": 14025.760804036458,
+    "wind_installed": 39389.0,
+    "total_load": 61008.16616753472,
+    "solar_generation": 1.1783450507455402,
+    "solar_installed": 27011.0,
+    "net_load": 46981.22701844752,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-24T03:00:00+00:00",
+    "wind_generation": 17933.42661458333,
+    "wind_installed": 39389.0,
+    "total_load": 57910.55984375,
+    "solar_generation": 1.3911420325438182,
+    "solar_installed": 27011.0,
+    "net_load": 39975.742087134124,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-24T04:00:00+00:00",
+    "wind_generation": 19477.207033420138,
+    "wind_installed": 39389.0,
+    "total_load": 54385.44877821181,
+    "solar_generation": 1.3074483591980404,
+    "solar_installed": 27011.0,
+    "net_load": 34906.934296432475,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-24T05:00:00+00:00",
+    "wind_generation": 20006.612927517363,
+    "wind_installed": 39389.0,
+    "total_load": 50917.508617621526,
+    "solar_generation": 1.3079616906907823,
+    "solar_installed": 27011.0,
+    "net_load": 30909.587728413473,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-24T06:00:00+00:00",
+    "wind_generation": 19595.287315538193,
+    "wind_installed": 39389.0,
+    "total_load": 47847.669830729166,
+    "solar_generation": 1.1510544882218043,
+    "solar_installed": 27011.0,
+    "net_load": 28251.231460702755,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-24T07:00:00+00:00",
+    "wind_generation": 19417.550555555557,
+    "wind_installed": 39389.0,
+    "total_load": 46074.085141059026,
+    "solar_generation": 1.1384819807608921,
+    "solar_installed": 27011.0,
+    "net_load": 26655.396103522704,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-24T08:00:00+00:00",
+    "wind_generation": 19083.995145399305,
+    "wind_installed": 39389.0,
+    "total_load": 44286.22162109375,
+    "solar_generation": 1.1524976968102985,
+    "solar_installed": 27011.0,
+    "net_load": 25201.073977997636,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-24T09:00:00+00:00",
+    "wind_generation": 18651.221842447918,
+    "wind_installed": 39389.0,
+    "total_load": 43665.287378472225,
+    "solar_generation": 1.138999101916949,
+    "solar_installed": 27011.0,
+    "net_load": 25012.92653692239,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-24T10:00:00+00:00",
+    "wind_generation": 18214.265533854166,
+    "wind_installed": 39389.0,
+    "total_load": 43738.54659396701,
+    "solar_generation": 1.170138279000918,
+    "solar_installed": 27011.0,
+    "net_load": 25523.110921833846,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-24T11:00:00+00:00",
+    "wind_generation": 17985.891766493056,
+    "wind_installed": 39389.0,
+    "total_load": 44681.53093098958,
+    "solar_generation": 1.1559280458423826,
+    "solar_installed": 27011.0,
+    "net_load": 26694.48323645068,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-24T12:00:00+00:00",
+    "wind_generation": 17353.73809244792,
+    "wind_installed": 39389.0,
+    "total_load": 47038.74455729167,
+    "solar_generation": 1.1732098784049352,
+    "solar_installed": 27011.0,
+    "net_load": 29683.833254965346,
+    "clear_sky_proxy": 0.25881904510252074
+  },
+  {
+    "time": "2024-10-24T13:00:00+00:00",
+    "wind_generation": 16812.748977864583,
+    "wind_installed": 39389.0,
+    "total_load": 48122.099429253474,
+    "solar_generation": 70.0502775418096,
+    "solar_installed": 27011.0,
+    "net_load": 31239.300173847085,
+    "clear_sky_proxy": 0.49999999999999994
+  },
+  {
+    "time": "2024-10-24T14:00:00+00:00",
+    "wind_generation": 16424.937322048612,
+    "wind_installed": 39389.0,
+    "total_load": 48882.912465277775,
+    "solar_generation": 4241.944842664931,
+    "solar_installed": 27011.0,
+    "net_load": 28216.03030056423,
+    "clear_sky_proxy": 0.7071067811865476
+  },
+  {
+    "time": "2024-10-24T15:00:00+00:00",
+    "wind_generation": 13213.13968858507,
+    "wind_installed": 39389.0,
+    "total_load": 51692.37267795139,
+    "solar_generation": 13042.352626953125,
+    "solar_installed": 27011.0,
+    "net_load": 25436.880362413198,
+    "clear_sky_proxy": 0.8660254037844386
+  },
+  {
+    "time": "2024-10-24T16:00:00+00:00",
+    "wind_generation": 12788.749593098959,
+    "wind_installed": 39389.0,
+    "total_load": 54148.95232421875,
+    "solar_generation": 16715.71810980903,
+    "solar_installed": 27011.0,
+    "net_load": 24644.48462131076,
+    "clear_sky_proxy": 0.9659258262890683
+  },
+  {
+    "time": "2024-10-24T17:00:00+00:00",
+    "wind_generation": 13598.705795355903,
+    "wind_installed": 39389.0,
+    "total_load": 56258.485883246525,
+    "solar_generation": 16724.827161458332,
+    "solar_installed": 27011.0,
+    "net_load": 25934.952926432285,
+    "clear_sky_proxy": 1.0
+  },
+  {
+    "time": "2024-10-24T18:00:00+00:00",
+    "wind_generation": 15766.179801432292,
+    "wind_installed": 39389.0,
+    "total_load": 59209.802747395835,
+    "solar_generation": 15017.384261067707,
+    "solar_installed": 27011.0,
+    "net_load": 28426.238684895834,
+    "clear_sky_proxy": 0.9659258262890683
+  },
+  {
+    "time": "2024-10-24T19:00:00+00:00",
+    "wind_generation": 17021.433051215277,
+    "wind_installed": 39389.0,
+    "total_load": 62513.15562282986,
+    "solar_generation": 14195.417169053819,
+    "solar_installed": 27011.0,
+    "net_load": 31296.30540256076,
+    "clear_sky_proxy": 0.8660254037844387
+  },
+  {
+    "time": "2024-10-24T20:00:00+00:00",
+    "wind_generation": 17317.277695855035,
+    "wind_installed": 39389.0,
+    "total_load": 64886.475924479164,
+    "solar_generation": 14629.909794921876,
+    "solar_installed": 27011.0,
+    "net_load": 32939.288433702255,
+    "clear_sky_proxy": 0.7071067811865476
+  },
+  {
+    "time": "2024-10-24T21:00:00+00:00",
+    "wind_generation": 17947.685523546006,
+    "wind_installed": 39389.0,
+    "total_load": 66246.50614149305,
+    "solar_generation": 14801.6947007921,
+    "solar_installed": 27011.0,
+    "net_load": 33497.12591715495,
+    "clear_sky_proxy": 0.49999999999999994
+  },
+  {
+    "time": "2024-10-24T22:00:00+00:00",
+    "wind_generation": 18781.449778645834,
+    "wind_installed": 39389.0,
+    "total_load": 67377.81557291666,
+    "solar_generation": 14004.223600260417,
+    "solar_installed": 27011.0,
+    "net_load": 34592.142194010405,
+    "clear_sky_proxy": 0.258819045102521
+  },
+  {
+    "time": "2024-10-24T23:00:00+00:00",
+    "wind_generation": 19136.86986111111,
+    "wind_installed": 39389.0,
+    "total_load": 66422.98221788194,
+    "solar_generation": 9744.737173936632,
+    "solar_installed": 27011.0,
+    "net_load": 37541.3751828342,
+    "clear_sky_proxy": 1.2246467991473532e-16
+  },
+  {
+    "time": "2024-10-25T00:00:00+00:00",
+    "wind_generation": 19077.70587890625,
+    "wind_installed": 39389.0,
+    "total_load": 63430.5195703125,
+    "solar_generation": 1994.4893489201863,
+    "solar_installed": 27011.0,
+    "net_load": 42358.32434248606,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-25T01:00:00+00:00",
+    "wind_generation": 20907.64410590278,
+    "wind_installed": 39389.0,
+    "total_load": 61644.74429253472,
+    "solar_generation": 3.0637554368707867,
+    "solar_installed": 27011.0,
+    "net_load": 40734.03643119507,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-25T02:00:00+00:00",
+    "wind_generation": 22887.885399305556,
+    "wind_installed": 39389.0,
+    "total_load": 59745.059813368054,
+    "solar_generation": 1.199253818458981,
+    "solar_installed": 27011.0,
+    "net_load": 36855.97516024404,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-25T03:00:00+00:00",
+    "wind_generation": 23169.38249782986,
+    "wind_installed": 39389.0,
+    "total_load": 57455.17696614583,
+    "solar_generation": 1.2870570793416765,
+    "solar_installed": 27011.0,
+    "net_load": 34284.50741123663,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-25T04:00:00+00:00",
+    "wind_generation": 23151.155583767362,
+    "wind_installed": 39389.0,
+    "total_load": 54344.898546006945,
+    "solar_generation": 1.258781830602222,
+    "solar_installed": 27011.0,
+    "net_load": 31192.484180408977,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-25T05:00:00+00:00",
+    "wind_generation": 23162.660034722223,
+    "wind_installed": 39389.0,
+    "total_load": 50910.70350694445,
+    "solar_generation": 1.145104810529285,
+    "solar_installed": 27011.0,
+    "net_load": 27746.898367411693,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-25T06:00:00+00:00",
+    "wind_generation": 23316.57321831597,
+    "wind_installed": 39389.0,
+    "total_load": 48405.51769965278,
+    "solar_generation": 1.0527632929881414,
+    "solar_installed": 27011.0,
+    "net_load": 25087.891718043822,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-25T07:00:00+00:00",
+    "wind_generation": 22602.58676215278,
+    "wind_installed": 39389.0,
+    "total_load": 46392.19163628472,
+    "solar_generation": 1.1064877801471287,
+    "solar_installed": 27011.0,
+    "net_load": 23788.498386351792,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-25T08:00:00+00:00",
+    "wind_generation": 21349.92116970486,
+    "wind_installed": 39389.0,
+    "total_load": 44831.809574652776,
+    "solar_generation": 1.132475612560908,
+    "solar_installed": 27011.0,
+    "net_load": 23480.755929335355,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-25T09:00:00+00:00",
+    "wind_generation": 19942.205483940972,
+    "wind_installed": 39389.0,
+    "total_load": 43779.41995659722,
+    "solar_generation": 1.1734552782773973,
+    "solar_installed": 27011.0,
+    "net_load": 23836.04101737797,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-25T10:00:00+00:00",
+    "wind_generation": 19021.77773654514,
+    "wind_installed": 39389.0,
+    "total_load": 44045.24766927084,
+    "solar_generation": 1.0776876095930736,
+    "solar_installed": 27011.0,
+    "net_load": 25022.392245116105,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-25T11:00:00+00:00",
+    "wind_generation": 17117.691039496527,
+    "wind_installed": 39389.0,
+    "total_load": 44861.664131944446,
+    "solar_generation": 1.0946002242300246,
+    "solar_installed": 27011.0,
+    "net_load": 27742.878492223692,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-25T12:00:00+00:00",
+    "wind_generation": 16021.879762369792,
+    "wind_installed": 39389.0,
+    "total_load": 47120.37780381944,
+    "solar_generation": 1.0549472323391174,
+    "solar_installed": 27011.0,
+    "net_load": 31097.443094217313,
+    "clear_sky_proxy": 0.25881904510252074
+  },
+  {
+    "time": "2024-10-25T13:00:00+00:00",
+    "wind_generation": 15020.4534765625,
+    "wind_installed": 39389.0,
+    "total_load": 48075.94016493056,
+    "solar_generation": 69.7477984772457,
+    "solar_installed": 27011.0,
+    "net_load": 32985.73888989081,
+    "clear_sky_proxy": 0.49999999999999994
+  },
+  {
+    "time": "2024-10-25T14:00:00+00:00",
+    "wind_generation": 14161.601118706598,
+    "wind_installed": 39389.0,
+    "total_load": 48890.59714409722,
+    "solar_generation": 3913.5860531277126,
+    "solar_installed": 27011.0,
+    "net_load": 30815.40997226291,
+    "clear_sky_proxy": 0.7071067811865476
+  },
+  {
+    "time": "2024-10-25T15:00:00+00:00",
+    "wind_generation": 13193.910886501737,
+    "wind_installed": 39389.0,
+    "total_load": 52852.75151909722,
+    "solar_generation": 13258.702485894097,
+    "solar_installed": 27011.0,
+    "net_load": 26400.13814670138,
+    "clear_sky_proxy": 0.8660254037844386
+  },
+  {
+    "time": "2024-10-25T16:00:00+00:00",
+    "wind_generation": 12409.612826605902,
+    "wind_installed": 39389.0,
+    "total_load": 55212.66851888021,
+    "solar_generation": 16570.25449110243,
+    "solar_installed": 27011.0,
+    "net_load": 26232.801201171875,
+    "clear_sky_proxy": 0.9659258262890683
+  },
+  {
+    "time": "2024-10-25T17:00:00+00:00",
+    "wind_generation": 10368.484613715278,
+    "wind_installed": 39389.0,
+    "total_load": 57031.28352430555,
+    "solar_generation": 18210.519533420138,
+    "solar_installed": 27011.0,
+    "net_load": 28452.27937717014,
+    "clear_sky_proxy": 1.0
+  },
+  {
+    "time": "2024-10-25T18:00:00+00:00",
+    "wind_generation": 7527.948972981771,
+    "wind_installed": 39389.0,
+    "total_load": 59295.347092013886,
+    "solar_generation": 18412.41660373264,
+    "solar_installed": 27011.0,
+    "net_load": 33354.98151529947,
+    "clear_sky_proxy": 0.9659258262890683
+  },
+  {
+    "time": "2024-10-25T19:00:00+00:00",
+    "wind_generation": 5457.005992296007,
+    "wind_installed": 39389.0,
+    "total_load": 62230.847348090276,
+    "solar_generation": 18163.18576388889,
+    "solar_installed": 27011.0,
+    "net_load": 38610.65559190538,
+    "clear_sky_proxy": 0.8660254037844387
+  },
+  {
+    "time": "2024-10-25T20:00:00+00:00",
+    "wind_generation": 4403.659305826823,
+    "wind_installed": 39389.0,
+    "total_load": 64961.93078559028,
+    "solar_generation": 18267.511232638888,
+    "solar_installed": 27011.0,
+    "net_load": 42290.76024712458,
+    "clear_sky_proxy": 0.7071067811865476
+  },
+  {
+    "time": "2024-10-25T21:00:00+00:00",
+    "wind_generation": 3880.671808268229,
+    "wind_installed": 39389.0,
+    "total_load": 66844.73741319444,
+    "solar_generation": 18331.844153645834,
+    "solar_installed": 27011.0,
+    "net_load": 44632.22145128038,
+    "clear_sky_proxy": 0.49999999999999994
+  },
+  {
+    "time": "2024-10-25T22:00:00+00:00",
+    "wind_generation": 3633.402741970486,
+    "wind_installed": 39389.0,
+    "total_load": 67648.93962673612,
+    "solar_generation": 17342.790946180554,
+    "solar_installed": 27011.0,
+    "net_load": 46672.745938585074,
+    "clear_sky_proxy": 0.258819045102521
+  },
+  {
+    "time": "2024-10-25T23:00:00+00:00",
+    "wind_generation": 3488.030571831597,
+    "wind_installed": 39389.0,
+    "total_load": 66144.8150954861,
+    "solar_generation": 11958.789581163195,
+    "solar_installed": 27011.0,
+    "net_load": 50697.994942491314,
+    "clear_sky_proxy": 1.2246467991473532e-16
+  },
+  {
+    "time": "2024-10-26T00:00:00+00:00",
+    "wind_generation": 3812.97708468967,
+    "wind_installed": 39389.0,
+    "total_load": 61934.44306857639,
+    "solar_generation": 2152.060104490916,
+    "solar_installed": 27011.0,
+    "net_load": 55969.4058793958,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-26T01:00:00+00:00",
+    "wind_generation": 5407.653409830729,
+    "wind_installed": 39389.0,
+    "total_load": 59671.301875,
+    "solar_generation": 1.835902267164654,
+    "solar_installed": 27011.0,
+    "net_load": 54261.8125629021,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-26T02:00:00+00:00",
+    "wind_generation": 7706.130491536458,
+    "wind_installed": 39389.0,
+    "total_load": 58271.05965711806,
+    "solar_generation": 0.9067235597636965,
+    "solar_installed": 27011.0,
+    "net_load": 50564.02244202184,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-26T03:00:00+00:00",
+    "wind_generation": 8570.300735677083,
+    "wind_installed": 39389.0,
+    "total_load": 56559.65644965278,
+    "solar_generation": 1.161484054658148,
+    "solar_installed": 27011.0,
+    "net_load": 47988.194229921035,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-26T04:00:00+00:00",
+    "wind_generation": 8639.238841145834,
+    "wind_installed": 39389.0,
+    "total_load": 53992.36144965278,
+    "solar_generation": 1.1971358203225666,
+    "solar_installed": 27011.0,
+    "net_load": 45351.92547268662,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-26T05:00:00+00:00",
+    "wind_generation": 8541.465540364583,
+    "wind_installed": 39389.0,
+    "total_load": 51209.28366753472,
+    "solar_generation": 1.2033200534184774,
+    "solar_installed": 27011.0,
+    "net_load": 42666.61480711672,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-26T06:00:00+00:00",
+    "wind_generation": 8706.146827528211,
+    "wind_installed": 39389.0,
+    "total_load": 48655.37969618056,
+    "solar_generation": 1.2237212201290661,
+    "solar_installed": 27011.0,
+    "net_load": 39948.00914743222,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-26T07:00:00+00:00",
+    "wind_generation": 8757.249269748263,
+    "wind_installed": 39389.0,
+    "total_load": 46607.29206597222,
+    "solar_generation": 1.224460804661115,
+    "solar_installed": 27011.0,
+    "net_load": 37848.8183354193,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-26T08:00:00+00:00",
+    "wind_generation": 8621.328519965278,
+    "wind_installed": 39389.0,
+    "total_load": 45045.322165798614,
+    "solar_generation": 1.2368031128909853,
+    "solar_installed": 27011.0,
+    "net_load": 36422.75684272044,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-26T09:00:00+00:00",
+    "wind_generation": 8861.982968478733,
+    "wind_installed": 39389.0,
+    "total_load": 44054.25924479167,
+    "solar_generation": 1.237377134528425,
+    "solar_installed": 27011.0,
+    "net_load": 35191.038899178406,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-26T10:00:00+00:00",
+    "wind_generation": 8916.146749131944,
+    "wind_installed": 39389.0,
+    "total_load": 43286.605264756945,
+    "solar_generation": 1.2592223013771904,
+    "solar_installed": 27011.0,
+    "net_load": 34369.199293323625,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-26T11:00:00+00:00",
+    "wind_generation": 8801.70216688368,
+    "wind_installed": 39389.0,
+    "total_load": 43169.28555555556,
+    "solar_generation": 1.2889638594124053,
+    "solar_installed": 27011.0,
+    "net_load": 34366.29442481246,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-26T12:00:00+00:00",
+    "wind_generation": 8517.84827419705,
+    "wind_installed": 39389.0,
+    "total_load": 43480.73651475694,
+    "solar_generation": 1.0524416817890274,
+    "solar_installed": 27011.0,
+    "net_load": 34961.835798878106,
+    "clear_sky_proxy": 0.25881904510252074
+  },
+  {
+    "time": "2024-10-26T13:00:00+00:00",
+    "wind_generation": 7828.171276041667,
+    "wind_installed": 39389.0,
+    "total_load": 44288.66022135417,
+    "solar_generation": 49.93608518256082,
+    "solar_installed": 27011.0,
+    "net_load": 36410.552860129945,
+    "clear_sky_proxy": 0.49999999999999994
+  },
+  {
+    "time": "2024-10-26T14:00:00+00:00",
+    "wind_generation": 6754.485395236545,
+    "wind_installed": 39389.0,
+    "total_load": 45677.79552842882,
+    "solar_generation": 3807.405502895779,
+    "solar_installed": 27011.0,
+    "net_load": 35115.90463029649,
+    "clear_sky_proxy": 0.7071067811865476
+  },
+  {
+    "time": "2024-10-26T15:00:00+00:00",
+    "wind_generation": 3771.8720949978297,
+    "wind_installed": 39389.0,
+    "total_load": 50063.219144965275,
+    "solar_generation": 14440.229720052082,
+    "solar_installed": 27011.0,
+    "net_load": 31851.11732991536,
+    "clear_sky_proxy": 0.8660254037844386
+  },
+  {
+    "time": "2024-10-26T16:00:00+00:00",
+    "wind_generation": 1679.3447632514105,
+    "wind_installed": 39389.0,
+    "total_load": 52020.19063042535,
+    "solar_generation": 17964.68803548177,
+    "solar_installed": 27011.0,
+    "net_load": 32376.15783169217,
+    "clear_sky_proxy": 0.9659258262890683
+  },
+  {
+    "time": "2024-10-26T17:00:00+00:00",
+    "wind_generation": 849.8723655192057,
+    "wind_installed": 39389.0,
+    "total_load": 54065.04477864583,
+    "solar_generation": 17744.328671875,
+    "solar_installed": 27011.0,
+    "net_load": 35470.84374125163,
+    "clear_sky_proxy": 1.0
+  },
+  {
+    "time": "2024-10-26T18:00:00+00:00",
+    "wind_generation": 744.9207009548611,
+    "wind_installed": 39389.0,
+    "total_load": 56419.23140625,
+    "solar_generation": 17810.79048828125,
+    "solar_installed": 27011.0,
+    "net_load": 37863.52021701389,
+    "clear_sky_proxy": 0.9659258262890683
+  },
+  {
+    "time": "2024-10-26T19:00:00+00:00",
+    "wind_generation": 996.2731228298611,
+    "wind_installed": 39389.0,
+    "total_load": 59168.173433159725,
+    "solar_generation": 17624.045770399305,
+    "solar_installed": 27011.0,
+    "net_load": 40547.854539930566,
+    "clear_sky_proxy": 0.8660254037844387
+  },
+  {
+    "time": "2024-10-26T20:00:00+00:00",
+    "wind_generation": 1081.5847907850477,
+    "wind_installed": 39389.0,
+    "total_load": 61566.48982638889,
+    "solar_generation": 17820.316959635416,
+    "solar_installed": 27011.0,
+    "net_load": 42664.58807596843,
+    "clear_sky_proxy": 0.7071067811865476
+  },
+  {
+    "time": "2024-10-26T21:00:00+00:00",
+    "wind_generation": 1226.7979092068142,
+    "wind_installed": 39389.0,
+    "total_load": 63264.90751302084,
+    "solar_generation": 17658.561260850693,
+    "solar_installed": 27011.0,
+    "net_load": 44379.54834296333,
+    "clear_sky_proxy": 0.49999999999999994
+  },
+  {
+    "time": "2024-10-26T22:00:00+00:00",
+    "wind_generation": 1518.495510796441,
+    "wind_installed": 39389.0,
+    "total_load": 64110.24057725695,
+    "solar_generation": 16724.603233506943,
+    "solar_installed": 27011.0,
+    "net_load": 45867.14183295356,
+    "clear_sky_proxy": 0.258819045102521
+  },
+  {
+    "time": "2024-10-26T23:00:00+00:00",
+    "wind_generation": 1931.1840359157986,
+    "wind_installed": 39389.0,
+    "total_load": 62470.09551215278,
+    "solar_generation": 11190.847200520833,
+    "solar_installed": 27011.0,
+    "net_load": 49348.06427571615,
+    "clear_sky_proxy": 1.2246467991473532e-16
+  },
+  {
+    "time": "2024-10-27T00:00:00+00:00",
+    "wind_generation": 2331.0835103352865,
+    "wind_installed": 39389.0,
+    "total_load": 58783.602552083335,
+    "solar_generation": 1921.4122799767388,
+    "solar_installed": 27011.0,
+    "net_load": 54531.10676177131,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-27T01:00:00+00:00",
+    "wind_generation": 3506.1685164388023,
+    "wind_installed": 39389.0,
+    "total_load": 56806.89947916667,
+    "solar_generation": 1.938661894996961,
+    "solar_installed": 27011.0,
+    "net_load": 53298.79230083287,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-27T02:00:00+00:00",
+    "wind_generation": 4946.334020724827,
+    "wind_installed": 39389.0,
+    "total_load": 55014.147217881946,
+    "solar_generation": 1.0374289243751103,
+    "solar_installed": 27011.0,
+    "net_load": 50066.77576823274,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-27T03:00:00+00:00",
+    "wind_generation": 5870.831017795139,
+    "wind_installed": 39389.0,
+    "total_load": 53648.36297526042,
+    "solar_generation": 1.289750966032346,
+    "solar_installed": 27011.0,
+    "net_load": 47776.24220649924,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-27T04:00:00+00:00",
+    "wind_generation": 6717.916202663845,
+    "wind_installed": 39389.0,
+    "total_load": 51336.81987196181,
+    "solar_generation": 1.305729903048939,
+    "solar_installed": 27011.0,
+    "net_load": 44617.59793939492,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-27T05:00:00+00:00",
+    "wind_generation": 7102.613339301215,
+    "wind_installed": 39389.0,
+    "total_load": 48703.72462673611,
+    "solar_generation": 1.300698609020975,
+    "solar_installed": 27011.0,
+    "net_load": 41599.81058882588,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-27T06:00:00+00:00",
+    "wind_generation": 7620.265378146702,
+    "wind_installed": 39389.0,
+    "total_load": 46242.97858940972,
+    "solar_generation": 1.3022810171047847,
+    "solar_installed": 27011.0,
+    "net_load": 38621.41093024592,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-27T07:00:00+00:00",
+    "wind_generation": 7613.7093706597225,
+    "wind_installed": 39389.0,
+    "total_load": 44677.448758680555,
+    "solar_generation": 1.3340126787953908,
+    "solar_installed": 27011.0,
+    "net_load": 37062.40537534204,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-27T08:00:00+00:00",
+    "wind_generation": 7753.9925336371525,
+    "wind_installed": 39389.0,
+    "total_load": 43207.03211371528,
+    "solar_generation": 1.3358080422215992,
+    "solar_installed": 27011.0,
+    "net_load": 35451.70377203591,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-27T09:00:00+00:00",
+    "wind_generation": 7942.560199110243,
+    "wind_installed": 39389.0,
+    "total_load": 41847.06080295139,
+    "solar_generation": 1.329570281571812,
+    "solar_installed": 27011.0,
+    "net_load": 33903.17103355957,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-27T10:00:00+00:00",
+    "wind_generation": 7729.939241536458,
+    "wind_installed": 39389.0,
+    "total_load": 41278.86549045139,
+    "solar_generation": 1.355842672586441,
+    "solar_installed": 27011.0,
+    "net_load": 33547.57040624235,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-27T11:00:00+00:00",
+    "wind_generation": 7910.814880099826,
+    "wind_installed": 39389.0,
+    "total_load": 40901.77653645833,
+    "solar_generation": 1.3516573513878716,
+    "solar_installed": 27011.0,
+    "net_load": 32989.60999900712,
+    "clear_sky_proxy": 0.0
+  },
+  {
+    "time": "2024-10-27T12:00:00+00:00",
+    "wind_generation": 8251.204345703125,
+    "wind_installed": 39389.0,
+    "total_load": 41318.24222222222,
+    "solar_generation": 1.7257305428716871,
+    "solar_installed": 27011.0,
+    "net_load": 33065.312145976226,
+    "clear_sky_proxy": 0.25881904510252074
+  },
+  {
+    "time": "2024-10-27T13:00:00+00:00",
+    "wind_generation": 8169.895905490452,
+    "wind_installed": 39389.0,
+    "total_load": 41789.76857638889,
+    "solar_generation": 45.708626057505604,
+    "solar_installed": 27011.0,
+    "net_load": 33574.16404484093,
+    "clear_sky_proxy": 0.49999999999999994
+  },
+  {
+    "time": "2024-10-27T14:00:00+00:00",
+    "wind_generation": 7852.844359809028,
+    "wind_installed": 39389.0,
+    "total_load": 43435.55161458333,
+    "solar_generation": 3949.1550989786783,
+    "solar_installed": 27011.0,
+    "net_load": 31633.552155795627,
+    "clear_sky_proxy": 0.7071067811865476
+  },
+  {
+    "time": "2024-10-27T15:00:00+00:00",
+    "wind_generation": 5463.888713107639,
+    "wind_installed": 39389.0,
+    "total_load": 47474.018559027776,
+    "solar_generation": 14173.889918619792,
+    "solar_installed": 27011.0,
+    "net_load": 27836.239927300347,
+    "clear_sky_proxy": 0.8660254037844386
+  },
+  {
+    "time": "2024-10-27T16:00:00+00:00",
+    "wind_generation": 4827.03432562934,
+    "wind_installed": 39389.0,
+    "total_load": 50057.50238715278,
+    "solar_generation": 17774.687992621526,
+    "solar_installed": 27011.0,
+    "net_load": 27455.780068901913,
+    "clear_sky_proxy": 0.9659258262890683
+  },
+  {
+    "time": "2024-10-27T17:00:00+00:00",
+    "wind_generation": 6662.457650282118,
+    "wind_installed": 39389.0,
+    "total_load": 52856.49791232639,
+    "solar_generation": 18466.50517144097,
+    "solar_installed": 27011.0,
+    "net_load": 27727.5350906033,
+    "clear_sky_proxy": 1.0
+  },
+  {
+    "time": "2024-10-27T18:00:00+00:00",
+    "wind_generation": 7423.9925358072915,
+    "wind_installed": 39389.0,
+    "total_load": 55760.442682291665,
+    "solar_generation": 18745.865288628473,
+    "solar_installed": 27011.0,
+    "net_load": 29590.584857855898,
+    "clear_sky_proxy": 0.9659258262890683
+  },
+  {
+    "time": "2024-10-27T19:00:00+00:00",
+    "wind_generation": 7664.1697395833335,
+    "wind_installed": 39389.0,
+    "total_load": 58457.85120225694,
+    "solar_generation": 18379.58505642361,
+    "solar_installed": 27011.0,
+    "net_load": 32414.09640625,
+    "clear_sky_proxy": 0.8660254037844387
+  }
+]

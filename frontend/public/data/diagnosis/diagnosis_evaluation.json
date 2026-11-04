@@ -1,0 +1,4 @@
+{
+  "status": "unavailable",
+  "reason": "No inspected diagnosis dataset, trained classifier, or held-out export has been supplied. Channels, cadence, defensible labels, and parent-family splits remain unresolved."
+}

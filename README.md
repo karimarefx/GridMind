@@ -1,5 +1,19 @@
 # GridMind forecasting PoC
 
+## Local frontend dashboard
+
+The frontend-only research dashboard is in [`frontend/`](frontend/README.md). It replays genuine saved forecasting predictions, displays clearly labeled reconstruction/cascade/action illustrations, and shows diagnosis as blocked until genuine episode exports are supplied. It uses a local static server with no application backend or browser inference.
+
+```powershell
+cd frontend
+npm ci
+npm run dev
+```
+
+See [`frontend.md`](frontend.md) for the implementation plan and the frontend README for data export contracts, verification commands, and the committee walkthrough. `plan.md` remains the original scope reference; the frontend-only overrides are recorded separately.
+
+## Forecasting research pipeline
+
 Three CPU XGBoost regressors provide rolling **one-hour-ahead** demand, solar and wind predictions. Net load is calculated as demand minus solar minus wind. Start with [the notebook](notebooks/01_xgboost_forecasting.ipynb); reusable training/inference code lives in `src/gridmind/forecasting.py`.
 
 The notebook has been executed locally without cell errors. Seven forecasting checks pass, including future-input leakage and invalid-history handling. The measured pipeline took about 100 seconds. See [held-out results](reports/forecasting/summary.md) and [the first test week](reports/forecasting/test_week.png). Test MAE was 485.98 MW for demand, 359.34 MW for solar, and 645.30 MW for wind; all three improved on last-observation persistence in this held-out period.

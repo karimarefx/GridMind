@@ -1,0 +1,435 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R 6 0 R 8 0 R 10 0 R] /Count 4 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 5271 >>
+stream
+BT
+/F1 8.5 Tf
+42 800 Td
+11 TL
+(GridMind Proposal ??" Section II Mock) Tj
+T*
+(GridMind Graduation Project Proposal) Tj
+T*
+(Mock draft ??" Section II: Review Protocol and Methodology Prepared from the supplied GridMind model) Tj
+T*
+(research notes and paper files) Tj
+T*
+(Use this as a mock, not a claim that a systematic search has already been completed. The supplied) Tj
+T*
+(Markdown files summarize model-specific studies and design implications, but the materials reviewed do) Tj
+T*
+(not document the original database queries, search dates, complete screening log, or PRISMA counts.) Tj
+T*
+(Replace every bracketed field with the team???s records. Do not report an unperformed search or invent) Tj
+T*
+(counts.) Tj
+T*
+(II. REVIEW PROTOCOL AND METHODOLOGY) Tj
+T*
+(This review examines the research basis for the five AI functions planned for GridMind: missing-telemetry) Tj
+T*
+(reconstruction, demand and renewable forecasting, event diagnosis, cascade-risk prediction, and) Tj
+T*
+(corrective-action recommendation. The five functions are treated as related tracks within one) Tj
+T*
+(project-wide literature review. Evidence is organized by function during extraction and then synthesized) Tj
+T*
+(against the proposal???s five shared research questions. A review protocol should be finalized before any) Tj
+T*
+(additional searching or screening and retained with a version date so that decisions can be traced.) Tj
+T*
+(The initial candidate corpus was assembled in the GridMind research Markdown files and supplied article) Tj
+T*
+(PDFs. These materials are the starting set for screening and extraction; their presence in a project file) Tj
+T*
+(alone does not establish that each source meets the review???s eligibility criteria. The protocol below) Tj
+T*
+(describes how the team will assess this existing set and record any supplementary searches that are) Tj
+T*
+(actually performed.) Tj
+T*
+(A. Eligibility Criteria) Tj
+T*
+(Studies will be assessed against criteria defined for the project-wide scope. A study may address one or) Tj
+T*
+(more GridMind functions, but its contribution and function tag will be recorded separately. The same rule) Tj
+T*
+(will be applied to all candidate studies.) Tj
+T*
+(| Include when the source??? | Exclude from the empirical study set when the source???) Tj
+T*
+(| Is a peer-reviewed journal or conference study, or a clearly identified research preprint retained as) Tj
+T*
+(supplementary evidence; is written in English; directly investigates one or more of the five GridMind) Tj
+T*
+(tasks; and provides enough detail about its method, data, or evaluation to extract relevant evidence. |) Tj
+T*
+(Is a duplicate; is outside the GridMind tasks; is only a dataset landing page, software repository,) Tj
+T*
+(general webpage, or project design note; or lacks accessible material sufficient to assess its) Tj
+T*
+(contribution.) Tj
+T*
+(| Reports an empirical method, benchmark, dataset, evaluation, or a systematic review relevant to the) Tj
+T*
+(research questions. Foundational studies may be retained even if older than the main date range, with) Tj
+T*
+(their rationale recorded. | Makes claims without a traceable source, or presents a proposed GridMind) Tj
+T*
+(design as if it were an independently evaluated research result.) Tj
+T*
+(Publication window: [enter the agreed start year]??"[date of final search]. Older foundational sources) Tj
+T*
+(will be listed separately with a reason for retention. Language: English [confirm]. Publication types:) Tj
+T*
+([confirm whether preprints are eligible for synthesis or background only].) Tj
+T*
+(B. Search Strategy) Tj
+T*
+(The existing project corpus will first be inventoried from the five model files and associated paper) Tj
+T*
+(PDFs. The team will record each paper???s bibliographic details, the model file in which it is discussed,) Tj
+T*
+(and whether the full text is available. To improve coverage beyond the papers already collected, searches) Tj
+T*
+(may be run in IEEE Xplore, ACM Digital Library, Scopus, Web of Science, and SpringerLink, with Google) Tj
+T*
+(Scholar used as a supplementary discovery source. Only databases actually searched should be named in the) Tj
+T*
+(final proposal.) Tj
+T*
+(Search terms will be adapted to each function. The following are example query structures to finalize and) Tj
+T*
+(execute; they are not a record of searches already run:) Tj
+T*
+(| GridMind track | Example search concepts) Tj
+T*
+(| Missing telemetry | \(power grid OR power system\) AND \(missing measurement OR missing telemetry OR state) Tj
+T*
+(estimation OR data reconstruction\) AND \(graph neural network OR spatio-temporal OR physics-informed\)) Tj
+T*
+(| Demand and renewable forecasting | \(electricity load OR net load\) AND \(solar OR wind OR renewable\) AND) Tj
+T*
+(\(forecasting OR prediction\) AND \(LSTM OR neural network OR machine learning\)) Tj
+T*
+(| Event diagnosis | \(power system OR smart grid\) AND \(event diagnosis OR fault detection OR event) Tj
+T*
+(classification OR fault localization\) AND \(machine learning OR deep learning OR time series\)) Tj
+T*
+(| Cascade-risk prediction | \(power grid OR power system\) AND \(cascading failure OR cascading outage\) AND) Tj
+T*
+(\(prediction OR risk assessment\) AND \(graph neural network OR physics-informed\)) Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 4841 >>
+stream
+BT
+/F1 8.5 Tf
+42 800 Td
+11 TL
+(| Corrective-action recommendation | \(power grid OR power system operation\) AND \(corrective action OR) Tj
+T*
+(redispatch OR topology control OR action recommendation\) AND \(imitation learning OR reinforcement) Tj
+T*
+(learning OR graph neural network\)) Tj
+T*
+(For every executed query, the search log will preserve the database, exact query string, filters, date) Tj
+T*
+(searched, and number of records exported. Queries may be adjusted for each database???s syntax, but all) Tj
+T*
+(changes will be recorded. Backward and forward citation checks may be used to identify relevant studies) Tj
+T*
+(and must be logged separately.) Tj
+T*
+(C. Study Selection Process) Tj
+T*
+(Inventory and deduplication: compile the papers already cited in the GridMind files and supplied PDFs;) Tj
+T*
+(match duplicate versions by title, authors, DOI, or preprint identifier; retain the most complete) Tj
+T*
+(accessible version and note related versions.) Tj
+T*
+(Title and abstract screening: apply the inclusion and exclusion criteria to each unique candidate. Assign) Tj
+T*
+(one or more function tags and record an exclusion reason where excluded.) Tj
+T*
+(Full-text screening: assess the remaining papers against the same criteria and confirm that the reported) Tj
+T*
+(work is relevant to at least one research question.) Tj
+T*
+(Decision review: where possible, two team members independently screen borderline studies and resolve) Tj
+T*
+(disagreements by discussion. If only one reviewer is available, document that limitation rather than) Tj
+T*
+(implying dual screening.) Tj
+T*
+(Reporting: populate a PRISMA-style flow diagram from the actual search and screening log. Do not estimate) Tj
+T*
+(or infer counts from the number of files currently present.) Tj
+T*
+(| Flow stage | Count to enter from screening log) Tj
+T*
+(| Records identified from database searches | [n = ____]) Tj
+T*
+(| Additional records identified from existing project files / citation checking | [n = ____]) Tj
+T*
+(| Duplicates removed | [n = ____]) Tj
+T*
+(| Titles and abstracts screened / excluded | [screened n = ____; excluded n = ____]) Tj
+T*
+(| Full texts assessed / excluded with reasons | [assessed n = ____; excluded n = ____]) Tj
+T*
+(| Studies included in qualitative synthesis | [n = ____]) Tj
+T*
+(D. Quality Assessment) Tj
+T*
+(Each included empirical study will be assessed using the checklist below. The template???s suggested) Tj
+T*
+(scoring scale will be used: Yes = 1, Partial = 0.5, and No = 0. The review team should decide and state) Tj
+T*
+(whether the score is used to exclude studies or only to qualify the strength of evidence. Until that) Tj
+T*
+(decision and scoring are completed, no quality-based exclusions or quality results should be claimed.) Tj
+T*
+(| Criterion | Assessment question | Score) Tj
+T*
+(| Objective clarity | Is the study???s task and objective clearly stated? | [0 / 0.5 / 1]) Tj
+T*
+(| Method suitability | Is the method appropriate for the stated task? | [0 / 0.5 / 1]) Tj
+T*
+(| Data transparency | Are the data source, preprocessing, and experimental setting described? | [0 / 0.5) Tj
+T*
+(/ 1]) Tj
+T*
+(| Evaluation transparency | Are baselines, metrics, and evaluation splits sufficiently reported? | [0 /) Tj
+T*
+(0.5 / 1]) Tj
+T*
+(| Reproducibility and validity | Are limitations acknowledged and conclusions supported by results? | [0) Tj
+T*
+(/ 0.5 / 1]) Tj
+T*
+(E. Data Extraction and Synthesis) Tj
+T*
+(One row will be completed for each included research study. Dataset pages, repositories, standards, and) Tj
+T*
+(project handover documents may be recorded in a separate resources list, but will not be counted as) Tj
+T*
+(empirical research papers unless they themselves report an eligible study.) Tj
+T*
+(| Field | Information to extract) Tj
+T*
+(| Bibliographic details | Authors, year, title, venue, DOI or stable identifier, peer-review/preprint) Tj
+T*
+(status) Tj
+T*
+(| GridMind function | Missing telemetry; forecasting; event diagnosis; cascade risk; corrective action) Tj
+T*
+(| Research contribution | Task, objective, method/model, inputs and outputs) Tj
+T*
+(| Evidence | Dataset/network, sample size where stated, preprocessing, baselines, split protocol) Tj
+T*
+(| Evaluation | Metrics, reported results, validation setting, comparison conditions) Tj
+T*
+(| Assessment | Key strengths, limitations, quality scores, relevance to GridMind, extraction notes) Tj
+T*
+(Evidence will first be summarized within each model track to preserve differences in task, data, and) Tj
+T*
+(metrics. It will then be compared across the project under the five shared research questions: state of) Tj
+T*
+(the art; methods and data; tools and resources; gaps and limitations; and evidence-based directions for) Tj
+T*
+(GridMind. Narrative and thematic synthesis will be used because the five functions use different) Tj
+T*
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 9 0 R >>
+endobj
+9 0 obj
+<< /Length 5165 >>
+stream
+BT
+/F1 8.5 Tf
+42 800 Td
+11 TL
+(prediction targets and evaluation measures, so a single pooled performance comparison would not be) Tj
+T*
+(meaningful. Paper-reported findings will be distinguished from GridMind design proposals and from results) Tj
+T*
+(produced by the GridMind implementation.) Tj
+T*
+(F. Data Extraction Template \(Table I\)) Tj
+T*
+(Table I is the working extraction form. Complete one row per included research paper after screening. The) Tj
+T*
+(short entries below illustrate the intended format from the supplied project corpus; they are not final) Tj
+T*
+(screening decisions. Replace or expand the rows based on the final included set. Keep dataset websites,) Tj
+T*
+(repositories, and handover documents in a separate resources list.) Tj
+T*
+(| ID | Study / GridMind area | Method and evidence to extract | Metrics, findings, limitations) Tj
+T*
+(| 1 | STGNI / missing telemetry | Graph spatio-temporal reconstruction; record network, missingness) Tj
+T*
+(setup, baselines, and split. | Enter reported reconstruction metrics and limitations from the paper.) Tj
+T*
+(| 2 | ERCOT neural forecasting / demand and renewables | Direct and indirect neural forecasting; record) Tj
+T*
+(targets, time-series source, horizon, and chronological split. | Enter reported forecast metrics and) Tj
+T*
+(transfer limitations.) Tj
+T*
+(| 3 | PI-GN-JODE / cascade risk | Physics-informed graph neural jump ODE; record network, simulated) Tj
+T*
+(cascade scenarios, and comparison methods. | Enter paper-reported branch/bus, severity, and DNS results;) Tj
+T*
+(do not report as GridMind results.) Tj
+T*
+(| 4 | Imitation learning topology control / corrective action | Expert-generated action labels and neural) Tj
+T*
+(policy; record action type, simulator, data split, and validation. | Enter reported performance and note) Tj
+T*
+(that topology switching is not redispatch.) Tj
+T*
+(| 5 | Event diagnosis candidate study | [Add citation and extract classification/localization method,) Tj
+T*
+(dataset, labels, and evaluation.] | [Complete after the supporting paper is identified and screened.]) Tj
+T*
+(G. Methodology Summary \(Table II\)) Tj
+T*
+(Table II summarizes the review procedure and must describe what the team actually did. The entries marked) Tj
+T*
+(???to complete??? are placeholders where the project files do not yet record execution details.) Tj
+T*
+(| Step | Purpose | How it will be carried out / status) Tj
+T*
+(| Framework and protocol | Make the review transparent and repeatable. | Use the university template???s) Tj
+T*
+(structured review and PRISMA-style reporting; save a dated protocol version. [Protocol date/version.]) Tj
+T*
+(| Eligibility | Apply consistent relevance and quality rules. | Use Section II-A criteria across all five) Tj
+T*
+(model tracks. [Confirm date range, paper types, language, and quality threshold.]) Tj
+T*
+(| Search | Document how candidate papers were located. | Inventory supplied papers, then record only) Tj
+T*
+(databases actually searched, exact per-track queries, filters, and search dates. [Complete search log.]) Tj
+T*
+(| Selection | Reduce candidates consistently and report exclusions. | Deduplicate; screen) Tj
+T*
+(titles/abstracts and full texts; log reasons and real counts. [Reviewer arrangement and PRISMA counts.]) Tj
+T*
+(| Quality assessment | Judge evidence strength and reporting quality. | Score the checklist in Section) Tj
+T*
+(II-D using Yes=1, Partial=0.5, No=0. [State exclusion threshold or use scores only to qualify evidence.]) Tj
+T*
+(| Extraction and synthesis | Enable comparison and answer the RQs. | Use Table I, synthesize within model) Tj
+T*
+(tracks, then compare by the five shared RQs. [Record extraction date/reviewer.]) Tj
+T*
+(H. Descriptive Statistics of Included Studies \(Table III\)) Tj
+T*
+(Populate Table III from the final screened and included study set, not from the number of files currently) Tj
+T*
+(in the project folder. Percentages should use the total number of included research studies as the) Tj
+T*
+(denominator. These are placeholders, not findings.) Tj
+T*
+(| Attribute | Count | % | Notes / categories) Tj
+T*
+(| Publication years | [n] | [%] | [Range and distribution]) Tj
+T*
+(| Study type | [n] | [%] | [Empirical, review, preprint, etc.]) Tj
+T*
+(| Venue | [n] | [%] | [Journal / conference / other eligible type]) Tj
+T*
+(| GridMind function | [n] | [%] | [Missing telemetry, forecasting, event diagnosis, cascade risk,) Tj
+T*
+(corrective action; a study may cover multiple functions]) Tj
+T*
+(| Methods | [n] | [%] | [GNN, temporal model, tree/ensemble, optimization/imitation learning, hybrid,) Tj
+T*
+(etc.]) Tj
+T*
+(Protocol Tracking Checklist for the Team) Tj
+T*
+(| Before finalizing this section | Status) Tj
+T*
+(| Confirm the five model functions and freeze the scope | [complete / pending]) Tj
+T*
+(| Record each supplied paper???s citation and assign model tags | [complete / pending]) Tj
+T*
+(| Confirm eligibility rules, date window, and preprint treatment | [complete / pending]) Tj
+T*
+(| Run and log any supplementary database searches | [complete / pending]) Tj
+T*
+(| Complete duplicate, title/abstract, and full-text screening | [complete / pending]) Tj
+T*
+ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 11 0 R >>
+endobj
+11 0 obj
+<< /Length 614 >>
+stream
+BT
+/F1 8.5 Tf
+42 800 Td
+11 TL
+(| Complete quality assessment and extraction table | [complete / pending]) Tj
+T*
+(| Calculate counts and generate PRISMA flow diagram from the log | [complete / pending]) Tj
+T*
+(Note on current source files: the project workspace contains substantial research notes for missing) Tj
+T*
+(telemetry, forecasting, cascade risk, event diagnosis, and corrective-action recommendation. The notes) Tj
+T*
+(provide a starting corpus and technical synthesis. The review log still needs to establish which sources) Tj
+T*
+(were searched, screened, and included under the final protocol.) Tj
+T*
+ET
+endstream
+endobj
+xref
+0 12
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000134 00000 n 
+0000000204 00000 n 
+0000000330 00000 n 
+0000005653 00000 n 
+0000005779 00000 n 
+0000010672 00000 n 
+0000010798 00000 n 
+0000016015 00000 n 
+0000016143 00000 n 
+trailer
+<< /Size 12 /Root 1 0 R >>
+startxref
+16809
+%%EOF

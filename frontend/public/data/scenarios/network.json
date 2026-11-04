@@ -1,0 +1,300 @@
+{
+  "id": "illustrative14-v1",
+  "version": "1",
+  "provenance_kind": "simulated",
+  "origin": "authored_illustration",
+  "review_status": "Awaiting model-owner review",
+  "buses": [
+    {
+      "id": "illustrative14:bus:01",
+      "label": "01",
+      "x": 85,
+      "y": 135,
+      "type": "bus",
+      "in_service": true
+    },
+    {
+      "id": "illustrative14:bus:02",
+      "label": "02",
+      "x": 205,
+      "y": 85,
+      "type": "bus",
+      "in_service": true
+    },
+    {
+      "id": "illustrative14:bus:03",
+      "label": "03",
+      "x": 345,
+      "y": 85,
+      "type": "bus",
+      "in_service": true
+    },
+    {
+      "id": "illustrative14:bus:04",
+      "label": "04",
+      "x": 485,
+      "y": 135,
+      "type": "bus",
+      "in_service": true
+    },
+    {
+      "id": "illustrative14:bus:05",
+      "label": "05",
+      "x": 610,
+      "y": 85,
+      "type": "bus",
+      "in_service": true
+    },
+    {
+      "id": "illustrative14:bus:06",
+      "label": "06",
+      "x": 735,
+      "y": 135,
+      "type": "bus",
+      "in_service": true
+    },
+    {
+      "id": "illustrative14:bus:07",
+      "label": "07",
+      "x": 805,
+      "y": 250,
+      "type": "bus",
+      "in_service": true
+    },
+    {
+      "id": "illustrative14:bus:08",
+      "label": "08",
+      "x": 660,
+      "y": 300,
+      "type": "bus",
+      "in_service": true
+    },
+    {
+      "id": "illustrative14:bus:09",
+      "label": "09",
+      "x": 510,
+      "y": 255,
+      "type": "bus",
+      "in_service": true
+    },
+    {
+      "id": "illustrative14:bus:10",
+      "label": "10",
+      "x": 370,
+      "y": 300,
+      "type": "bus",
+      "in_service": true
+    },
+    {
+      "id": "illustrative14:bus:11",
+      "label": "11",
+      "x": 240,
+      "y": 250,
+      "type": "bus",
+      "in_service": true
+    },
+    {
+      "id": "illustrative14:bus:12",
+      "label": "12",
+      "x": 95,
+      "y": 300,
+      "type": "bus",
+      "in_service": true
+    },
+    {
+      "id": "illustrative14:bus:13",
+      "label": "13",
+      "x": 245,
+      "y": 415,
+      "type": "bus",
+      "in_service": true
+    },
+    {
+      "id": "illustrative14:bus:14",
+      "label": "14",
+      "x": 520,
+      "y": 415,
+      "type": "bus",
+      "in_service": true
+    }
+  ],
+  "lines": [
+    {
+      "id": "illustrative14:line:01",
+      "label": "L01",
+      "source": "illustrative14:bus:01",
+      "target": "illustrative14:bus:02",
+      "type": "line",
+      "in_service": true
+    },
+    {
+      "id": "illustrative14:line:02",
+      "label": "L02",
+      "source": "illustrative14:bus:02",
+      "target": "illustrative14:bus:03",
+      "type": "line",
+      "in_service": true
+    },
+    {
+      "id": "illustrative14:line:03",
+      "label": "L03",
+      "source": "illustrative14:bus:03",
+      "target": "illustrative14:bus:04",
+      "type": "line",
+      "in_service": true
+    },
+    {
+      "id": "illustrative14:line:04",
+      "label": "L04",
+      "source": "illustrative14:bus:04",
+      "target": "illustrative14:bus:05",
+      "type": "line",
+      "in_service": true
+    },
+    {
+      "id": "illustrative14:line:05",
+      "label": "L05",
+      "source": "illustrative14:bus:05",
+      "target": "illustrative14:bus:06",
+      "type": "line",
+      "in_service": true
+    },
+    {
+      "id": "illustrative14:line:06",
+      "label": "L06",
+      "source": "illustrative14:bus:06",
+      "target": "illustrative14:bus:07",
+      "type": "line",
+      "in_service": true
+    },
+    {
+      "id": "illustrative14:line:07",
+      "label": "L07",
+      "source": "illustrative14:bus:07",
+      "target": "illustrative14:bus:08",
+      "type": "line",
+      "in_service": true
+    },
+    {
+      "id": "illustrative14:line:08",
+      "label": "L08",
+      "source": "illustrative14:bus:08",
+      "target": "illustrative14:bus:09",
+      "type": "line",
+      "in_service": true
+    },
+    {
+      "id": "illustrative14:line:09",
+      "label": "L09",
+      "source": "illustrative14:bus:09",
+      "target": "illustrative14:bus:10",
+      "type": "line",
+      "in_service": true
+    },
+    {
+      "id": "illustrative14:line:10",
+      "label": "L10",
+      "source": "illustrative14:bus:10",
+      "target": "illustrative14:bus:11",
+      "type": "line",
+      "in_service": true
+    },
+    {
+      "id": "illustrative14:line:11",
+      "label": "L11",
+      "source": "illustrative14:bus:11",
+      "target": "illustrative14:bus:12",
+      "type": "line",
+      "in_service": true
+    },
+    {
+      "id": "illustrative14:line:12",
+      "label": "L12",
+      "source": "illustrative14:bus:12",
+      "target": "illustrative14:bus:01",
+      "type": "line",
+      "in_service": true
+    },
+    {
+      "id": "illustrative14:line:13",
+      "label": "L13",
+      "source": "illustrative14:bus:11",
+      "target": "illustrative14:bus:13",
+      "type": "line",
+      "in_service": true
+    },
+    {
+      "id": "illustrative14:line:14",
+      "label": "L14",
+      "source": "illustrative14:bus:13",
+      "target": "illustrative14:bus:14",
+      "type": "line",
+      "in_service": true
+    },
+    {
+      "id": "illustrative14:line:15",
+      "label": "L15",
+      "source": "illustrative14:bus:14",
+      "target": "illustrative14:bus:09",
+      "type": "line",
+      "in_service": true
+    },
+    {
+      "id": "illustrative14:line:16",
+      "label": "L16",
+      "source": "illustrative14:bus:02",
+      "target": "illustrative14:bus:11",
+      "type": "line",
+      "in_service": true
+    },
+    {
+      "id": "illustrative14:line:17",
+      "label": "L17",
+      "source": "illustrative14:bus:03",
+      "target": "illustrative14:bus:10",
+      "type": "line",
+      "in_service": true
+    },
+    {
+      "id": "illustrative14:line:18",
+      "label": "L18",
+      "source": "illustrative14:bus:04",
+      "target": "illustrative14:bus:09",
+      "type": "line",
+      "in_service": true
+    },
+    {
+      "id": "illustrative14:line:19",
+      "label": "L19",
+      "source": "illustrative14:bus:06",
+      "target": "illustrative14:bus:09",
+      "type": "line",
+      "in_service": true
+    },
+    {
+      "id": "illustrative14:line:20",
+      "label": "L20",
+      "source": "illustrative14:bus:10",
+      "target": "illustrative14:bus:13",
+      "type": "line",
+      "in_service": true
+    }
+  ],
+  "resources": [
+    {
+      "id": "illustrative14:generator:01",
+      "bus_id": "illustrative14:bus:01",
+      "type": "generator"
+    },
+    {
+      "id": "illustrative14:generator:02",
+      "bus_id": "illustrative14:bus:06",
+      "type": "generator"
+    },
+    {
+      "id": "illustrative14:load:01",
+      "bus_id": "illustrative14:bus:13",
+      "type": "load"
+    }
+  ]
+}

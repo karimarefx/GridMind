@@ -1,0 +1,110 @@
+{
+  "schema_version": "1",
+  "bundle_id": "gridmind-local-v1",
+  "artifact_version": "1",
+  "run_id": "local-sampled-run",
+  "model_version": "xgboost-sample-v1",
+  "exported_at_utc": "2026-11-03T22:52:31.120594+00:00",
+  "dataset_id": "ercot-2021-2024-sampled",
+  "source_id": "supplied-ercot-csv",
+  "source_sha256": "de3486a1795551ccbee47f09d69545d974dde38ea7a763601fefe2b42ee642f7",
+  "origin": "Existing locally executed XGBoost run; not a Colab execution",
+  "units": {
+    "power": "MW",
+    "capacity": "MW",
+    "proxy": "dimensionless"
+  },
+  "limitations": [
+    "UTC hour-ending semantics follow supplied documentation, not an independent workbook audit.",
+    "Assumes completed source hour is available immediately at issue time.",
+    "Last-observed installed capacity used for clipping/reconstruction; historical publication timing unverified.",
+    "Uniform solar weights; no weather; no neural-model reproduction.",
+    "Held-out windows do not cover all seasons; no full-year generalization claim.",
+    "CSV component precision retained; packaged net load calculated from those components.",
+    "Illustrative fixtures await model-owner review."
+  ],
+  "capabilities": {
+    "forecasting": "available",
+    "diagnosis": "blocked",
+    "reconstruction": "simulated",
+    "cascade": "simulated",
+    "actions": "simulated"
+  },
+  "files": [
+    {
+      "path": "catalog.json",
+      "sha256": "6d235dba4532ec9e06ef43ebc260f01361c63db8f8e0b519b0ab40f1bc711db1",
+      "artifact_version": "1"
+    },
+    {
+      "path": "diagnosis/diagnosis_evaluation.json",
+      "sha256": "793c731c8cacf741a37d925cb1d649e5c34f6e9567978003d999fdcf31ddd629",
+      "artifact_version": "1"
+    },
+    {
+      "path": "diagnosis/diagnosis_predictions.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "artifact_version": "1"
+    },
+    {
+      "path": "diagnosis/event_episodes.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "artifact_version": "1"
+    },
+    {
+      "path": "evaluation/forecast_metrics.json",
+      "sha256": "f353fcf15f381c1988cb6c6c2590d07533bca1733c947a4584f3ec08337f5797",
+      "artifact_version": "1"
+    },
+    {
+      "path": "evaluation/metrics.csv",
+      "sha256": "d17f85cd476b841a2a9081dcbb51adb08501a2eebdf67b974e30ee897344c2c4",
+      "artifact_version": "1"
+    },
+    {
+      "path": "evaluation/run_manifest.json",
+      "sha256": "e5bdb2f0cd711b02a52d7a37f17078cec6a90fe257e00eb3db366451abb5210f",
+      "artifact_version": "1"
+    },
+    {
+      "path": "evaluation/split_manifest.csv",
+      "sha256": "f1dce2b7cabca95899759d6e8057591e781d136835af7f6204a70c06edb02b6a",
+      "artifact_version": "1"
+    },
+    {
+      "path": "evaluation/summary.md",
+      "sha256": "8d592dfdea41baa270a72d29468e27a668c438ad89f852060e6c17a0db599ce7",
+      "artifact_version": "1"
+    },
+    {
+      "path": "forecasting/forecast_baselines.json",
+      "sha256": "ca7242646145867592e30f1ae6e8802284214c666f5b51e6d12c482f95c208d8",
+      "artifact_version": "1"
+    },
+    {
+      "path": "forecasting/forecast_observations.csv",
+      "sha256": "a221d4bc82f2818f971e923d25646da5dc8927462142be3bc5f92f4bd9679887",
+      "artifact_version": "1"
+    },
+    {
+      "path": "forecasting/forecast_observations.json",
+      "sha256": "228f566b6a8f2ce3d7b1807e1e5c5aa4b21e1a2b8bace05358199fe2742890dd",
+      "artifact_version": "1"
+    },
+    {
+      "path": "forecasting/forecast_predictions.json",
+      "sha256": "490486cd6909770c16a8f606a6f865d3604421b720eab76eb2659497448698e5",
+      "artifact_version": "1"
+    },
+    {
+      "path": "scenarios/laboratory.json",
+      "sha256": "fc691aea6e4950c7d4bbc7a539d9e4fbdd8fc3c503e355f4e8fd9355148ada85",
+      "artifact_version": "1"
+    },
+    {
+      "path": "scenarios/network.json",
+      "sha256": "d162857e71eab22738d287a4e0fdf3c507c968f31021fada092de97facd10f97",
+      "artifact_version": "1"
+    }
+  ]
+}

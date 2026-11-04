@@ -1,0 +1,308 @@
+{
+  "id": "illustrative14-v1",
+  "version": "1",
+  "provenance_kind": "simulated",
+  "review_status": "Awaiting model-owner review",
+  "assumptions": [
+    "Authored illustration; no power flow or physical validation.",
+    "The chosen outage is hypothetical, not inferred from diagnosis.",
+    "Source forecasts are not allocated to this network."
+  ],
+  "defaults": {
+    "contingency_id": "illustrative14:line:04",
+    "stress": "moderate",
+    "mask": "short-gap"
+  },
+  "traces": [
+    {
+      "step": 0,
+      "reference": 1.002
+    },
+    {
+      "step": 1,
+      "reference": 1.004
+    },
+    {
+      "step": 2,
+      "reference": 1.006
+    },
+    {
+      "step": 3,
+      "reference": 1.008
+    },
+    {
+      "step": 4,
+      "reference": 1.01
+    },
+    {
+      "step": 5,
+      "reference": 1.012
+    },
+    {
+      "step": 6,
+      "reference": 1.014
+    },
+    {
+      "step": 7,
+      "reference": 1.016
+    },
+    {
+      "step": 8,
+      "reference": 1.002
+    },
+    {
+      "step": 9,
+      "reference": 1.004
+    },
+    {
+      "step": 10,
+      "reference": 1.006
+    },
+    {
+      "step": 11,
+      "reference": 1.008
+    },
+    {
+      "step": 12,
+      "reference": 1.01
+    },
+    {
+      "step": 13,
+      "reference": 1.012
+    },
+    {
+      "step": 14,
+      "reference": 1.014
+    },
+    {
+      "step": 15,
+      "reference": 1.016
+    },
+    {
+      "step": 16,
+      "reference": 1.002
+    },
+    {
+      "step": 17,
+      "reference": 1.004
+    },
+    {
+      "step": 18,
+      "reference": 1.006
+    },
+    {
+      "step": 19,
+      "reference": 1.008
+    },
+    {
+      "step": 20,
+      "reference": 1.01
+    },
+    {
+      "step": 21,
+      "reference": 1.012
+    },
+    {
+      "step": 22,
+      "reference": 1.014
+    },
+    {
+      "step": 23,
+      "reference": 1.016
+    }
+  ],
+  "missingness_presets": [
+    {
+      "id": "short-gap",
+      "title": "Short gap \u00b7 4 samples",
+      "steps": [
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "id": "long-gap",
+      "title": "Long gap \u00b7 8 samples",
+      "steps": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ]
+    }
+  ],
+  "combinations": [
+    {
+      "contingency_id": "illustrative14:line:04",
+      "stress": "moderate",
+      "rounds": [
+        {
+          "round": 0,
+          "affected": [],
+          "severity": "Initiating outage only",
+          "dns_fraction": 0
+        },
+        {
+          "round": 1,
+          "affected": [
+            "illustrative14:line:09"
+          ],
+          "severity": "Moderate illustration",
+          "dns_fraction": 0.03
+        },
+        {
+          "round": 2,
+          "affected": [
+            "illustrative14:line:09",
+            "illustrative14:line:17"
+          ],
+          "severity": "Elevated illustration",
+          "dns_fraction": 0.08
+        }
+      ],
+      "baseline_loading_pct": 108,
+      "baseline_voltage_pu": 0.94
+    },
+    {
+      "contingency_id": "illustrative14:line:04",
+      "stress": "elevated",
+      "rounds": [
+        {
+          "round": 0,
+          "affected": [],
+          "severity": "Initiating outage only",
+          "dns_fraction": 0
+        },
+        {
+          "round": 1,
+          "affected": [
+            "illustrative14:line:09"
+          ],
+          "severity": "Moderate illustration",
+          "dns_fraction": 0.03
+        },
+        {
+          "round": 2,
+          "affected": [
+            "illustrative14:line:09",
+            "illustrative14:line:17",
+            "illustrative14:line:19"
+          ],
+          "severity": "Elevated illustration",
+          "dns_fraction": 0.15
+        }
+      ],
+      "baseline_loading_pct": 122,
+      "baseline_voltage_pu": 0.91
+    },
+    {
+      "contingency_id": "illustrative14:line:09",
+      "stress": "moderate",
+      "rounds": [
+        {
+          "round": 0,
+          "affected": [],
+          "severity": "Initiating outage only",
+          "dns_fraction": 0
+        },
+        {
+          "round": 1,
+          "affected": [
+            "illustrative14:line:04"
+          ],
+          "severity": "Moderate illustration",
+          "dns_fraction": 0.03
+        },
+        {
+          "round": 2,
+          "affected": [
+            "illustrative14:line:04",
+            "illustrative14:line:17"
+          ],
+          "severity": "Elevated illustration",
+          "dns_fraction": 0.08
+        }
+      ],
+      "baseline_loading_pct": 108,
+      "baseline_voltage_pu": 0.94
+    },
+    {
+      "contingency_id": "illustrative14:line:09",
+      "stress": "elevated",
+      "rounds": [
+        {
+          "round": 0,
+          "affected": [],
+          "severity": "Initiating outage only",
+          "dns_fraction": 0
+        },
+        {
+          "round": 1,
+          "affected": [
+            "illustrative14:line:04"
+          ],
+          "severity": "Moderate illustration",
+          "dns_fraction": 0.03
+        },
+        {
+          "round": 2,
+          "affected": [
+            "illustrative14:line:04",
+            "illustrative14:line:17",
+            "illustrative14:line:19"
+          ],
+          "severity": "Elevated illustration",
+          "dns_fraction": 0.15
+        }
+      ],
+      "baseline_loading_pct": 122,
+      "baseline_voltage_pu": 0.91
+    }
+  ],
+  "actions": [
+    {
+      "id": "no-change",
+      "title": "No change",
+      "changes": [],
+      "loading_delta_pct": 0,
+      "voltage_delta_pu": 0,
+      "outcome": "Unsuccessful illustration: stress remains"
+    },
+    {
+      "id": "redispatch",
+      "title": "Generator redispatch",
+      "changes": [
+        {
+          "component_id": "illustrative14:generator:01",
+          "delta_mw": -5
+        },
+        {
+          "component_id": "illustrative14:generator:02",
+          "delta_mw": 5
+        }
+      ],
+      "loading_delta_pct": -14,
+      "voltage_delta_pu": 0.025,
+      "outcome": "Scripted improvement; not physically validated"
+    },
+    {
+      "id": "curtailment",
+      "title": "Renewable curtailment",
+      "changes": [
+        {
+          "component_id": "illustrative14:generator:02",
+          "delta_mw": -3
+        }
+      ],
+      "loading_delta_pct": -6,
+      "voltage_delta_pu": 0.01,
+      "outcome": "Scripted partial improvement; replacement supply unspecified"
+    }
+  ]
+}

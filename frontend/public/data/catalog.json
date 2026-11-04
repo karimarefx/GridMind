@@ -1,0 +1,23 @@
+{
+  "schema_version": "1",
+  "bundle_id": "gridmind-local-v1",
+  "default_scenario": "first-week",
+  "scenarios": [
+    {
+      "id": "first-week",
+      "title": "First held-out week",
+      "description": "168 genuine hourly forecasts from the first test week. The laboratory is a separate authored illustration.",
+      "forecast_start": 0,
+      "forecast_end": 167,
+      "laboratory_id": "illustrative14-v1"
+    },
+    {
+      "id": "day-two",
+      "title": "Day two \u00b7 replay focus",
+      "description": "A 24-hour subset of the same held-out export. No additional training or inference.",
+      "forecast_start": 24,
+      "forecast_end": 47,
+      "laboratory_id": "illustrative14-v1"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>GridMind Proposal — Section II Mock</title>
+<style>
+@page { size: A4; margin: 20mm 18mm 20mm 18mm; }
+body { font-family: "Times New Roman", serif; font-size: 11pt; line-height: 1.28; color: #171717; }
+h1 { font-size: 17pt; text-align: center; margin: 0 0 6pt; }
+.subtitle { text-align: center; color: #555; margin: 0 0 18pt; font-size: 10pt; }
+h2 { font-size: 14pt; margin: 16pt 0 6pt; }
+h3 { font-size: 11.5pt; margin: 10pt 0 4pt; }
+p { margin: 4pt 0 7pt; text-align: justify; }
+ul, ol { margin-top: 3pt; margin-bottom: 7pt; }
+li { margin: 2pt 0; }
+table { width: 100%; border-collapse: collapse; margin: 7pt 0 10pt; font-size: 9pt; }
+th, td { border: 1px solid #777; padding: 4pt 5pt; vertical-align: top; }
+th { background: #eaf0f6; text-align: left; }
+.note { border-left: 3px solid #c58216; padding: 6pt 8pt; background: #fff7e8; font-size: 9.5pt; margin: 8pt 0; }
+.small { font-size: 9pt; color: #444; }
+.page { page-break-before: always; }
+code { font-family: Consolas, monospace; font-size: 9pt; }
+</style>
+</head>
+<body>
+<h1>GridMind Graduation Project Proposal</h1>
+<p class="subtitle">Mock draft — Section II: Review Protocol and Methodology<br>Prepared from the supplied GridMind model research notes and paper files</p>
+
+<div class="note"><b>Use this as a mock, not a claim that a systematic search has already been completed.</b> The supplied Markdown files summarize model-specific studies and design implications, but the materials reviewed do not document the original database queries, search dates, complete screening log, or PRISMA counts. Replace every bracketed field with the team’s records. Do not report an unperformed search or invent counts.</div>
+
+<h2>II. REVIEW PROTOCOL AND METHODOLOGY</h2>
+<p>This review examines the research basis for the five AI functions planned for GridMind: missing-telemetry reconstruction, demand and renewable forecasting, event diagnosis, cascade-risk prediction, and corrective-action recommendation. The five functions are treated as related tracks within one project-wide literature review. Evidence is organized by function during extraction and then synthesized against the proposal’s five shared research questions. A review protocol should be finalized before any additional searching or screening and retained with a version date so that decisions can be traced.</p>
+<p>The initial candidate corpus was assembled in the GridMind research Markdown files and supplied article PDFs. These materials are the starting set for screening and extraction; their presence in a project file alone does not establish that each source meets the review’s eligibility criteria. The protocol below describes how the team will assess this existing set and record any supplementary searches that are actually performed.</p>
+
+<h3>A. Eligibility Criteria</h3>
+<p>Studies will be assessed against criteria defined for the project-wide scope. A study may address one or more GridMind functions, but its contribution and function tag will be recorded separately. The same rule will be applied to all candidate studies.</p>
+<table><tr><th>Include when the source…</th><th>Exclude from the empirical study set when the source…</th></tr>
+<tr><td>Is a peer-reviewed journal or conference study, or a clearly identified research preprint retained as supplementary evidence; is written in English; directly investigates one or more of the five GridMind tasks; and provides enough detail about its method, data, or evaluation to extract relevant evidence.</td><td>Is a duplicate; is outside the GridMind tasks; is only a dataset landing page, software repository, general webpage, or project design note; or lacks accessible material sufficient to assess its contribution.</td></tr>
+<tr><td>Reports an empirical method, benchmark, dataset, evaluation, or a systematic review relevant to the research questions. Foundational studies may be retained even if older than the main date range, with their rationale recorded.</td><td>Makes claims without a traceable source, or presents a proposed GridMind design as if it were an independently evaluated research result.</td></tr></table>
+<p><b>Publication window:</b> [enter the agreed start year]–[date of final search]. Older foundational sources will be listed separately with a reason for retention. <b>Language:</b> English [confirm]. <b>Publication types:</b> [confirm whether preprints are eligible for synthesis or background only].</p>
+
+<h3>B. Search Strategy</h3>
+<p>The existing project corpus will first be inventoried from the five model files and associated paper PDFs. The team will record each paper’s bibliographic details, the model file in which it is discussed, and whether the full text is available. To improve coverage beyond the papers already collected, searches may be run in IEEE Xplore, ACM Digital Library, Scopus, Web of Science, and SpringerLink, with Google Scholar used as a supplementary discovery source. Only databases actually searched should be named in the final proposal.</p>
+<p>Search terms will be adapted to each function. The following are example query structures to finalize and execute; they are not a record of searches already run:</p>
+<table><tr><th>GridMind track</th><th>Example search concepts</th></tr>
+<tr><td>Missing telemetry</td><td>(power grid OR power system) AND (missing measurement OR missing telemetry OR state estimation OR data reconstruction) AND (graph neural network OR spatio-temporal OR physics-informed)</td></tr>
+<tr><td>Demand and renewable forecasting</td><td>(electricity load OR net load) AND (solar OR wind OR renewable) AND (forecasting OR prediction) AND (LSTM OR neural network OR machine learning)</td></tr>
+<tr><td>Event diagnosis</td><td>(power system OR smart grid) AND (event diagnosis OR fault detection OR event classification OR fault localization) AND (machine learning OR deep learning OR time series)</td></tr>
+<tr><td>Cascade-risk prediction</td><td>(power grid OR power system) AND (cascading failure OR cascading outage) AND (prediction OR risk assessment) AND (graph neural network OR physics-informed)</td></tr>
+<tr><td>Corrective-action recommendation</td><td>(power grid OR power system operation) AND (corrective action OR redispatch OR topology control OR action recommendation) AND (imitation learning OR reinforcement learning OR graph neural network)</td></tr></table>
+<p>For every executed query, the search log will preserve the database, exact query string, filters, date searched, and number of records exported. Queries may be adjusted for each database’s syntax, but all changes will be recorded. Backward and forward citation checks may be used to identify relevant studies and must be logged separately.</p>
+
+<h3>C. Study Selection Process</h3>
+<ol>
+<li><b>Inventory and deduplication:</b> compile the papers already cited in the GridMind files and supplied PDFs; match duplicate versions by title, authors, DOI, or preprint identifier; retain the most complete accessible version and note related versions.</li>
+<li><b>Title and abstract screening:</b> apply the inclusion and exclusion criteria to each unique candidate. Assign one or more function tags and record an exclusion reason where excluded.</li>
+<li><b>Full-text screening:</b> assess the remaining papers against the same criteria and confirm that the reported work is relevant to at least one research question.</li>
+<li><b>Decision review:</b> where possible, two team members independently screen borderline studies and resolve disagreements by discussion. If only one reviewer is available, document that limitation rather than implying dual screening.</li>
+<li><b>Reporting:</b> populate a PRISMA-style flow diagram from the actual search and screening log. Do not estimate or infer counts from the number of files currently present.</li>
+</ol>
+<table><tr><th>Flow stage</th><th>Count to enter from screening log</th></tr>
+<tr><td>Records identified from database searches</td><td>[n = ____]</td></tr><tr><td>Additional records identified from existing project files / citation checking</td><td>[n = ____]</td></tr><tr><td>Duplicates removed</td><td>[n = ____]</td></tr><tr><td>Titles and abstracts screened / excluded</td><td>[screened n = ____; excluded n = ____]</td></tr><tr><td>Full texts assessed / excluded with reasons</td><td>[assessed n = ____; excluded n = ____]</td></tr><tr><td>Studies included in qualitative synthesis</td><td>[n = ____]</td></tr></table>
+
+<h3>D. Quality Assessment</h3>
+<p>Each included empirical study will be assessed using the checklist below. The template’s suggested scoring scale will be used: Yes = 1, Partial = 0.5, and No = 0. The review team should decide and state whether the score is used to exclude studies or only to qualify the strength of evidence. Until that decision and scoring are completed, no quality-based exclusions or quality results should be claimed.</p>
+<table><tr><th>Criterion</th><th>Assessment question</th><th>Score</th></tr>
+<tr><td>Objective clarity</td><td>Is the study’s task and objective clearly stated?</td><td>[0 / 0.5 / 1]</td></tr>
+<tr><td>Method suitability</td><td>Is the method appropriate for the stated task?</td><td>[0 / 0.5 / 1]</td></tr>
+<tr><td>Data transparency</td><td>Are the data source, preprocessing, and experimental setting described?</td><td>[0 / 0.5 / 1]</td></tr>
+<tr><td>Evaluation transparency</td><td>Are baselines, metrics, and evaluation splits sufficiently reported?</td><td>[0 / 0.5 / 1]</td></tr>
+<tr><td>Reproducibility and validity</td><td>Are limitations acknowledged and conclusions supported by results?</td><td>[0 / 0.5 / 1]</td></tr></table>
+
+<h3>E. Data Extraction and Synthesis</h3>
+<p>One row will be completed for each included research study. Dataset pages, repositories, standards, and project handover documents may be recorded in a separate resources list, but will not be counted as empirical research papers unless they themselves report an eligible study.</p>
+<table><tr><th>Field</th><th>Information to extract</th></tr>
+<tr><td>Bibliographic details</td><td>Authors, year, title, venue, DOI or stable identifier, peer-review/preprint status</td></tr>
+<tr><td>GridMind function</td><td>Missing telemetry; forecasting; event diagnosis; cascade risk; corrective action</td></tr>
+<tr><td>Research contribution</td><td>Task, objective, method/model, inputs and outputs</td></tr>
+<tr><td>Evidence</td><td>Dataset/network, sample size where stated, preprocessing, baselines, split protocol</td></tr>
+<tr><td>Evaluation</td><td>Metrics, reported results, validation setting, comparison conditions</td></tr>
+<tr><td>Assessment</td><td>Key strengths, limitations, quality scores, relevance to GridMind, extraction notes</td></tr></table>
+<p>Evidence will first be summarized within each model track to preserve differences in task, data, and metrics. It will then be compared across the project under the five shared research questions: state of the art; methods and data; tools and resources; gaps and limitations; and evidence-based directions for GridMind. Narrative and thematic synthesis will be used because the five functions use different prediction targets and evaluation measures, so a single pooled performance comparison would not be meaningful. Paper-reported findings will be distinguished from GridMind design proposals and from results produced by the GridMind implementation.</p>
+
+<h3>F. Data Extraction Template (Table I)</h3>
+<p>Table I is the working extraction form. Complete one row per included research paper after screening. The short entries below illustrate the intended format from the supplied project corpus; they are not final screening decisions. Replace or expand the rows based on the final included set. Keep dataset websites, repositories, and handover documents in a separate resources list.</p>
+<table><tr><th>ID</th><th>Study / GridMind area</th><th>Method and evidence to extract</th><th>Metrics, findings, limitations</th></tr>
+<tr><td>1</td><td>STGNI / missing telemetry</td><td>Graph spatio-temporal reconstruction; record network, missingness setup, baselines, and split.</td><td>Enter reported reconstruction metrics and limitations from the paper.</td></tr>
+<tr><td>2</td><td>ERCOT neural forecasting / demand and renewables</td><td>Direct and indirect neural forecasting; record targets, time-series source, horizon, and chronological split.</td><td>Enter reported forecast metrics and transfer limitations.</td></tr>
+<tr><td>3</td><td>PI-GN-JODE / cascade risk</td><td>Physics-informed graph neural jump ODE; record network, simulated cascade scenarios, and comparison methods.</td><td>Enter paper-reported branch/bus, severity, and DNS results; do not report as GridMind results.</td></tr>
+<tr><td>4</td><td>Imitation learning topology control / corrective action</td><td>Expert-generated action labels and neural policy; record action type, simulator, data split, and validation.</td><td>Enter reported performance and note that topology switching is not redispatch.</td></tr>
+<tr><td>5</td><td>Event diagnosis candidate study</td><td>[Add citation and extract classification/localization method, dataset, labels, and evaluation.]</td><td>[Complete after the supporting paper is identified and screened.]</td></tr></table>
+
+<h3>G. Methodology Summary (Table II)</h3>
+<p>Table II summarizes the review procedure and must describe what the team actually did. The entries marked “to complete” are placeholders where the project files do not yet record execution details.</p>
+<table><tr><th>Step</th><th>Purpose</th><th>How it will be carried out / status</th></tr>
+<tr><td>Framework and protocol</td><td>Make the review transparent and repeatable.</td><td>Use the university template’s structured review and PRISMA-style reporting; save a dated protocol version. [Protocol date/version.]</td></tr>
+<tr><td>Eligibility</td><td>Apply consistent relevance and quality rules.</td><td>Use Section II-A criteria across all five model tracks. [Confirm date range, paper types, language, and quality threshold.]</td></tr>
+<tr><td>Search</td><td>Document how candidate papers were located.</td><td>Inventory supplied papers, then record only databases actually searched, exact per-track queries, filters, and search dates. [Complete search log.]</td></tr>
+<tr><td>Selection</td><td>Reduce candidates consistently and report exclusions.</td><td>Deduplicate; screen titles/abstracts and full texts; log reasons and real counts. [Reviewer arrangement and PRISMA counts.]</td></tr>
+<tr><td>Quality assessment</td><td>Judge evidence strength and reporting quality.</td><td>Score the checklist in Section II-D using Yes=1, Partial=0.5, No=0. [State exclusion threshold or use scores only to qualify evidence.]</td></tr>
+<tr><td>Extraction and synthesis</td><td>Enable comparison and answer the RQs.</td><td>Use Table I, synthesize within model tracks, then compare by the five shared RQs. [Record extraction date/reviewer.]</td></tr></table>
+
+<h3>H. Descriptive Statistics of Included Studies (Table III)</h3>
+<p>Populate Table III from the final screened and included study set, not from the number of files currently in the project folder. Percentages should use the total number of included research studies as the denominator. These are placeholders, not findings.</p>
+<table><tr><th>Attribute</th><th>Count</th><th>%</th><th>Notes / categories</th></tr>
+<tr><td>Publication years</td><td>[n]</td><td>[%]</td><td>[Range and distribution]</td></tr>
+<tr><td>Study type</td><td>[n]</td><td>[%]</td><td>[Empirical, review, preprint, etc.]</td></tr>
+<tr><td>Venue</td><td>[n]</td><td>[%]</td><td>[Journal / conference / other eligible type]</td></tr>
+<tr><td>GridMind function</td><td>[n]</td><td>[%]</td><td>[Missing telemetry, forecasting, event diagnosis, cascade risk, corrective action; a study may cover multiple functions]</td></tr>
+<tr><td>Methods</td><td>[n]</td><td>[%]</td><td>[GNN, temporal model, tree/ensemble, optimization/imitation learning, hybrid, etc.]</td></tr></table>
+
+<h2 class="page">Protocol Tracking Checklist for the Team</h2>
+<table><tr><th>Before finalizing this section</th><th>Status</th></tr>
+<tr><td>Confirm the five model functions and freeze the scope</td><td>[complete / pending]</td></tr>
+<tr><td>Record each supplied paper’s citation and assign model tags</td><td>[complete / pending]</td></tr>
+<tr><td>Confirm eligibility rules, date window, and preprint treatment</td><td>[complete / pending]</td></tr>
+<tr><td>Run and log any supplementary database searches</td><td>[complete / pending]</td></tr>
+<tr><td>Complete duplicate, title/abstract, and full-text screening</td><td>[complete / pending]</td></tr>
+<tr><td>Complete quality assessment and extraction table</td><td>[complete / pending]</td></tr>
+<tr><td>Calculate counts and generate PRISMA flow diagram from the log</td><td>[complete / pending]</td></tr></table>
+<p class="small"><b>Note on current source files:</b> the project workspace contains substantial research notes for missing telemetry, forecasting, cascade risk, event diagnosis, and corrective-action recommendation. The notes provide a starting corpus and technical synthesis. The review log still needs to establish which sources were searched, screened, and included under the final protocol.</p>
+</body></html>
