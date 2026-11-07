@@ -1,0 +1,257 @@
+[
+  {
+    "rect": [
+      68,
+      17,
+      619,
+      44
+    ],
+    "sample": [
+      72,
+      20
+    ],
+    "text": "Keyword-search history (result occurrences)",
+    "font_size": 16,
+    "bold": true
+  },
+  {
+    "rect": [
+      672,
+      17,
+      892,
+      44
+    ],
+    "sample": [
+      676,
+      20
+    ],
+    "text": "Candidate screening",
+    "font_size": 16,
+    "bold": true
+  },
+  {
+    "rect": [
+      73,
+      74,
+      263,
+      136
+    ],
+    "sample": [
+      78,
+      78
+    ],
+    "text": "Keyword searches Q01-Q09\nInitial results\nn = 18,519",
+    "font_size": 14,
+    "bold": false
+  },
+  {
+    "rect": [
+      316,
+      74,
+      615,
+      136
+    ],
+    "sample": [
+      320,
+      78
+    ],
+    "text": "Other reported query-stage counts\nTitle/abstract stage: 266\nFinal query choices: 47\nSelection occurrences; may overlap",
+    "font_size": 13.5,
+    "bold": false
+  },
+  {
+    "rect": [
+      73,
+      182,
+      263,
+      221
+    ],
+    "sample": [
+      78,
+      186
+    ],
+    "text": "After date filters\nn = 15,607",
+    "font_size": 14,
+    "bold": false
+  },
+  {
+    "rect": [
+      316,
+      182,
+      615,
+      221
+    ],
+    "sample": [
+      320,
+      186
+    ],
+    "text": "Date-filter reduction\nn = 2,912",
+    "font_size": 14,
+    "bold": false
+  },
+  {
+    "rect": [
+      73,
+      266,
+      263,
+      365
+    ],
+    "sample": [
+      78,
+      270
+    ],
+    "text": "After article-type filters\nn = 9,563",
+    "font_size": 14,
+    "bold": false
+  },
+  {
+    "rect": [
+      316,
+      266,
+      615,
+      365
+    ],
+    "sample": [
+      320,
+      270
+    ],
+    "text": "Article-type reduction: 6,044\n\nFurther subject/discipline\nand access-filter reduction:\nn = 5,939",
+    "font_size": 14,
+    "bold": false
+  },
+  {
+    "rect": [
+      73,
+      407,
+      263,
+      461
+    ],
+    "sample": [
+      78,
+      411
+    ],
+    "text": "After subject/discipline\nand open-access filters\nn = 3,624",
+    "font_size": 14,
+    "bold": false
+  },
+  {
+    "rect": [
+      316,
+      407,
+      615,
+      461
+    ],
+    "sample": [
+      320,
+      411
+    ],
+    "text": "Further recorded narrowing\n3,624 to 2,133\nReduction: 1,491",
+    "font_size": 14,
+    "bold": false
+  },
+  {
+    "rect": [
+      73,
+      506,
+      263,
+      556
+    ],
+    "sample": [
+      78,
+      510
+    ],
+    "text": "Final search results\nn = 2,133 occurrences",
+    "font_size": 14,
+    "bold": false
+  },
+  {
+    "rect": [
+      318,
+      506,
+      615,
+      556
+    ],
+    "sample": [
+      322,
+      510
+    ],
+    "text": "Final review: 18 unique studies\n(from the candidate branch)",
+    "font_size": 14,
+    "bold": false
+  },
+  {
+    "rect": [
+      673,
+      74,
+      892,
+      136
+    ],
+    "sample": [
+      678,
+      78
+    ],
+    "text": "Compiled candidate records\nn = 53",
+    "font_size": 14,
+    "bold": false
+  },
+  {
+    "rect": [
+      673,
+      182,
+      892,
+      221
+    ],
+    "sample": [
+      678,
+      186
+    ],
+    "text": "Candidate titles screened\nn = 53",
+    "font_size": 14,
+    "bold": false
+  },
+  {
+    "rect": [
+      673,
+      266,
+      892,
+      361
+    ],
+    "sample": [
+      678,
+      270
+    ],
+    "text": "After title/abstract screening\nn = 41\nRecords set aside: 12",
+    "font_size": 14,
+    "bold": false
+  },
+  {
+    "rect": [
+      673,
+      407,
+      892,
+      461
+    ],
+    "sample": [
+      678,
+      411
+    ],
+    "text": "Full-text reports assessed\nn = 41",
+    "font_size": 14,
+    "bold": false
+  },
+  {
+    "rect": [
+      673,
+      506,
+      892,
+      556
+    ],
+    "sample": [
+      678,
+      510
+    ],
+    "text": "Studies selected: 18\nScope exclusions: 23",
+    "font_size": 14,
+    "bold": false
+  }
+]
