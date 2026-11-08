@@ -1,0 +1,25 @@
+\documentclass[journal,letterpaper]{IEEEtran}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{newtxtext,newtxmath}
+\usepackage{cite,xurl}
+\usepackage[hidelinks,breaklinks]{hyperref}
+\hypersetup{pdftitle={section 3 RQ1 and RQ2},pdfsubject={Results: state of the art and methods}}
+\setlength{\emergencystretch}{1.5em}
+\raggedbottom
+\makeatletter
+\def\ps@gridmind{%
+  \def\@oddhead{\fontsize{7}{8}\selectfont MISR INTERNATIONAL UNIVERSITY/FACULTY OF COMPUTER SCIENCE, NOVEMBER 2026\hfil\thepage}%
+  \let\@evenhead\@oddhead\def\@oddfoot{}\let\@evenfoot\@oddfoot}
+\let\ps@plain\ps@gridmind
+\let\ps@headings\ps@gridmind
+\makeatother
+\hyphenation{Grid-Mind synchro-phasor repro-ducibility}
+\begin{document}
+\pagestyle{gridmind}\thispagestyle{gridmind}
+\setcounter{section}{2}
+\input{section_iii_karim.tex}
+\IEEEtriggeratref{9}
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+\end{document}
