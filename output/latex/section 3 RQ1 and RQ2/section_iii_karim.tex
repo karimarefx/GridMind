@@ -4,14 +4,19 @@ This section synthesizes findings from the reviewed studies to answer the five r
 \subsection{RQ1 (State of the Art): What research and solutions exist for AI-based telemetry reconstruction, demand and renewable forecasting, event diagnosis, cascade-risk prediction, and corrective-action recommendation?}
 Research on the five GridMind modules addresses different operational tasks, from recovering measurements to recommending corrective actions. The following synthesis outlines the approaches and capabilities reported for each.
 
+\subsubsection{Telemetry reconstruction}
 Telemetry recovery uses measurement history and network relationships to reconstruct missing values. The STGNI graph model supports state estimation, auxiliary-task learning recovers voltage phasors from phasor measurement units (PMUs), and physics-guided recovery handles voltage, current, and power together~\cite{S28,N01,S29}. These methods address random and consecutive losses, although their different measurement types limit direct substitution.
 
+\subsubsection{Demand and renewable forecasting}
 Forecasting research compares separate predictions with joint models. Bolusteve et al. predict net load directly or calculate it from separate demand, wind, and solar forecasts~\cite{S25}. Voyant et al. use a multi-output extreme learning machine (ELM), while Wang et al. link wind, solar, and load through attention and multi-task learning~\cite{S20,S24}. Each approach uses relationships among energy variables differently.
 
+\subsubsection{Event diagnosis}
 Diagnosis separates unreliable measurements from physical disturbances. Forecasting-aided state estimation distinguishes bad data from sudden load changes~\cite{S18}. Other studies detect, classify, and locate electrical events using recurrent models, staged random-forest/convolutional neural network (CNN) diagnosis, or separate classification and localization models~\cite{S11,S16,S14}. A measurement anomaly and an electrical fault therefore require different interpretations.
 
+\subsubsection{Cascade-risk prediction}
 Cascade research includes both outcome prediction and vulnerability ranking. Learned interaction graphs describe dependencies between line failures and final states~\cite{S02}; graph attention and temporal Transformers predict cascading faults~\cite{N02}. Weighted natural connectivity identifies critical transmission lines~\cite{S03}. Ranking a line as vulnerable does not specify when it will fail.
 
+\subsubsection{Corrective-action recommendation}
 Corrective actions depend on the controls available. Learned decision rules manage congestion through topology changes, while hybrid particle-swarm/grey-wolf optimization adjusts generator outputs~\cite{S08,S09}. Learning-based optimal power flow (OPF) methods also differ in how they enforce operating constraints~\cite{S05}. Results from switching and redispatch consequently concern different interventions.
 
 Integration studies assess how predictions influence decisions. AIOpti shows that lower forecasting error can accompany poorer optimization outcomes~\cite{S37}. The Cascade-Aware Risk Index (CARI) combines fault likelihood, propagation, vulnerability, and impact to prioritize maintenance~\cite{S38}. These studies connect specific tasks; neither evaluates all five capabilities within one platform.
@@ -21,14 +26,19 @@ The current state of the art therefore offers complementary approaches whose pra
 \subsection{RQ2 (Methods): Which models, datasets, technologies, and evaluation approaches support these capabilities, and what tradeoffs do they present?}
 The selected studies use different models, datasets, and evaluation procedures across the five modules. Their methodological choices are compared below, with attention to the task and experimental setting.
 
+\subsubsection{Telemetry reconstruction}
 Reconstruction methods combine spatial and temporal learning with different assumptions. STGNI models relationships between nodes and edges; auxiliary-task learning adds low-rank online adaptation; physics-guided recovery introduces physical correction~\cite{S28,N01,S29}. Tests use NREL-118 and provincial measurements, 50-Hz simulated phasors from a 145-bus system, and IEEE 33-node OpenDSS data based on European load profiles. Reconstruction error and downstream state-estimation performance assess different aspects of recovery.
 
+\subsubsection{Demand and renewable forecasting}
 Forecasting comparisons depend on horizon and data resolution. The ERCOT study uses hourly data from 2021 to 2024, renewable-capacity features, and NLDAS weather inputs. With a chronological 90\%/5\%/5\% training/validation/test split and 1,754 common test timestamps, indirect long short-term memory (LSTM) achieves 2.46\% mean absolute percentage error (MAPE), versus 2.73\% for direct LSTM, one hour ahead~\cite{S25}. The Corsican ELM study compares persistence and LSTM using hourly EDF generation-mix data from 2018 to 2023~\cite{S20}. Wang et al. instead forecast day-ahead using one year of 15-minute records from eight wind farms, six solar plants, and nearby city load~\cite{S24}.
 
+\subsubsection{Event diagnosis}
 Diagnosis results depend on the output being assessed. Shadi et al. test recurrent models on IEEE 14-bus, New England 39-bus, and modified IEEE 118-bus systems; missing PMUs impair localization more than classification~\cite{S11}. Riaz et al. use simulated three-phase currents from a modified IEEE 14-bus system~\cite{S16}. On IEEE 9-bus simulated faults, XGBoost achieves 99.82\% classification accuracy, while CNN-LSTM localization has MAPE below 1\%~\cite{S14}. Precision, recall, and F1 measure classification performance~\cite{S11}. The Stedin 50-kV Real Time Digital Simulator case additionally compares extended and unscented Kalman filters through estimation accuracy and runtime~\cite{S18}.
 
+\subsubsection{Cascade-risk prediction}
 Cascade methods use different targets and benchmarks. Inverse-Ising and boosted-tree models analyze final states from 50,000 IEEE 118-bus cascade trajectories~\cite{S02}. Graph attention, temporal modeling, and self-supervision are evaluated on modified IEEE 39-bus AC/DC and Chinese-grid cases~\cite{N02}. Natural-connectivity rankings are compared with critical-line indices across IEEE networks and a Mexican 400-kV system~\cite{S03}. Agreement between rankings and predictive discrimination provide different evidence.
 
+\subsubsection{Corrective-action recommendation}
 For corrective actions, the L2RPN-WCCI-2022 IEEE 118-bus benchmark measures score, survival, cost, and inference time~\cite{S08}. IEEE 30-bus redispatch experiments compare congestion cost, adjusted power, and losses~\cite{S09}; OPF evaluation also considers feasibility and optimality~\cite{S05}. Cost-aware CARI reduces its normalized action-cost proxy from 50.2 to 33.4 with approximately unchanged energy-not-served benefits~\cite{S38}. These maintenance results use simulation proxies. AIOpti evaluates downstream decision quality alongside prediction error~\cite{S37}.
 
 Confidential feeder and wind, solar, and load data restrict exact replication~\cite{S29,S24}. Named benchmarks help identify test settings, but network access alone does not reproduce scenario generation or training. Simulation supports controlled comparisons; transfer to another topology or utility needs separate validation. The auxiliary-task reconstruction and ERCOT studies are preprints~\cite{N01,S25}. Differences in tasks, horizons, and evaluation conditions prevent a universal ranking of the reported scores.
