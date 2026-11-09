@@ -2,6 +2,8 @@
 This section synthesizes findings from the reviewed studies to answer the five research questions guiding GridMind.
 
 \subsection{RQ1 (State of the Art): What research and solutions exist for AI-based telemetry reconstruction, demand and renewable forecasting, event diagnosis, cascade-risk prediction, and corrective-action recommendation?}
+Research on the five GridMind modules addresses different operational tasks, from recovering measurements to recommending corrective actions. The following synthesis outlines the approaches and capabilities reported for each.
+
 Telemetry recovery uses measurement history and network relationships to reconstruct missing values. The STGNI graph model supports state estimation, auxiliary-task learning recovers voltage phasors from phasor measurement units (PMUs), and physics-guided recovery handles voltage, current, and power together~\cite{S28,N01,S29}. These methods address random and consecutive losses, although their different measurement types limit direct substitution.
 
 Forecasting research compares separate predictions with joint models. Bolusteve et al. predict net load directly or calculate it from separate demand, wind, and solar forecasts~\cite{S25}. Voyant et al. use a multi-output extreme learning machine (ELM), while Wang et al. link wind, solar, and load through attention and multi-task learning~\cite{S20,S24}. Each approach uses relationships among energy variables differently.
@@ -14,7 +16,11 @@ Corrective actions depend on the controls available. Learned decision rules mana
 
 Integration studies assess how predictions influence decisions. AIOpti shows that lower forecasting error can accompany poorer optimization outcomes~\cite{S37}. The Cascade-Aware Risk Index (CARI) combines fault likelihood, propagation, vulnerability, and impact to prioritize maintenance~\cite{S38}. These studies connect specific tasks; neither evaluates all five capabilities within one platform.
 
+The current state of the art therefore offers complementary approaches whose practical roles depend on the measurements, event definitions, and control actions supported in each study.
+
 \subsection{RQ2 (Methods): Which models, datasets, technologies, and evaluation approaches support these capabilities, and what tradeoffs do they present?}
+The selected studies use different models, datasets, and evaluation procedures across the five modules. Their methodological choices are compared below, with attention to the task and experimental setting.
+
 Reconstruction methods combine spatial and temporal learning with different assumptions. STGNI models relationships between nodes and edges; auxiliary-task learning adds low-rank online adaptation; physics-guided recovery introduces physical correction~\cite{S28,N01,S29}. Tests use NREL-118 and provincial measurements, 50-Hz simulated phasors from a 145-bus system, and IEEE 33-node OpenDSS data based on European load profiles. Reconstruction error and downstream state-estimation performance assess different aspects of recovery.
 
 Forecasting comparisons depend on horizon and data resolution. The ERCOT study uses hourly data from 2021 to 2024, renewable-capacity features, and NLDAS weather inputs. With a chronological 90\%/5\%/5\% training/validation/test split and 1,754 common test timestamps, indirect long short-term memory (LSTM) achieves 2.46\% mean absolute percentage error (MAPE), versus 2.73\% for direct LSTM, one hour ahead~\cite{S25}. The Corsican ELM study compares persistence and LSTM using hourly EDF generation-mix data from 2018 to 2023~\cite{S20}. Wang et al. instead forecast day-ahead using one year of 15-minute records from eight wind farms, six solar plants, and nearby city load~\cite{S24}.
@@ -26,3 +32,5 @@ Cascade methods use different targets and benchmarks. Inverse-Ising and boosted-
 For corrective actions, the L2RPN-WCCI-2022 IEEE 118-bus benchmark measures score, survival, cost, and inference time~\cite{S08}. IEEE 30-bus redispatch experiments compare congestion cost, adjusted power, and losses~\cite{S09}; OPF evaluation also considers feasibility and optimality~\cite{S05}. Cost-aware CARI reduces its normalized action-cost proxy from 50.2 to 33.4 with approximately unchanged energy-not-served benefits~\cite{S38}. These maintenance results use simulation proxies. AIOpti evaluates downstream decision quality alongside prediction error~\cite{S37}.
 
 Confidential feeder and wind, solar, and load data restrict exact replication~\cite{S29,S24}. Named benchmarks help identify test settings, but network access alone does not reproduce scenario generation or training. Simulation supports controlled comparisons; transfer to another topology or utility needs separate validation. The auxiliary-task reconstruction and ERCOT studies are preprints~\cite{N01,S25}. Differences in tasks, horizons, and evaluation conditions prevent a universal ranking of the reported scores.
+
+Method selection must consequently account for the available data and operating requirements, with each reported result interpreted within the evaluation procedure used to obtain it.
