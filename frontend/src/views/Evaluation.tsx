@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useDashboard } from "../state/context";
 import { assetUrl } from "../data/load";
 import { Badge, fmt, Notice, Panel, utc } from "../components/Common";
+import { Stage1Evaluation } from "./Stage1Evaluation";
 export function Evaluation() {
   const { data } = useDashboard();
   const [split, setSplit] = useState("test");
@@ -160,9 +161,10 @@ export function Evaluation() {
             <Notice>Split manifest unavailable.</Notice>
           )}
         </Panel>
-        <Panel title="Diagnosis evaluation" eyebrow="Independent episodes">
+        <Stage1Evaluation />
+        <Panel title="Cause classifier replay evaluation" eyebrow="Grouped development">
           {data.diagnosisEvaluation.status === "unavailable" ? (
-            <Notice title="Blocked — no measured diagnosis results">
+            <Notice title="Saved cause-replay evaluation unavailable">
               {data.diagnosisEvaluation.reason} No confusion matrix or family
               counts are invented.
             </Notice>
@@ -189,7 +191,7 @@ export function Evaluation() {
               <div className="table-scroll">
                 <table>
                   <caption>
-                    Confusion matrix · rows actual, columns predicted ·{" "}
+                    Forced cause choices before abstention · rows actual, columns predicted ·{" "}
                     {(data.diagnosisEvaluation.class_order ?? []).join(", ")}
                   </caption>
                   <tbody>

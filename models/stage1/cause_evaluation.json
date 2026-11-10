@@ -1,0 +1,34 @@
+{
+  "status": "available",
+  "class_order": [
+    "physical",
+    "sensor"
+  ],
+  "confusion_matrix": [
+    [
+      24,
+      0
+    ],
+    [
+      2,
+      6
+    ]
+  ],
+  "metrics": {
+    "macro_f1": 0.9085714285714286,
+    "coverage": 0.34375,
+    "baseline_macro_f1": 0.42857142857142855
+  },
+  "counts": {
+    "episodes": 32,
+    "families": 23
+  },
+  "limitations": [
+    "Few independent timing-error records",
+    "Uncalibrated scores",
+    "No normal-operation class or physical-location labels",
+    "Threshold precision is a validation target, not a guarantee"
+  ],
+  "evaluation_protocol": "nested recording-grouped cross-validation",
+  "confusion_matrix_policy": "Forced binary predictions before abstention; coverage reported separately"
+}

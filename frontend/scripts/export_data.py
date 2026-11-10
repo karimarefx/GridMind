@@ -68,11 +68,20 @@ def main():
         target.write_bytes((REPORTS / name).read_bytes())
     write('diagnosis/event_episodes.json', [])
     write('diagnosis/diagnosis_predictions.json', [])
-    write('diagnosis/diagnosis_evaluation.json', {'status': 'unavailable', 'reason': 'No inspected diagnosis dataset, trained classifier, or held-out export has been supplied. Channels, cadence, defensible labels, and parent-family splits remain unresolved.'})
+    write('diagnosis/diagnosis_evaluation.json', {'status': 'unavailable', 'reason': 'Saved cause-episode replay is not installed. Local upload inference uses the experimental Python service; combined measured results are shown separately.'})
+    stage1 = ROOT / 'models/stage1/evaluation.json'
+    if stage1.is_file():
+        write('diagnosis/stage1_evaluation.json', json.loads(stage1.read_text()))
+    cause_evaluation = ROOT / 'models/stage1/cause_evaluation.json'
+    if cause_evaluation.is_file():
+        write('diagnosis/diagnosis_evaluation.json', json.loads(cause_evaluation.read_text()))
     write('catalog.json', {'schema_version': '1', 'bundle_id': 'gridmind-local-v1', 'default_scenario': 'first-week', 'scenarios': [
         {'id': 'first-week', 'title': 'First held-out week', 'description': '168 genuine hourly forecasts from the first test week. The laboratory is a separate authored illustration.', 'forecast_start': 0, 'forecast_end': 167, 'laboratory_id': 'illustrative14-v1'},
         {'id': 'day-two', 'title': 'Day two · replay focus', 'description': 'A 24-hour subset of the same held-out export. No additional training or inference.', 'forecast_start': 24, 'forecast_end': 47, 'laboratory_id': 'illustrative14-v1'}]})
     manifest = {'schema_version': '1', 'bundle_id': 'gridmind-local-v1', 'artifact_version': '1', 'run_id': 'local-sampled-run', 'model_version': version, 'exported_at_utc': datetime.now(timezone.utc).isoformat(), 'dataset_id': 'ercot-2021-2024-sampled', 'source_id': 'supplied-ercot-csv', 'source_sha256': run['source_sha256'], 'origin': 'Existing locally executed XGBoost run; not a Colab execution', 'units': {'power': 'MW', 'capacity': 'MW', 'proxy': 'dimensionless'}, 'limitations': run['limitations'] + ['CSV component precision retained; packaged net load calculated from those components.', 'Illustrative fixtures await model-owner review.'], 'capabilities': {'forecasting': 'available', 'diagnosis': 'blocked', 'reconstruction': 'simulated', 'cascade': 'simulated', 'actions': 'simulated'}, 'files': []}
+    manifest['capabilities']['diagnosis'] = 'experimental-local-api' if stage1.is_file() else 'blocked'
+    if stage1.is_file():
+        manifest['limitations'].append('Stage 1 upload inference requires the local Python service; experimental grouped development results do not establish independent validation.')
     for path in sorted(OUT.rglob('*')):
         if path.is_file() and path.name != 'bundle_manifest.json':
             manifest['files'].append({'path': path.relative_to(OUT).as_posix(), 'sha256': hashlib.sha256(path.read_bytes()).hexdigest(), 'artifact_version': '1'})

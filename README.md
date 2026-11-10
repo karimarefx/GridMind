@@ -1,5 +1,30 @@
 # GridMind forecasting PoC
 
+## Local detection and diagnosis upload
+
+The experimental two-stage model and upload interface are now implemented.
+Start with the [short combined-pipeline notebook](notebooks/03_detection_and_diagnosis.ipynb).
+Read [complete measured results](reports/diagnosis/stage1_summary.md): the full
+policy returns only 8/62 decisions, all normal, and still needs research validation.
+Install the tested Python dependencies and build the interface once:
+
+```powershell
+python -m pip install -r requirements-api-lock.txt
+cd frontend
+npm ci
+npm run build
+cd ..
+$env:PYTHONPATH = "$PWD\src"
+python -m gridmind.api
+```
+
+Open `http://127.0.0.1:8000`, choose **Event diagnosis**, and upload a prepared
+1,800-row CSV. Its header template and required units are explained in the form.
+The Python service performs inference; the browser displays results and original
+measurements. Invalid inputs are rejected and uncertain inputs stay uncertain.
+The model runs locally and uploads are not retained. Use Python 3.14 for the
+recorded environment; no training data are needed to run the packaged model.
+
 ## Local frontend dashboard
 
 The frontend-only research dashboard is in [`frontend/`](frontend/README.md). It replays genuine saved forecasting predictions, displays clearly labeled reconstruction/cascade/action illustrations, and shows diagnosis as blocked until genuine episode exports are supplied. It uses a local static server with no application backend or browser inference.
@@ -11,6 +36,25 @@ npm run dev
 ```
 
 See [`frontend.md`](frontend.md) for the implementation plan and the frontend README for data export contracts, verification commands, and the committee walkthrough. `plan.md` remains the original scope reference; the frontend-only overrides are recorded separately.
+
+## Event diagnosis Stage 1
+
+Start with the [explained Stage 1 notebook](notebooks/02_event_diagnosis.ipynb),
+or the equivalent [VS Code Python cells](notebooks/02_event_diagnosis.py).
+It walks through the current 23-feature model in 20 code cells; preparation and
+retraining are off by default.
+
+The experimental timing-error-versus-physical-disturbance pipeline is in
+`src/gridmind/diagnosis.py`. It provides source-data auditing, recording-grouped
+Random Forest training/evaluation, prediction with abstention, and staged exports
+for the existing dashboard. See [data preparation and commands](data/diagnosis/README.md).
+The current experimental candidate uses 60 seconds of original phase, frequency
+and voltage/current measurements. It detects 6/8 timing examples and correctly
+classifies 24/24 physical examples in a grouped development comparison. With
+abstention it returns 11/32 diagnoses, all correct in that sample, and marks 21
+uncertain. Only three timing families are available; independent confirmation is
+still required. See the [repair results and limits](reports/diagnosis/repair_summary.md)
+and the preserved [original failed pilot](reports/diagnosis/summary.md).
 
 ## Forecasting research pipeline
 

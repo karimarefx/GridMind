@@ -1,5 +1,26 @@
 # GridMind local research dashboard
 
+## Experimental upload service added
+
+The current PoC supports local normal/abnormal detection followed by timing/physical
+classification. From the repository root, install `requirements-api-lock.txt`,
+build this frontend, set `PYTHONPATH` to `src`, then run `python -m gridmind.api`.
+Open `http://127.0.0.1:8000`. In Vite development mode, `/api` proxies to that service.
+The saved model runs in Python, not the browser. No public deployment is configured.
+
+Upload prepared CSVs with exactly 1,800 original samples at 30 Hz and the seven
+columns displayed in the form. Both angle columns use the selected unit. Files
+are limited to 2 MiB and are not retained. The interface shows normal, physical,
+PMU timing anomaly or uncertainty; it does not invent ground truth for uploads.
+
+Combined grouped development returned only eight normal decisions out of 62
+inputs, with 54 uncertain and zero returned cause diagnoses. The prototype is
+experimental and not independently validated. Full measured results and source
+limitations are in `../reports/diagnosis/stage1_summary.md`.
+
+The static-only instructions below describe the original replay capability.
+Running only Vite leaves upload inference unavailable until Python is started.
+
 React + TypeScript + Vite + Recharts, with an interactive SVG network. Static files only: no backend, training, browser inference, or external runtime services. `plan.md` is unchanged; `frontend.md` remains the implementation reference.
 
 ## Run

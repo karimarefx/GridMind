@@ -34,7 +34,7 @@ const views: { title: View; icon: typeof Activity; sub: string }[] = [
   {
     title: "Event diagnosis",
     icon: ShieldCheck,
-    sub: "Abnormal-window classification",
+    sub: "Normal detection and cause classification",
   },
   {
     title: "Scenario laboratory",
@@ -174,7 +174,7 @@ export function App() {
               <i className="dot teal" />
               <strong>Local demonstration</strong>
               <p>
-                Static artifacts. No backend.
+                Saved replay and local Python inference.
                 <br />
                 No live equipment connection.
               </p>
@@ -218,7 +218,7 @@ export function App() {
               </div>
               <span className="scope-pill">
                 <i className="dot teal" />
-                Frontend-only POC
+                Local research POC
               </span>
             </div>
             <section
@@ -267,7 +267,7 @@ export function App() {
                             (state.eventIndex + 1) +
                             " / " +
                             state.eventCount
-                          : "Unavailable until exports supplied"
+                          : "Saved replay unavailable · upload below"
                         : f
                           ? utc(f.issued_at_utc)
                           : "Unavailable"}

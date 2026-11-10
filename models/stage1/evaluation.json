@@ -1,0 +1,254 @@
+{
+  "status": "experimental",
+  "evidence_role": "grouped development; no independent final confirmation",
+  "records": 62,
+  "normal_records": 30,
+  "abnormal_records": 32,
+  "families": 41,
+  "folds": [
+    {
+      "fold": 0,
+      "detector_leaf": 1,
+      "detector_policy": {
+        "normal_max": -1.0,
+        "abnormal_min": 2.0
+      },
+      "cause_parameters": {
+        "weight": null,
+        "leaf": 1
+      },
+      "cause_threshold": 1.01,
+      "train_families": [
+        "clock-leap-family",
+        "clock-western-periodic-family",
+        "physical-east-2016-02",
+        "physical-east-2016-03",
+        "physical-east-2016-05",
+        "physical-east-2016-06",
+        "physical-east-2016-07",
+        "physical-east-2016-10",
+        "physical-east-2017-01",
+        "physical-east-2017-02",
+        "physical-east-2017-03",
+        "physical-east-2017-05",
+        "physical-east-2017-08",
+        "physical-east-2017-10",
+        "physical-west-2016-01",
+        "physical-west-2016-05",
+        "physical-west-2016-06",
+        "physical-west-2016-08",
+        "physical-west-2016-09",
+        "physical-west-2016-12",
+        "physical-west-2017-01",
+        "physical-west-2017-02",
+        "physical-west-2017-04",
+        "physical-west-2017-06",
+        "physical-west-2017-07",
+        "physical-west-2017-10",
+        "physical-west-2017-11"
+      ],
+      "test_families": [
+        "clock-eastern-periodic-family",
+        "physical-east-2016-04",
+        "physical-east-2016-08",
+        "physical-east-2017-04",
+        "physical-east-2017-07",
+        "physical-east-2017-09",
+        "physical-east-2017-11",
+        "physical-west-2016-02",
+        "physical-west-2016-03",
+        "physical-west-2016-04",
+        "physical-west-2016-07",
+        "physical-west-2016-11",
+        "physical-west-2017-03",
+        "physical-west-2017-08"
+      ]
+    },
+    {
+      "fold": 1,
+      "detector_leaf": 5,
+      "detector_policy": {
+        "normal_max": 0.14326796533032046,
+        "abnormal_min": 0.5259197997820997
+      },
+      "cause_parameters": {
+        "weight": null,
+        "leaf": 1
+      },
+      "cause_threshold": 1.01,
+      "train_families": [
+        "clock-eastern-periodic-family",
+        "clock-western-periodic-family",
+        "physical-east-2016-02",
+        "physical-east-2016-03",
+        "physical-east-2016-04",
+        "physical-east-2016-06",
+        "physical-east-2016-07",
+        "physical-east-2016-08",
+        "physical-east-2016-10",
+        "physical-east-2017-04",
+        "physical-east-2017-07",
+        "physical-east-2017-09",
+        "physical-east-2017-10",
+        "physical-east-2017-11",
+        "physical-west-2016-02",
+        "physical-west-2016-03",
+        "physical-west-2016-04",
+        "physical-west-2016-05",
+        "physical-west-2016-07",
+        "physical-west-2016-08",
+        "physical-west-2016-09",
+        "physical-west-2016-11",
+        "physical-west-2016-12",
+        "physical-west-2017-02",
+        "physical-west-2017-03",
+        "physical-west-2017-08",
+        "physical-west-2017-11"
+      ],
+      "test_families": [
+        "clock-leap-family",
+        "physical-east-2016-05",
+        "physical-east-2017-01",
+        "physical-east-2017-02",
+        "physical-east-2017-03",
+        "physical-east-2017-05",
+        "physical-east-2017-08",
+        "physical-west-2016-01",
+        "physical-west-2016-06",
+        "physical-west-2017-01",
+        "physical-west-2017-04",
+        "physical-west-2017-06",
+        "physical-west-2017-07",
+        "physical-west-2017-10"
+      ]
+    },
+    {
+      "fold": 2,
+      "detector_leaf": 1,
+      "detector_policy": {
+        "normal_max": -1.0,
+        "abnormal_min": 2.0
+      },
+      "cause_parameters": {
+        "weight": null,
+        "leaf": 1
+      },
+      "cause_threshold": 0.6866666666666666,
+      "train_families": [
+        "clock-eastern-periodic-family",
+        "clock-leap-family",
+        "physical-east-2016-04",
+        "physical-east-2016-05",
+        "physical-east-2016-08",
+        "physical-east-2017-01",
+        "physical-east-2017-02",
+        "physical-east-2017-03",
+        "physical-east-2017-04",
+        "physical-east-2017-05",
+        "physical-east-2017-07",
+        "physical-east-2017-08",
+        "physical-east-2017-09",
+        "physical-east-2017-11",
+        "physical-west-2016-01",
+        "physical-west-2016-02",
+        "physical-west-2016-03",
+        "physical-west-2016-04",
+        "physical-west-2016-06",
+        "physical-west-2016-07",
+        "physical-west-2016-11",
+        "physical-west-2017-01",
+        "physical-west-2017-03",
+        "physical-west-2017-04",
+        "physical-west-2017-06",
+        "physical-west-2017-07",
+        "physical-west-2017-08",
+        "physical-west-2017-10"
+      ],
+      "test_families": [
+        "clock-western-periodic-family",
+        "physical-east-2016-02",
+        "physical-east-2016-03",
+        "physical-east-2016-06",
+        "physical-east-2016-07",
+        "physical-east-2016-10",
+        "physical-east-2017-10",
+        "physical-west-2016-05",
+        "physical-west-2016-08",
+        "physical-west-2016-09",
+        "physical-west-2016-12",
+        "physical-west-2017-02",
+        "physical-west-2017-11"
+      ]
+    }
+  ],
+  "detector": {
+    "forced_class_order": [
+      "normal",
+      "abnormal"
+    ],
+    "forced_confusion_matrix": [
+      [
+        30,
+        0
+      ],
+      [
+        2,
+        30
+      ]
+    ],
+    "abnormal_recall_after_policy": 0.3125,
+    "normal_false_alarm_rate": 0.0,
+    "abnormal_missed_as_normal": 0,
+    "normal_decision_rate": 0.26666666666666666,
+    "uncertain_count": 44
+  },
+  "pipeline": {
+    "row_order": [
+      "normal",
+      "physical",
+      "sensor"
+    ],
+    "column_order": [
+      "normal",
+      "physical",
+      "sensor",
+      "uncertain"
+    ],
+    "confusion_matrix": [
+      [
+        8,
+        0,
+        0,
+        22
+      ],
+      [
+        0,
+        0,
+        0,
+        24
+      ],
+      [
+        0,
+        0,
+        0,
+        8
+      ]
+    ],
+    "coverage": 0.12903225806451613,
+    "accuracy_among_returned": 1.0,
+    "correct_fraction_all_inputs": 0.12903225806451613
+  },
+  "limitations": [
+    "Source ambient labels are not independent healthy-sensor annotations",
+    "Only three timing families",
+    "Normal versus abnormal channel/window selection differs",
+    "Potential collection and provider confounding",
+    "Uncalibrated scores; validation precision is not a guarantee",
+    "60-second uploaded windows, not continuous detection"
+  ],
+  "protocol_sha256": "c36ff8e4eb81cd82a9dcc66c770838d5ff79123078e2f02da22d355a69644ba3",
+  "data_hashes": {
+    "normal": "4756f75bf8af8bf33c0fb6c8daff76e18ab253a73b1cfe136a6165766db677d0",
+    "cause": "d4fe0a24f77b8150b6ff42d0237a60201af535282b14abd68edace1526576388"
+  }
+}

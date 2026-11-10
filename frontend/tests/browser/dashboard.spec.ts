@@ -73,7 +73,7 @@ test("replay, coordinated reset, simulation and evidence walkthrough", async ({
     .click();
   await expect(
     page.getByRole("heading", {
-      name: "No genuine diagnosis exports supplied",
+      name: "Upload and diagnose",
     }),
   ).toBeVisible();
   await page.getByRole('button', {name:'Show insufficient-input example'}).click();

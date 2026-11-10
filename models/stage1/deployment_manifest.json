@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "model_sha256": "08158b6eea115b7d66ef7b4d34d7fe879612c680da6058fb2364eb2971605050",
+  "sklearn_version": "1.8.0",
+  "status": "experimental",
+  "generalization_validated": false
+}

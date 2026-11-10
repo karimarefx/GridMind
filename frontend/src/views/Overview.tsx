@@ -11,7 +11,9 @@ import { useDashboard } from "../state/context";
 import { Badge, fmt, Panel } from "../components/Common";
 import { Network } from "../components/Network";
 import type { View } from "../data/types";
+import { useStage1Health } from "./DiagnosisUpload";
 export function Overview() {
+  const { health } = useStage1Health();
   const { data, state, dispatch } = useDashboard();
   const f = data.forecasts[state.forecastIndex];
   const diagnosisReady = data.episodes.some((e) =>
@@ -19,7 +21,7 @@ export function Overview() {
       (p) => p.episode_id === e.episode_id && p.status === "complete",
     ),
   );
-  const readyCount = Number(!!f) + Number(diagnosisReady);
+  const readyCount = Number(!!f) + Number(health.ready || diagnosisReady);
   const scenario = data.catalog.scenarios.find(
     (s) => s.id === state.scenarioId,
   )!;
@@ -34,10 +36,10 @@ export function Overview() {
     },
     {
       title: "Event diagnosis",
-      status: diagnosisReady ? "Exports available" : "Data readiness blocked",
-      text: "Stage 1 · sensor vs physical",
+      status: health.ready ? "Experimental upload available" : diagnosisReady ? "Exports available" : "Python service unavailable",
+      text: "Normal / abnormal → physical / timing",
       view: "Event diagnosis",
-      kind: diagnosisReady ? "prediction" : "unavailable",
+      kind: health.ready || diagnosisReady ? "prediction" : "unavailable",
       icon: Clock3,
     },
     {
@@ -146,7 +148,7 @@ export function Overview() {
               </div>
               <div>
                 <dt>Event source</dt>
-                <dd>{diagnosisReady ? "Exported episodes" : "Not supplied"}</dd>
+                <dd>{health.ready ? "Local CSV upload · experimental" : diagnosisReady ? "Exported episodes" : "Not supplied"}</dd>
               </div>
               <div>
                 <dt>Network source</dt>

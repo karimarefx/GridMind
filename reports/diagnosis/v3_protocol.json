@@ -1,0 +1,12 @@
+{
+  "protocol_id": "measurement-context-v3-development-001",
+  "status": "frozen before v3 evaluation",
+  "purpose": "Use measurement context and recurrence absent from three-second single-angle segments",
+  "data": "Same 32 source records, channel choices, source labels and family assignments; one original 60-second segment centered on unchanged pilot phase candidate",
+  "features": "Fixed 23 features in diagnosis_context.py: phase increments and impulse recurrence, reported frequency and phase-frequency agreement, voltage/current relative magnitude changes, voltage-current angle differences. No provider, ID, PMU count, status bit or file-format features.",
+  "training": "300-tree Random Forest seed 42; equal class, family and record weights; inner min_samples_leaf selection among 1,3,5",
+  "evaluation": "Same 3 outer family-grouped folds; nested inner selection; unchanged 95% per-returned-class precision target; report all outcomes",
+  "stop_rule": "One specified measurement-context candidate. Preserve results regardless of outcome. No changes driven by outer results.",
+  "evidence_role": "Development comparison using previously examined sources; not independent final confirmation",
+  "limitations": "Three timing families; unknown exact anomaly channel/interval; provider-class confounding remains; requires 60 seconds of complete 30 Hz voltage/current/frequency measurements; no normal-operation class, no localization or general sensor-fault claim"
+}

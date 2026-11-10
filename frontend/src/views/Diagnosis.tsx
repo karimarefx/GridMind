@@ -12,6 +12,8 @@ import {
 import { useDashboard } from "../state/context";
 import { loadTrace } from "../data/load";
 import { Badge, fmt, Notice, Panel } from "../components/Common";
+import { DiagnosisUpload } from "./DiagnosisUpload";
+import { Stage1Evaluation } from "./Stage1Evaluation";
 export function Diagnosis() {
   const { data, state, dispatch } = useDashboard();
   const [filter, setFilter] = useState("all");
@@ -58,19 +60,20 @@ export function Diagnosis() {
     <>
       <div className="section-bar">
         <div>
-          <span className="eyebrow">XGBoost / stage 1</span>
-          <h2>Sensor problem or physical event?</h2>
+          <span className="eyebrow">Random Forest / experimental stage 1</span>
+          <h2>Detect abnormality and diagnose its cause</h2>
         </div>
         <Badge kind={prediction ? "prediction" : "unavailable"}>
           {prediction
             ? "Precomputed model predictions"
-            : "Unavailable · dataset gate"}
+            : "Upload workflow · experimental"}
         </Badge>
       </div>
+      <DiagnosisUpload />
+      <Stage1Evaluation />
       <Notice title="Physical location unavailable — stage 2 excluded">
-        This capability classifies complete abnormal windows. It does not detect
-        normal operation, locate faulty sensors, or identify an initiating grid
-        outage.
+        The cause classifier distinguishes timing anomalies from physical disturbances.
+        It does not locate faulty sensors or identify an initiating grid outage.
       </Notice>
       <div className="toolbar">
         <button onClick={() => setShowPolicy(!showPolicy)}>
@@ -85,45 +88,9 @@ export function Diagnosis() {
         </Notice>
       )}
       {!data.episodes.length ? (
-        <>
-          <Panel
-            title="Diagnosis is not ready for integration"
-            eyebrow="Readiness blocker"
-          >
-            <div className="empty-illustration">⌁</div>
-            <h3 className="center">No genuine diagnosis exports supplied</h3>
-            <p className="center muted">{data.diagnosisEvaluation.reason}</p>
-            <div className="readiness-grid">
-              {[
-                "Defensible physical/sensor labels",
-                "Channels, units & sampling cadence",
-                "Independent parent-family splits",
-                "Trained classifier & held-out predictions",
-                "Raw score, class mapping & threshold",
-                "Evaluation & confusion matrix",
-              ].map((s) => (
-                <div key={s}>
-                  <span className="pending-dot" />
-                  {s}
-                  <strong>Required</strong>
-                </div>
-              ))}
-            </div>
-            <p className="caption">
-              No electrical traces, confidence scores, or classification results
-              have been invented. Controlled sensor corruptions require
-              compatible clean source episodes and documented recipes.
-            </p>
-          </Panel>
-          <Panel title="Colab handoff">
-            <p>
-              Supply event_episodes.json, referenced original trace files,
-              diagnosis_predictions.json, diagnosis_evaluation.json, and
-              group/feature manifests. See the frontend README for the trace
-              contract.
-            </p>
-          </Panel>
-        </>
+        <Notice title="Saved episode replay unavailable">
+          Use the upload form above to run the local experimental models. The measured evaluation is displayed separately; original field recordings are not packaged as browser assets.
+        </Notice>
       ) : (
         <>
           <div className="toolbar">

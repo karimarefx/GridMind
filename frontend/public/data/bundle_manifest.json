@@ -21,11 +21,12 @@
     "Uniform solar weights; no weather; no neural-model reproduction.",
     "Held-out windows do not cover all seasons; no full-year generalization claim.",
     "CSV component precision retained; packaged net load calculated from those components.",
-    "Illustrative fixtures await model-owner review."
+    "Illustrative fixtures await model-owner review.",
+    "Experimental two-stage detection/diagnosis uses local Python inference. Combined grouped development coverage is 8/62; independent validation is pending."
   ],
   "capabilities": {
     "forecasting": "available",
-    "diagnosis": "blocked",
+    "diagnosis": "experimental-local-api",
     "reconstruction": "simulated",
     "cascade": "simulated",
     "actions": "simulated"
@@ -38,7 +39,7 @@
     },
     {
       "path": "diagnosis/diagnosis_evaluation.json",
-      "sha256": "793c731c8cacf741a37d925cb1d649e5c34f6e9567978003d999fdcf31ddd629",
+      "sha256": "b9ad83ecaead66b8cd865f59bacf304934b0720f9d7e2c33d7c9d9a37f6810fc",
       "artifact_version": "1"
     },
     {
@@ -49,6 +50,11 @@
     {
       "path": "diagnosis/event_episodes.json",
       "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "artifact_version": "1"
+    },
+    {
+      "path": "diagnosis/stage1_evaluation.json",
+      "sha256": "015c3f0a32095ef5f7d52025f81b5e7201de8d8afe587931117148efef49f32b",
       "artifact_version": "1"
     },
     {

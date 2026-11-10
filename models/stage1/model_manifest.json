@@ -1,0 +1,41 @@
+{
+  "version": "gridmind-stage1-v1",
+  "detection_policy": {
+    "normal_max": 0.016666666666666666,
+    "abnormal_min": 0.4266666666666667
+  },
+  "features": [
+    "phase_rate_std",
+    "phase_rate_max",
+    "phase_rate_p99",
+    "phase_rate_crest",
+    "phase_rate_top3_energy",
+    "phase_impulses_per_minute",
+    "impulse_interval_cv",
+    "frequency_range",
+    "frequency_step_max",
+    "frequency_step_crest",
+    "frequency_endpoint_change",
+    "phase_frequency_residual_rms",
+    "phase_frequency_residual_max",
+    "voltage_relative_range",
+    "voltage_relative_step_max",
+    "voltage_endpoint_change",
+    "current_relative_range",
+    "current_relative_step_max",
+    "current_endpoint_change",
+    "voltage_current_angle_range",
+    "voltage_current_angle_step_max",
+    "phase_event_voltage_change",
+    "phase_event_current_change"
+  ],
+  "profile": "measurement-context",
+  "status": "experimental",
+  "sklearn_version": "1.8.0",
+  "protocol_sha256": "c36ff8e4eb81cd82a9dcc66c770838d5ff79123078e2f02da22d355a69644ba3",
+  "data_hashes": {
+    "normal": "4756f75bf8af8bf33c0fb6c8daff76e18ab253a73b1cfe136a6165766db677d0",
+    "cause": "d4fe0a24f77b8150b6ff42d0237a60201af535282b14abd68edace1526576388"
+  },
+  "detector_leaf": 1
+}

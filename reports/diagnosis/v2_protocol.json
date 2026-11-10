@@ -1,0 +1,13 @@
+{
+  "protocol_id": "event-shape-v2-development-001",
+  "status": "frozen before v2 evaluation",
+  "purpose": "Repair reference-angle sensitivity and transient dilution; development experiment, not independent confirmation",
+  "data": "Unchanged 32 records and conservative families from data/diagnosis/manifest.json",
+  "selection": "Keep original channels, segment bounds and labels; no outcome-driven relabeling or exclusions",
+  "representation": "One offset-invariant 13-feature event-shape vector per 90-sample original segment",
+  "features": ["absolute median phase increment", "centered increment RMS", "maximum centered increment", "95th percentile centered increment", "maximum increment concentration", "top-three increment energy fraction", "maximum increment to median absolute deviation ratio", "curvature RMS", "maximum curvature", "detrended angle standard deviation", "detrended angle range", "detrended first-to-last median shift", "first-to-last median increment change"],
+  "training": "300-tree Random Forest seed 42; equal total weight per class, then family, then recording; inner selection among min_samples_leaf 1,3,5",
+  "evaluation": "Same 3 outer family-grouped folds; inner grouped selection and unchanged 95% per-returned-class precision target; publish all forced and abstained outcomes",
+  "stop_rule": "One specified candidate; no feature or parameter changes driven by its outer results",
+  "limitations": "Previously examined data are development data. Three timing families, source recording labels, potential provider confounding, no independent confirmation, no normal class, no location labels. A fresh source-family test is required before claiming generalization."
+}

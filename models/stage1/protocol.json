@@ -1,0 +1,12 @@
+{
+  "id": "stage1-normal-detection-cause-v1",
+  "status": "frozen before first combined evaluation",
+  "data": "30 exclusively source-tagged ambient recordings; existing 24 physical and 8 timing records. First complete lexicographic normal PMU; unchanged abnormal candidates. No quietness-based selection.",
+  "normal_evidence": "PNNL collection includes ambient operating conditions; exclusive nonspecific steady-state source tags; waveform integrity checks. This does not prove absence of all sensor artifacts.",
+  "cadence": "30 Hz verified from waveform timestamps; declared source metadata discrepancies recorded; no resampling",
+  "groups": "Provider/month normal and physical records share existing family IDs. Three timing families retained. Stratify timing and other source groups into three outer folds; two inner folds when only two timing families remain.",
+  "detector": "23 unchanged context features, RF 300 trees seed42, equal class then family then record weight. Inner leaf1/3/5 macro F1 selection; separate normal/abnormal cutoffs requiring observed95% precision per returned class; abstain if infeasible.",
+  "cause": "Outer models fitted only on outer training abnormal families with nested selection. Deployment uses frozen original v3 cause bundle.",
+  "report": "All normal false alarms, abnormal misses and abstentions; full pipeline 3x4 matrix and coverage. Compare development targets95% abnormal recall/5% false alarms without changing policy after outcomes.",
+  "stop": "One fixed experiment; retain results even if targets fail. Previously examined abnormal data remain development data. No independent final confirmation is claimed."
+}
