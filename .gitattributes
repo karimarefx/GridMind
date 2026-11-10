@@ -1,11 +1,11 @@
 *.pdf binary
 models/stage1/model.joblib binary
 # Preserve provenance hashes and frozen protocol bytes across Windows checkouts.
-models/stage1/*.json -text
-data/diagnosis/**/*.json -text
-reports/diagnosis/*protocol.json -text
-src/gridmind/diagnosis.py -text
-src/gridmind/diagnosis_context.py -text
-src/gridmind/stage1.py -text
-frontend/public/data/bundle_manifest.json -text
-frontend/public/data/diagnosis/*.json -text
+models/stage1/*.json -text whitespace=cr-at-eol
+data/diagnosis/**/*.json -text whitespace=cr-at-eol
+reports/diagnosis/*protocol.json -text whitespace=cr-at-eol
+src/gridmind/diagnosis.py -text whitespace=cr-at-eol
+src/gridmind/diagnosis_context.py -text whitespace=cr-at-eol
+src/gridmind/stage1.py -text whitespace=cr-at-eol
+frontend/public/data/bundle_manifest.json -text whitespace=cr-at-eol
+frontend/public/data/diagnosis/*.json -text whitespace=cr-at-eol
