@@ -1,7 +1,11 @@
 :root {
-  font-family: Inter, "Segoe UI", Arial, sans-serif;
-  color: #213445;
-  background: #f3f6f8;
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: #203439;
+  background: #f2f6f4;
+  --graphite: #172b31;
+  --pine: #15675b;
+  --plot: #20383f;
+  --signal: #88d8c5;
   font-synthesis: none;
   font-size: 14px;
   font-weight: 400;
@@ -539,24 +543,6 @@ td {
   margin-left: auto;
   white-space: nowrap;
 }
-.subtle-tag {
-  font-size: 9px;
-  letter-spacing: 1px;
-  color: #8a9ba7;
-  border: 1px solid #e4ebef;
-  padding: 6px 8px;
-  border-radius: 4px;
-}
-.scenario-tag {
-  font-size: 9px;
-  letter-spacing: 1px;
-  color: #138e7e;
-  background: #eef7f5;
-  border-radius: 3px;
-  display: inline-block;
-  padding: 7px 9px;
-  margin-bottom: 15px;
-}
 .brief-list {
   margin: 20px 0;
 }
@@ -575,23 +561,6 @@ td {
   margin: 0;
   color: #3d596b;
   font-weight: 600;
-}
-.quick-value {
-  display: flex;
-  justify-content: space-between;
-  padding: 12px 0;
-  font-size: 12px;
-  border-bottom: 1px solid #eff3f5;
-}
-.quick-value span {
-  color: #78909d;
-}
-.quick-value b {
-  font-size: 16px;
-  font-variant-numeric: tabular-nums;
-}
-.quick-value:last-of-type {
-  margin-bottom: 16px;
 }
 .network-wrap {
   background: #f9fbfc;
