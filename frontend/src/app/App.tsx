@@ -197,7 +197,7 @@ export function App() {
             <div className="topbar-right">
               <span className="offline-label">
                 <i className="dot teal" />
-                Offline replay
+                {eventMode ? "Local analysis" : "Offline replay"}
               </span>
               <span className="vertical-divider" />
               <span className="release-tag">PROOF OF CONCEPT</span>
@@ -205,7 +205,7 @@ export function App() {
             </div>
           </header>
           <main>
-            <div className="page-title">
+            {!eventMode && <div className="page-title">
               <div>
                 <div className="eyebrow">GRIDMIND / RESEARCH DEMONSTRATION</div>
                 <h1>
@@ -220,8 +220,8 @@ export function App() {
                 <i className="dot teal" />
                 Local research POC
               </span>
-            </div>
-            <section
+            </div>}
+            {!eventMode && <section
               className="replay-toolbar"
               aria-label="Scenario and timeline controls"
             >
@@ -324,7 +324,7 @@ export function App() {
                   Reset
                 </button>
               </div>
-            </section>
+            </section>}
             {Object.keys(data.errors).length > 0 && (
               <Notice title="Some artifacts could not load">
                 {Object.entries(data.errors).map(([p, e]) => (

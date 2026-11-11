@@ -1,0 +1,85 @@
+.diagnosis-workspace {
+  display: grid;
+  gap: 16px;
+  color: #101f2d;
+}
+
+.diagnosis-heading, .diagnosis-controls, .diagnosis-chart-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.diagnosis-heading h1 { font-size: 24px; }
+.diagnosis-controls { justify-content: flex-start; }
+.diagnosis-controls label { flex-wrap: wrap; min-width: 0; }
+.diagnosis-controls input { max-width: 100%; }
+.diagnosis-controls button { background: #126e64; color: #fff; }
+.diagnosis-file { overflow-wrap: anywhere; }
+
+.diagnosis-status {
+  border: 1px solid currentColor;
+  padding: 4px 9px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.diagnosis-ready, .diagnosis-normal { color: #126e64; }
+.diagnosis-uncertain { color: #946200; }
+.diagnosis-error { color: #b42318; }
+
+.diagnosis-flow {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background: #f3f6f8;
+  border-block: 1px solid #e2e8ed;
+}
+
+.diagnosis-flow li { padding: 10px 14px; }
+.diagnosis-flow li + li { border-inline-start: 1px solid #e2e8ed; }
+.diagnosis-flow strong, .diagnosis-flow span { display: block; }
+
+.diagnosis-results {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+  gap: 16px;
+  align-items: start;
+}
+
+.diagnosis-results > * { min-width: 0; }
+.diagnosis-results h3 { font-size: 20px; }
+.diagnosis-chart { height: 270px; margin-block: 12px; }
+.diagnosis-sample input { flex: 1; min-width: 0; }
+.diagnosis-placeholder { padding: 28px 0; }
+.diagnosis-disclosures {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  align-items: start;
+}
+
+.diagnosis-disclosure {
+  background: #fff;
+  border: 1px solid #e2e8ed;
+  padding: 10px 14px;
+  min-width: 0;
+}
+.diagnosis-workspace summary { cursor: pointer; font-weight: 600; }
+.diagnosis-workspace summary:focus-visible { outline: 3px solid #14897e; outline-offset: 3px; }
+.diagnosis-disclosure[open] > summary, .diagnosis-format[open] > summary { margin-bottom: 8px; }
+
+@media (max-width: 850px) {
+  .diagnosis-results, .diagnosis-disclosures { grid-template-columns: minmax(0, 1fr); }
+  .diagnosis-result { grid-row: 1; }
+}
+
+@media (max-width: 450px) {
+  .diagnosis-flow { font-size: 12px; }
+  .diagnosis-flow li { padding-inline: 7px; }
+}
+

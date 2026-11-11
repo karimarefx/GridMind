@@ -22,26 +22,29 @@ test('real local service diagnoses upload and cursor keeps the prediction fixed'
   await page.getByLabel('Measurement CSV', { exact: true }).setInputFiles({ name: 'synthetic-software-fixture.csv', mimeType: 'text/csv', buffer: Buffer.from(payload) });
   await page.getByLabel('Angle unit', { exact: true }).selectOption('radian');
   const response = page.waitForResponse(r => r.url().endsWith('/api/diagnosis') && r.request().method() === 'POST');
-  await page.getByRole('button', { name: 'Run diagnosis', exact: true }).click();
+  await page.getByRole('button', { name: 'Analyze', exact: true }).click();
   const result = await (await response).json();
   expect(result.prediction.category).toBe(expected.category);
   expect(result.prediction.detection).toEqual(expected.detection);
-  await expect(page.getByText('Ground truth not supplied · gridmind-stage1-v1', { exact: true })).toBeVisible();
+  await expect(page.getByText('synthetic-software-fixture.csv', { exact: true })).toBeVisible();
+  const causeStep = page.getByRole('list', { name: 'Analysis steps' }).getByRole('listitem').last();
+  await expect(causeStep).toContainText(expected.diagnosis ? /Physical disturbance|Sensor error|Uncertain/ : 'Skipped');
   await page.getByRole('slider', { name: 'Uploaded sample', exact: true }).fill('900');
   await expect(page.getByText('Sample 901 / 1800', { exact: false })).toBeVisible();
-  await expect(page.getByText('Ground truth not supplied · gridmind-stage1-v1', { exact: true })).toBeVisible();
+  await expect(page.getByText('synthetic-software-fixture.csv', { exact: true })).toBeVisible();
   await page.screenshot({ path: `test-results/upload-${test.info().project.name}.png`, fullPage: true });
   await page.getByLabel('Angle unit', { exact: true }).selectOption('degree');
-  await expect(page.getByText('Ground truth not supplied · gridmind-stage1-v1', { exact: true })).toHaveCount(0);
+  await expect(page.getByText('synthetic-software-fixture.csv', { exact: true })).toHaveCount(0);
 });
 
 test('invalid CSV has a clear error and no diagnosis result', async ({ page }) => {
   await page.goto('http://127.0.0.1:8000');
   await page.getByRole('navigation').getByRole('button', { name: 'Event diagnosis' }).click();
   await page.getByLabel('Measurement CSV', { exact: true }).setInputFiles({ name: 'invalid.csv', mimeType: 'text/csv', buffer: Buffer.from('time,value\n0,1') });
-  await page.getByRole('button', { name: 'Run diagnosis', exact: true }).click();
+  await page.getByRole('button', { name: 'Analyze', exact: true }).click();
   await expect(page.getByRole('alert').filter({ hasText: 'CSV requires exactly these columns' })).toBeVisible();
-  await expect(page.getByText('Ground truth not supplied · gridmind-stage1-v1', { exact: true })).toHaveCount(0);
+  await expect(page.getByText('Results appear here after analysis.', { exact: true })).toBeVisible();
+  await expect(page.getByRole('slider', { name: 'Uploaded sample' })).toHaveCount(0);
 });
 
 test('backend unavailable is explicit while forecasting remains usable', async ({ page }) => {
@@ -49,7 +52,7 @@ test('backend unavailable is explicit while forecasting remains usable', async (
   await page.goto('http://127.0.0.1:8000');
   await page.getByRole('navigation').getByRole('button', { name: 'Event diagnosis' }).click();
   await expect(page.getByText('Test-only missing model', { exact: false })).toBeVisible();
-  await expect(page.getByRole('button', { name: 'Run diagnosis', exact: true })).toBeDisabled();
+  await expect(page.getByRole('button', { name: 'Analyze', exact: true })).toBeDisabled();
   await page.getByRole('navigation').getByRole('button', { name: 'Forecasting', exact: true }).click();
   await expect(page.getByRole('button', { name: 'Reveal actual', exact: true })).toBeVisible();
 });

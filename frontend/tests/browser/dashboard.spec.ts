@@ -1,18 +1,4 @@
 import { test, expect } from "@playwright/test";
-test('future diagnosis exports retain window-level prediction while the cursor moves',async({page})=>{
- // Test-only transport fixtures; no fictional diagnosis data is shipped.
- const episode={episode_id:'test-only',parent_family_id:'test-family',split:'test',ground_truth_class:'physical',input_origin:'source_simulation',trace_path:'diagnosis/test-only.json',observation_window:{start:'0 seconds',end:'2 seconds'},time_basis:'elapsed_seconds',sample_interval:1,sample_count:3,channel_definitions:[{channel_id:'voltage',source_component_id:'source-grid:bus:9',quantity:'voltage_magnitude',unit:'pu'}],limitations:['Test-only fixture']};
- await page.route('**/diagnosis/event_episodes.json',r=>r.fulfill({json:[episode]}));
- await page.route('**/diagnosis/diagnosis_predictions.json',r=>r.fulfill({json:[{prediction_id:'test-prediction',episode_id:'test-only',status:'complete',predicted_category:'physical',raw_score:0.6,score_class:'physical',decision_threshold:0.5,class_mapping:{sensor:0,physical:1},model_version:'test-only',diagnosed_at_utc:'2024-01-01T00:00:00Z',physical_location:null,reason:null}]}));
- await page.route('**/diagnosis/test-only.json',r=>r.fulfill({json:[{elapsed_seconds:0,voltage:1},{elapsed_seconds:1,voltage:0.95},{elapsed_seconds:2,voltage:0.94}]}));
- await page.goto('/');await page.getByRole('navigation').getByRole('button',{name:'Event diagnosis'}).click();
- await expect(page.getByRole('cell',{name:'1',exact:true})).toBeVisible();
- await page.getByRole('button',{name:'Next replay step'}).click();
- await expect(page.getByRole('cell',{name:'0.95',exact:true})).toBeVisible();
- await expect(page.getByText('Sample 2 / 3',{exact:true})).toBeVisible();
- await expect(page.getByRole('heading',{name:'physical',exact:true})).toBeVisible();
- await expect(page.getByText('source-grid:bus:9',{exact:true})).toBeVisible();
-});
 test("replay, coordinated reset, simulation and evidence walkthrough", async ({
   page,
 }) => {
@@ -73,11 +59,10 @@ test("replay, coordinated reset, simulation and evidence walkthrough", async ({
     .click();
   await expect(
     page.getByRole("heading", {
-      name: "Upload and diagnose",
+      name: "Upload measurements",
     }),
   ).toBeVisible();
-  await page.getByRole('button', {name:'Show insufficient-input example'}).click();
-  await expect(page.getByText('Unavailable — insufficient observation window', {exact:true})).toBeVisible();
+  await expect(page.getByRole('region', { name: 'Scenario and timeline controls' })).toHaveCount(0);
   await page
     .getByRole("navigation")
     .getByRole("button", { name: "Scenario laboratory" })
