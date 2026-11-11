@@ -1,19 +1,18 @@
-import { useEffect, useReducer, useState } from "react";
+import { useEffect, useReducer, useRef, useState } from "react";
 import {
   Activity,
-  ArrowUpRight,
   ChevronLeft,
   ChevronRight,
   Database,
   FlaskConical,
   LayoutDashboard,
-  Network as NetworkIcon,
   Pause,
   Play,
   RotateCcw,
   ShieldCheck,
   SlidersHorizontal,
 } from "lucide-react";
+import gridMindLogo from "../assets/gridmind-logo.png";
 import { loadBundle, clearCache } from "../data/load";
 import type { Bundle, View } from "../data/types";
 import { DashboardContext } from "../state/context";
@@ -25,7 +24,7 @@ import { Diagnosis } from "../views/Diagnosis";
 import { Laboratory } from "../views/Laboratory";
 import { Evaluation } from "../views/Evaluation";
 const views: { title: View; icon: typeof Activity; sub: string }[] = [
-  { title: "Overview", icon: LayoutDashboard, sub: "Your research workspace" },
+  { title: "Overview", icon: LayoutDashboard, sub: "Replay power forecasts and explore an illustrative grid." },
   {
     title: "Forecasting",
     icon: Activity,
@@ -53,6 +52,14 @@ export function App() {
   const [attempt, setAttempt] = useState(0);
   const [state, dispatch] = useReducer(reducer, initialState);
   const [resetKey, setResetKey] = useState(0);
+  const titleRef = useRef<HTMLHeadingElement>(null);
+  const previousView = useRef(state.view);
+  useEffect(() => {
+    if (previousView.current === state.view) return;
+    previousView.current = state.view;
+    window.scrollTo(0, 0);
+    titleRef.current?.focus({ preventScroll: true });
+  }, [state.view]);
   useEffect(() => {
     let current = true;
     setData(null);
@@ -116,10 +123,9 @@ export function App() {
   if (!data)
     return (
       <div className="boot">
-        <div className="brand-mark">
-          <NetworkIcon size={27} />
-        </div>
-        <h1>GridMind</h1>
+        <h1>
+          <img className="brand-logo" src={gridMindLogo} alt="GridMind" width={2172} height={724} />
+        </h1>
         {error ? (
           <>
             <Notice title="Dashboard could not load">{error}</Notice>
@@ -144,16 +150,8 @@ export function App() {
               dispatch({ type: "view", view: "Overview" });
             }}
           >
-            <span className="brand-mark">
-              <NetworkIcon size={24} />
-            </span>
-            <span>
-              GridMind<small>RESEARCH CONTROL CENTER</small>
-            </span>
+            <img className="brand-logo" src={gridMindLogo} alt="GridMind" width={2172} height={724} />
           </a>
-          <div className="workspace-label">
-            WORKSPACE <span>POC / 10%</span>
-          </div>
           <nav aria-label="Dashboard views">
             {views.map((v) => (
               <button
@@ -161,32 +159,14 @@ export function App() {
                 className={
                   state.view === v.title ? "nav-item active" : "nav-item"
                 }
+                aria-current={state.view === v.title ? "page" : undefined}
                 onClick={() => dispatch({ type: "view", view: v.title })}
               >
                 <v.icon size={18} />
                 <span>{v.title}</span>
-                {v.title === "Event diagnosis" && <i className="nav-pending" />}
               </button>
             ))}
           </nav>
-          <div className="sidebar-bottom">
-            <div className="offline-card">
-              <i className="dot teal" />
-              <strong>Local demonstration</strong>
-              <p>
-                Saved replay and local Python inference.
-                <br />
-                No live equipment connection.
-              </p>
-            </div>
-            <div className="sidebar-footer">
-              <span className="avatar">GM</span>
-              <div>
-                GridMind team<small>Proposal · 10 Nov 2026</small>
-              </div>
-              <ArrowUpRight size={15} />
-            </div>
-          </div>
         </aside>
         <div className="main-shell">
           <header className="topbar">
@@ -197,29 +177,18 @@ export function App() {
             <div className="topbar-right">
               <span className="offline-label">
                 <i className="dot teal" />
-                {eventMode ? "Local analysis" : "Offline replay"}
+                {eventMode ? "Local analysis" : "Offline research replay"}
               </span>
-              <span className="vertical-divider" />
-              <span className="release-tag">PROOF OF CONCEPT</span>
-              <span className="avatar light">GM</span>
             </div>
           </header>
           <main>
             {!eventMode && <div className="page-title">
               <div>
-                <div className="eyebrow">GRIDMIND / RESEARCH DEMONSTRATION</div>
-                <h1>
+                <h1 ref={titleRef} tabIndex={-1}>
                   {state.view === "Overview" ? "Control center" : state.view}
                 </h1>
-                <p>
-                  {view.sub}{" "}
-                  <span className="title-note">· source timestamps in UTC</span>
-                </p>
+                <p>{view.sub}</p>
               </div>
-              <span className="scope-pill">
-                <i className="dot teal" />
-                Local research POC
-              </span>
             </div>}
             {!eventMode && <section
               className="replay-toolbar"
@@ -228,7 +197,7 @@ export function App() {
               <div className="scenario-selector">
                 <SlidersHorizontal size={18} />
                 <label>
-                  DEMONSTRATION SCENARIO
+                  Demonstration scenario
                   <select
                     aria-label="Demonstration scenario"
                     value={state.scenarioId}
@@ -253,10 +222,10 @@ export function App() {
                 <div className="timeline-label">
                   <span>
                     {labMode
-                      ? "SCRIPTED CASCADE ROUND"
+                      ? "Scripted cascade round"
                       : eventMode
-                        ? "COMPLETE EVENT WINDOW"
-                        : "FORECAST ISSUE TIME"}
+                        ? "Complete event window"
+                        : "Forecast issue time"}
                   </span>
                   <b>
                     {labMode
@@ -344,7 +313,7 @@ export function App() {
               ) : state.view === "Forecasting" ? (
                 <Forecasting />
               ) : state.view === "Event diagnosis" ? (
-                <Diagnosis />
+                <Diagnosis titleRef={titleRef} />
               ) : state.view === "Scenario laboratory" ? (
                 <Laboratory />
               ) : (
@@ -353,7 +322,7 @@ export function App() {
             </div>
             <footer className="page-footer">
               <span>
-                GRIDMIND <b>RESEARCH POC</b> · No live grid connection
+                GridMind research demonstration · No live grid connection
               </span>
               <span>
                 <Badge kind="observed">Observed / dataset input</Badge>

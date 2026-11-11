@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, type Ref } from "react";
 import { CartesianGrid, Line, LineChart, ReferenceLine, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 import { fmt, Panel } from "../components/Common";
 import { Stage1Evaluation } from "./Stage1Evaluation";
@@ -56,7 +56,7 @@ export function useStage1Health() {
   } };
 }
 
-export function DiagnosisUpload() {
+export function DiagnosisUpload({ titleRef }: { titleRef: Ref<HTMLHeadingElement> }) {
   const { health, checking, retry } = useStage1Health();
   const [file, setFile] = useState<File | null>(null);
   const [unit, setUnit] = useState("degree");
@@ -124,7 +124,7 @@ export function DiagnosisUpload() {
 
   return <section className="diagnosis-workspace" aria-label="Event diagnosis workspace">
     <header className="diagnosis-heading">
-      <h1>Event diagnosis</h1>
+      <h1 ref={titleRef} tabIndex={-1}>Event diagnosis</h1>
       <span role="status" className={`diagnosis-status ${checking ? "" : health.ready ? "diagnosis-ready" : "diagnosis-error"}`}>{status}</span>
     </header>
 

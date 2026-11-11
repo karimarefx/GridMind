@@ -138,3 +138,28 @@ test("missing genuine prediction file leaves other capabilities available", asyn
     }),
   ).toBeVisible();
 });
+
+test("overview supports keyboard inspection and direct module navigation", async ({ page }) => {
+  await page.goto("/");
+  const brand = page.getByRole("link", { name: "GridMind", exact: true });
+  await expect(brand).toBeVisible();
+  await expect(brand.getByRole("img")).toHaveJSProperty("naturalWidth", 2172);
+  const network = page.getByRole("group", { name: "Interactive illustrative 14-bus network" });
+  const bus = network.getByRole("button", { name: "Inspect bus 01", exact: true });
+  await bus.focus();
+  await page.keyboard.press("Enter");
+  await expect(bus).toHaveAttribute("aria-pressed", "true");
+  await expect(page.getByText("Component inspector")).toBeVisible();
+  expect(await page.evaluate(() => document.documentElement.scrollWidth)).toBeLessThanOrEqual(
+    await page.evaluate(() => window.innerWidth),
+  );
+
+  const modules = page.getByRole("region", { name: "Research modules" });
+  await modules.getByRole("button", { name: /Cascade assessment/ }).click();
+  await expect(page.getByRole("heading", { name: "Scenario laboratory", exact: true })).toBeFocused();
+  await expect(page.getByRole("tab", { name: "Cascade" })).toHaveAttribute("aria-selected", "true");
+
+  await brand.click();
+  await modules.getByRole("button", { name: /Telemetry reconstruction/ }).click();
+  await expect(page.getByRole("tab", { name: "Reconstruction" })).toHaveAttribute("aria-selected", "true");
+});
