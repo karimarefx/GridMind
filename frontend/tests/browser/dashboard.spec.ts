@@ -156,6 +156,9 @@ test("missing genuine prediction file leaves other capabilities available", asyn
 
 test("overview supports keyboard inspection and direct module navigation", async ({ page }) => {
   await page.goto("/");
+  const brand = page.getByRole("link", { name: "GridMind", exact: true });
+  await expect(brand).toBeVisible();
+  await expect(brand.getByRole("img")).toHaveJSProperty("naturalWidth", 2172);
   const network = page.getByRole("group", { name: "Interactive illustrative 14-bus network" });
   const bus = network.getByRole("button", { name: "Inspect bus 01", exact: true });
   await bus.focus();
@@ -171,7 +174,7 @@ test("overview supports keyboard inspection and direct module navigation", async
   await expect(page.getByRole("heading", { name: "Scenario laboratory", exact: true })).toBeFocused();
   await expect(page.getByRole("tab", { name: "Cascade" })).toHaveAttribute("aria-selected", "true");
 
-  await page.getByRole("navigation").getByRole("button", { name: "Overview" }).click();
+  await brand.click();
   await modules.getByRole("button", { name: /Telemetry reconstruction/ }).click();
   await expect(page.getByRole("tab", { name: "Reconstruction" })).toHaveAttribute("aria-selected", "true");
 });

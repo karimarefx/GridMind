@@ -6,13 +6,13 @@ import {
   Database,
   FlaskConical,
   LayoutDashboard,
-  Network as NetworkIcon,
   Pause,
   Play,
   RotateCcw,
   ShieldCheck,
   SlidersHorizontal,
 } from "lucide-react";
+import gridMindLogo from "../assets/gridmind-logo.png";
 import { loadBundle, clearCache } from "../data/load";
 import type { Bundle, View } from "../data/types";
 import { DashboardContext } from "../state/context";
@@ -123,10 +123,9 @@ export function App() {
   if (!data)
     return (
       <div className="boot">
-        <div className="brand-mark">
-          <NetworkIcon size={27} />
-        </div>
-        <h1>GridMind</h1>
+        <h1>
+          <img className="brand-logo" src={gridMindLogo} alt="GridMind" width={2172} height={724} />
+        </h1>
         {error ? (
           <>
             <Notice title="Dashboard could not load">{error}</Notice>
@@ -151,12 +150,7 @@ export function App() {
               dispatch({ type: "view", view: "Overview" });
             }}
           >
-            <span className="brand-mark">
-              <NetworkIcon size={24} />
-            </span>
-            <span>
-              GridMind<small>Grid research workspace</small>
-            </span>
+            <img className="brand-logo" src={gridMindLogo} alt="GridMind" width={2172} height={724} />
           </a>
           <nav aria-label="Dashboard views">
             {views.map((v) => (
